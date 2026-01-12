@@ -907,6 +907,447 @@ const QuestionBank = {
                         options: ["48", "54", "56", "63"],
                         answer: "54",
                         hint: "九六五十四"
+                    },
+                    // === 期末考範圍 ===
+                    {
+                        id: "m3-n-006",
+                        type: "choice",
+                        question: "48 ÷ 6 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "8",
+                        hint: "六八四十八"
+                    },
+                    {
+                        id: "m3-n-007",
+                        type: "choice",
+                        question: "1000 - 456 = ?",
+                        options: ["534", "544", "554", "564"],
+                        answer: "544",
+                        hint: "從1000借位減"
+                    },
+                    {
+                        id: "m3-n-008",
+                        type: "choice",
+                        question: "一天有幾小時？",
+                        options: ["12小時", "24小時", "36小時", "48小時"],
+                        answer: "24小時",
+                        hint: "白天加晚上"
+                    },
+                    {
+                        id: "m3-n-009",
+                        type: "choice",
+                        question: "56 ÷ 7 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "8",
+                        hint: "七八五十六"
+                    },
+                    {
+                        id: "m3-n-010",
+                        type: "choice",
+                        question: "2/4 等於多少？",
+                        options: ["1/2", "1/3", "1/4", "2/3"],
+                        answer: "1/2",
+                        hint: "約分後的結果"
+                    },
+                    {
+                        id: "m3-n-011",
+                        type: "choice",
+                        question: "6 × 8 = ?",
+                        options: ["42", "48", "54", "56"],
+                        answer: "48",
+                        hint: "六八四十八"
+                    },
+                    {
+                        id: "m3-n-012",
+                        type: "choice",
+                        question: "789 + 234 = ?",
+                        options: ["1013", "1023", "1033", "1043"],
+                        answer: "1023",
+                        hint: "分位相加並進位"
+                    },
+                    {
+                        id: "m3-n-013",
+                        type: "choice",
+                        question: "一公尺等於幾公分？",
+                        options: ["10公分", "100公分", "1000公分", "50公分"],
+                        answer: "100公分",
+                        hint: "1米=100厘米"
+                    },
+                    {
+                        id: "m3-n-014",
+                        type: "choice",
+                        question: "35 ÷ 5 = ?",
+                        options: ["5", "6", "7", "8"],
+                        answer: "7",
+                        hint: "五七三十五"
+                    },
+                    {
+                        id: "m3-n-015",
+                        type: "choice",
+                        question: "4 × 9 + 3 = ?",
+                        options: ["36", "37", "38", "39"],
+                        answer: "39",
+                        hint: "先乘後加"
+                    },
+                    {
+                        id: "m3-n-016",
+                        type: "choice",
+                        question: "42 ÷ 6 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "7",
+                        hint: "六七四十二"
+                    },
+                    {
+                        id: "m3-n-017",
+                        type: "choice",
+                        question: "一小時有幾分鐘？",
+                        options: ["30分鐘", "60分鐘", "90分鐘", "100分鐘"],
+                        answer: "60分鐘",
+                        hint: "時針走一圈"
+                    },
+                    {
+                        id: "m3-n-018",
+                        type: "choice",
+                        question: "3/6 約分後等於多少？",
+                        options: ["1/2", "1/3", "2/3", "1/6"],
+                        answer: "1/2",
+                        hint: "分子分母都除以3"
+                    },
+                    {
+                        id: "m3-n-019",
+                        type: "choice",
+                        question: "54 ÷ 9 = ?",
+                        options: ["5", "6", "7", "8"],
+                        answer: "6",
+                        hint: "九六五十四"
+                    },
+                    {
+                        id: "m3-n-020",
+                        type: "choice",
+                        question: "856 - 378 = ?",
+                        options: ["468", "478", "488", "498"],
+                        answer: "478",
+                        hint: "借位減法"
+                    },
+                    {
+                        id: "m3-n-021",
+                        type: "choice",
+                        question: "7 × 6 = ?",
+                        options: ["36", "42", "48", "54"],
+                        answer: "42",
+                        hint: "六七四十二"
+                    },
+                    {
+                        id: "m3-n-022",
+                        type: "choice",
+                        question: "1公斤等於幾公克？",
+                        options: ["100公克", "500公克", "1000公克", "10000公克"],
+                        answer: "1000公克",
+                        hint: "千克=1000克"
+                    },
+                    {
+                        id: "m3-n-023",
+                        type: "choice",
+                        question: "64 ÷ 8 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "8",
+                        hint: "八八六十四"
+                    },
+                    {
+                        id: "m3-n-024",
+                        type: "choice",
+                        question: "5 × 8 - 7 = ?",
+                        options: ["31", "32", "33", "34"],
+                        answer: "33",
+                        hint: "先乘後減"
+                    },
+                    {
+                        id: "m3-n-025",
+                        type: "choice",
+                        question: "1/4 + 1/4 = ?",
+                        options: ["1/2", "2/4", "1/8", "2/8"],
+                        answer: "1/2",
+                        hint: "同分母分數相加"
+                    },
+                    {
+                        id: "m3-n-026",
+                        type: "choice",
+                        question: "下午3點是幾時？(24小時制)",
+                        options: ["3時", "13時", "15時", "17時"],
+                        answer: "15時",
+                        hint: "12+3=15"
+                    },
+                    {
+                        id: "m3-n-027",
+                        type: "choice",
+                        question: "45 ÷ 5 = ?",
+                        options: ["7", "8", "9", "10"],
+                        answer: "9",
+                        hint: "五九四十五"
+                    },
+                    {
+                        id: "m3-n-028",
+                        type: "choice",
+                        question: "正方形有幾條邊？",
+                        options: ["3條", "4條", "5條", "6條"],
+                        answer: "4條",
+                        hint: "四邊形"
+                    },
+                    {
+                        id: "m3-n-029",
+                        type: "choice",
+                        question: "27 ÷ 3 = ?",
+                        options: ["7", "8", "9", "10"],
+                        answer: "9",
+                        hint: "三九二十七"
+                    },
+                    {
+                        id: "m3-n-030",
+                        type: "choice",
+                        question: "673 + 458 = ?",
+                        options: ["1121", "1131", "1141", "1151"],
+                        answer: "1131",
+                        hint: "分位相加並進位"
+                    },
+                    {
+                        id: "m3-n-031",
+                        type: "choice",
+                        question: "8 × 7 = ?",
+                        options: ["49", "54", "56", "63"],
+                        answer: "56",
+                        hint: "七八五十六"
+                    },
+                    {
+                        id: "m3-n-032",
+                        type: "choice",
+                        question: "3/4 和 2/4 哪個大？",
+                        options: ["3/4", "2/4", "一樣大", "無法比較"],
+                        answer: "3/4",
+                        hint: "分母相同比分子"
+                    },
+                    {
+                        id: "m3-n-033",
+                        type: "choice",
+                        question: "36 ÷ 4 = ?",
+                        options: ["7", "8", "9", "10"],
+                        answer: "9",
+                        hint: "四九三十六"
+                    },
+                    {
+                        id: "m3-n-034",
+                        type: "choice",
+                        question: "一個星期有幾天？",
+                        options: ["5天", "6天", "7天", "10天"],
+                        answer: "7天",
+                        hint: "週一到週日"
+                    },
+                    {
+                        id: "m3-n-035",
+                        type: "choice",
+                        question: "6 × 9 = ?",
+                        options: ["48", "54", "56", "63"],
+                        answer: "54",
+                        hint: "六九五十四"
+                    },
+                    {
+                        id: "m3-n-036",
+                        type: "choice",
+                        question: "邊長5公分的正方形，周長是多少？",
+                        options: ["15公分", "20公分", "25公分", "10公分"],
+                        answer: "20公分",
+                        hint: "4 × 5 = 20"
+                    },
+                    {
+                        id: "m3-n-037",
+                        type: "choice",
+                        question: "81 ÷ 9 = ?",
+                        options: ["7", "8", "9", "10"],
+                        answer: "9",
+                        hint: "九九八十一"
+                    },
+                    {
+                        id: "m3-n-038",
+                        type: "choice",
+                        question: "2 × 7 + 6 = ?",
+                        options: ["18", "19", "20", "21"],
+                        answer: "20",
+                        hint: "先乘後加"
+                    },
+                    {
+                        id: "m3-n-039",
+                        type: "choice",
+                        question: "4/8 約分後等於多少？",
+                        options: ["1/2", "1/4", "2/4", "1/8"],
+                        answer: "1/2",
+                        hint: "分子分母都除以4"
+                    },
+                    {
+                        id: "m3-n-040",
+                        type: "choice",
+                        question: "從8:30到9:15經過多少分鐘？",
+                        options: ["35分鐘", "45分鐘", "55分鐘", "65分鐘"],
+                        answer: "45分鐘",
+                        hint: "30+15=45"
+                    },
+                    {
+                        id: "m3-n-041",
+                        type: "choice",
+                        question: "49 ÷ 7 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "7",
+                        hint: "七七四十九"
+                    },
+                    {
+                        id: "m3-n-042",
+                        type: "choice",
+                        question: "三角形有幾個角？",
+                        options: ["2個", "3個", "4個", "5個"],
+                        answer: "3個",
+                        hint: "三角形"
+                    },
+                    {
+                        id: "m3-n-043",
+                        type: "choice",
+                        question: "9 × 9 = ?",
+                        options: ["72", "81", "90", "99"],
+                        answer: "81",
+                        hint: "九九八十一"
+                    },
+                    {
+                        id: "m3-n-044",
+                        type: "choice",
+                        question: "500公克 + 500公克 = ?",
+                        options: ["1公斤", "10公斤", "100公克", "1000公克"],
+                        answer: "1公斤",
+                        hint: "1000公克=1公斤"
+                    },
+                    {
+                        id: "m3-n-045",
+                        type: "choice",
+                        question: "32 ÷ 4 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "8",
+                        hint: "四八三十二"
+                    },
+                    {
+                        id: "m3-n-046",
+                        type: "choice",
+                        question: "1/3 + 1/3 = ?",
+                        options: ["1/3", "2/3", "2/6", "1/6"],
+                        answer: "2/3",
+                        hint: "同分母分數相加"
+                    },
+                    {
+                        id: "m3-n-047",
+                        type: "choice",
+                        question: "5 × 7 = ?",
+                        options: ["30", "35", "40", "45"],
+                        answer: "35",
+                        hint: "五七三十五"
+                    },
+                    {
+                        id: "m3-n-048",
+                        type: "choice",
+                        question: "1000 - 234 = ?",
+                        options: ["756", "766", "776", "786"],
+                        answer: "766",
+                        hint: "借位減法"
+                    },
+                    {
+                        id: "m3-n-049",
+                        type: "choice",
+                        question: "長方形有幾條邊？",
+                        options: ["3條", "4條", "5條", "6條"],
+                        answer: "4條",
+                        hint: "四邊形"
+                    },
+                    {
+                        id: "m3-n-050",
+                        type: "choice",
+                        question: "24 ÷ 3 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "8",
+                        hint: "三八二十四"
+                    },
+                    {
+                        id: "m3-n-051",
+                        type: "choice",
+                        question: "6 × 6 = ?",
+                        options: ["30", "32", "34", "36"],
+                        answer: "36",
+                        hint: "六六三十六"
+                    },
+                    {
+                        id: "m3-n-052",
+                        type: "choice",
+                        question: "3公尺50公分等於幾公分？",
+                        options: ["35公分", "305公分", "350公分", "3500公分"],
+                        answer: "350公分",
+                        hint: "3×100+50=350"
+                    },
+                    {
+                        id: "m3-n-053",
+                        type: "choice",
+                        question: "72 ÷ 9 = ?",
+                        options: ["7", "8", "9", "10"],
+                        answer: "8",
+                        hint: "九八七十二"
+                    },
+                    {
+                        id: "m3-n-054",
+                        type: "choice",
+                        question: "3 × 8 + 4 = ?",
+                        options: ["26", "27", "28", "29"],
+                        answer: "28",
+                        hint: "先乘後加"
+                    },
+                    {
+                        id: "m3-n-055",
+                        type: "choice",
+                        question: "2/5 和 3/5 的和是多少？",
+                        options: ["4/5", "5/5", "1", "5/10"],
+                        answer: "5/5",
+                        hint: "2+3=5"
+                    },
+                    {
+                        id: "m3-n-056",
+                        type: "choice",
+                        question: "40 ÷ 8 = ?",
+                        options: ["4", "5", "6", "7"],
+                        answer: "5",
+                        hint: "八五四十"
+                    },
+                    {
+                        id: "m3-n-057",
+                        type: "choice",
+                        question: "邊長8公分的正方形，周長是多少？",
+                        options: ["24公分", "28公分", "32公分", "36公分"],
+                        answer: "32公分",
+                        hint: "4 × 8 = 32"
+                    },
+                    {
+                        id: "m3-n-058",
+                        type: "choice",
+                        question: "7 × 9 = ?",
+                        options: ["56", "63", "72", "81"],
+                        answer: "63",
+                        hint: "七九六十三"
+                    },
+                    {
+                        id: "m3-n-059",
+                        type: "choice",
+                        question: "上午11:40再過30分鐘是幾點？",
+                        options: ["11:70", "12:00", "12:10", "12:20"],
+                        answer: "12:10",
+                        hint: "40+30=70，進位1小時"
+                    },
+                    {
+                        id: "m3-n-060",
+                        type: "choice",
+                        question: "28 ÷ 4 = ?",
+                        options: ["6", "7", "8", "9"],
+                        answer: "7",
+                        hint: "四七二十八"
                     }
                 ],
                 hanlin: [
@@ -993,6 +1434,447 @@ const QuestionBank = {
                         options: ["秋天", "春天", "夏天", "冬天"],
                         answer: "秋天",
                         hint: "天高氣爽的時候"
+                    },
+                    // === 期末考範圍 ===
+                    {
+                        id: "c3-k-006",
+                        type: "choice",
+                        question: "「畫蛇添足」的意思是？",
+                        options: ["多此一舉", "做得很好", "很有創意", "努力認真"],
+                        answer: "多此一舉",
+                        hint: "蛇本來沒有腳"
+                    },
+                    {
+                        id: "c3-k-007",
+                        type: "choice",
+                        question: "「他高興地跳了起來」中的「地」的用法是？",
+                        options: ["修飾動詞", "表示地方", "名詞", "助詞"],
+                        answer: "修飾動詞",
+                        hint: "副詞＋「地」＋動詞"
+                    },
+                    {
+                        id: "c3-k-008",
+                        type: "choice",
+                        question: "「井底之蛙」比喻什麼？",
+                        options: ["見識淺薄", "游泳很快", "跳得很高", "愛護環境"],
+                        answer: "見識淺薄",
+                        hint: "只能看到井口那麼大的天空"
+                    },
+                    {
+                        id: "c3-k-009",
+                        type: "choice",
+                        question: "下列哪個詞語形容天氣很熱？",
+                        options: ["驕陽似火", "秋高氣爽", "白雪皚皚", "春暖花開"],
+                        answer: "驕陽似火",
+                        hint: "太陽像火一樣"
+                    },
+                    {
+                        id: "c3-k-010",
+                        type: "choice",
+                        question: "「狐假虎威」的「假」是什麼意思？",
+                        options: ["借用", "虛假", "放假", "假裝"],
+                        answer: "借用",
+                        hint: "狐狸借老虎的威風"
+                    },
+                    {
+                        id: "c3-k-011",
+                        type: "choice",
+                        question: "「這本書很有趣！」用了什麼標點符號？",
+                        options: ["驚嘆號", "句號", "問號", "逗號"],
+                        answer: "驚嘆號",
+                        hint: "表示感嘆的語氣"
+                    },
+                    {
+                        id: "c3-k-012",
+                        type: "choice",
+                        question: "「風和日麗」形容什麼？",
+                        options: ["天氣晴朗", "狂風暴雨", "烏雲密布", "電閃雷鳴"],
+                        answer: "天氣晴朗",
+                        hint: "風輕輕的，太陽美麗"
+                    },
+                    {
+                        id: "c3-k-013",
+                        type: "choice",
+                        question: "「亡羊補牢」的意思是？",
+                        options: ["及時改正錯誤", "羊不見了", "建造羊圈", "放棄希望"],
+                        answer: "及時改正錯誤",
+                        hint: "雖然羊丟了，但補好羊圈還來得及"
+                    },
+                    {
+                        id: "c3-k-014",
+                        type: "choice",
+                        question: "「愉快」的近義詞是？",
+                        options: ["快樂", "難過", "生氣", "緊張"],
+                        answer: "快樂",
+                        hint: "開心的意思"
+                    },
+                    {
+                        id: "c3-k-015",
+                        type: "choice",
+                        question: "「守信用」的相反是？",
+                        options: ["說話不算話", "誠實守信", "認真負責", "勤勞努力"],
+                        answer: "說話不算話",
+                        hint: "不遵守承諾"
+                    },
+                    {
+                        id: "c3-k-016",
+                        type: "choice",
+                        question: "「杯弓蛇影」形容什麼？",
+                        options: ["疑神疑鬼", "膽大包天", "勇敢無畏", "開心快樂"],
+                        answer: "疑神疑鬼",
+                        hint: "把影子看成蛇"
+                    },
+                    {
+                        id: "c3-k-017",
+                        type: "choice",
+                        question: "「目不轉睛」形容什麼？",
+                        options: ["專心注視", "閉著眼睛", "左顧右盼", "東張西望"],
+                        answer: "專心注視",
+                        hint: "眼睛不轉動"
+                    },
+                    {
+                        id: "c3-k-018",
+                        type: "choice",
+                        question: "「漂亮的衣服」中的「的」是用來？",
+                        options: ["修飾名詞", "修飾動詞", "表示程度", "連接句子"],
+                        answer: "修飾名詞",
+                        hint: "形容詞+「的」+名詞"
+                    },
+                    {
+                        id: "c3-k-019",
+                        type: "choice",
+                        question: "「拔苗助長」教導我們什麼？",
+                        options: ["欲速則不達", "要努力工作", "多多益善", "要有耐心"],
+                        answer: "欲速則不達",
+                        hint: "把苗拔高反而害死它"
+                    },
+                    {
+                        id: "c3-k-020",
+                        type: "choice",
+                        question: "「興高采烈」形容什麼？",
+                        options: ["非常高興", "非常難過", "非常緊張", "非常害怕"],
+                        answer: "非常高興",
+                        hint: "興致很高"
+                    },
+                    {
+                        id: "c3-k-021",
+                        type: "choice",
+                        question: "「刻舟求劍」比喻什麼？",
+                        options: ["不知變通", "做事認真", "勤奮好學", "熱心助人"],
+                        answer: "不知變通",
+                        hint: "在船上刻記號找劍"
+                    },
+                    {
+                        id: "c3-k-022",
+                        type: "choice",
+                        question: "「濃」的部首是什麼？",
+                        options: ["氵", "農", "辰", "厂"],
+                        answer: "氵",
+                        hint: "三點水"
+                    },
+                    {
+                        id: "c3-k-023",
+                        type: "choice",
+                        question: "「你吃飯了嗎？」用了什麼標點符號？",
+                        options: ["問號", "句號", "驚嘆號", "逗號"],
+                        answer: "問號",
+                        hint: "表示疑問"
+                    },
+                    {
+                        id: "c3-k-024",
+                        type: "choice",
+                        question: "「一舉兩得」是什麼意思？",
+                        options: ["做一件事有兩種收穫", "做兩件事", "失去兩樣東西", "得到很多"],
+                        answer: "做一件事有兩種收穫",
+                        hint: "一個行動兩個收穫"
+                    },
+                    {
+                        id: "c3-k-025",
+                        type: "choice",
+                        question: "「快樂」的反義詞是？",
+                        options: ["悲傷", "開心", "高興", "歡喜"],
+                        answer: "悲傷",
+                        hint: "快樂的相反"
+                    },
+                    {
+                        id: "c3-k-026",
+                        type: "choice",
+                        question: "「他寫得很好」中的「得」是用來？",
+                        options: ["表示程度", "修飾名詞", "連接句子", "表示擁有"],
+                        answer: "表示程度",
+                        hint: "動詞+「得」+程度"
+                    },
+                    {
+                        id: "c3-k-027",
+                        type: "choice",
+                        question: "「對牛彈琴」比喻什麼？",
+                        options: ["對不懂的人說", "音樂很好聽", "牛很聰明", "彈琴很難"],
+                        answer: "對不懂的人說",
+                        hint: "牛聽不懂音樂"
+                    },
+                    {
+                        id: "c3-k-028",
+                        type: "choice",
+                        question: "「勤勞」的近義詞是？",
+                        options: ["勤奮", "懶惰", "懶散", "怠惰"],
+                        answer: "勤奮",
+                        hint: "努力工作的意思"
+                    },
+                    {
+                        id: "c3-k-029",
+                        type: "choice",
+                        question: "「雪中送炭」形容什麼？",
+                        options: ["及時幫助他人", "下雪天燒炭", "天氣寒冷", "送禮物"],
+                        answer: "及時幫助他人",
+                        hint: "在需要時給予幫助"
+                    },
+                    {
+                        id: "c3-k-030",
+                        type: "choice",
+                        question: "「蘋果、香蕉、橘子都是水果。」中的「、」叫什麼？",
+                        options: ["頓號", "逗號", "句號", "分號"],
+                        answer: "頓號",
+                        hint: "用於並列的詞語之間"
+                    },
+                    {
+                        id: "c3-k-031",
+                        type: "choice",
+                        question: "「馬馬虎虎」形容什麼？",
+                        options: ["做事不認真", "非常認真", "非常害怕", "非常開心"],
+                        answer: "做事不認真",
+                        hint: "不仔細"
+                    },
+                    {
+                        id: "c3-k-032",
+                        type: "choice",
+                        question: "「虎頭蛇尾」形容什麼？",
+                        options: ["有始無終", "有頭有尾", "認真負責", "完美結局"],
+                        answer: "有始無終",
+                        hint: "開頭好結尾差"
+                    },
+                    {
+                        id: "c3-k-033",
+                        type: "choice",
+                        question: "「健康」的反義詞是？",
+                        options: ["生病", "快樂", "運動", "高興"],
+                        answer: "生病",
+                        hint: "健康的相反"
+                    },
+                    {
+                        id: "c3-k-034",
+                        type: "choice",
+                        question: "「半途而廢」是什麼意思？",
+                        options: ["做事中途放棄", "做事堅持到底", "做事認真", "做事快速"],
+                        answer: "做事中途放棄",
+                        hint: "走到一半就放棄"
+                    },
+                    {
+                        id: "c3-k-035",
+                        type: "choice",
+                        question: "「輕輕地走」中的「地」是用來？",
+                        options: ["修飾動詞", "表示地方", "修飾名詞", "表示擁有"],
+                        answer: "修飾動詞",
+                        hint: "副詞+「地」+動詞"
+                    },
+                    {
+                        id: "c3-k-036",
+                        type: "choice",
+                        question: "「畫龍點睛」是什麼意思？",
+                        options: ["關鍵一筆使作品生動", "畫龍很難", "龍的眼睛", "畫畫很好"],
+                        answer: "關鍵一筆使作品生動",
+                        hint: "點上眼睛龍就活了"
+                    },
+                    {
+                        id: "c3-k-037",
+                        type: "choice",
+                        question: "「誠實」的反義詞是？",
+                        options: ["說謊", "守信", "認真", "勤勞"],
+                        answer: "說謊",
+                        hint: "誠實的相反"
+                    },
+                    {
+                        id: "c3-k-038",
+                        type: "choice",
+                        question: "「囫圇吞棗」形容什麼？",
+                        options: ["不求甚解", "吃東西慢", "非常了解", "認真學習"],
+                        answer: "不求甚解",
+                        hint: "整個棗吞下去不咀嚼"
+                    },
+                    {
+                        id: "c3-k-039",
+                        type: "choice",
+                        question: "「精明」的近義詞是？",
+                        options: ["聰明", "愚笨", "糊塗", "遲鈍"],
+                        answer: "聰明",
+                        hint: "頭腦清楚"
+                    },
+                    {
+                        id: "c3-k-040",
+                        type: "choice",
+                        question: "「走馬看花」形容什麼？",
+                        options: ["觀察不仔細", "騎馬賞花", "非常認真", "仔細觀察"],
+                        answer: "觀察不仔細",
+                        hint: "騎馬時看花很匆忙"
+                    },
+                    {
+                        id: "c3-k-041",
+                        type: "choice",
+                        question: "「今天天氣真好啊！」句末應該用什麼標點？",
+                        options: ["驚嘆號", "問號", "句號", "頓號"],
+                        answer: "驚嘆號",
+                        hint: "表示感嘆語氣"
+                    },
+                    {
+                        id: "c3-k-042",
+                        type: "choice",
+                        question: "「自相矛盾」的典故和什麼有關？",
+                        options: ["賣矛又賣盾的人", "打仗", "讀書", "種田"],
+                        answer: "賣矛又賣盾的人",
+                        hint: "自己說的話互相衝突"
+                    },
+                    {
+                        id: "c3-k-043",
+                        type: "choice",
+                        question: "「安靜」的反義詞是？",
+                        options: ["吵鬧", "寧靜", "平靜", "沉默"],
+                        answer: "吵鬧",
+                        hint: "安靜的相反"
+                    },
+                    {
+                        id: "c3-k-044",
+                        type: "choice",
+                        question: "「濫竽充數」比喻什麼？",
+                        options: ["沒有真本事卻混在行家裡", "吹笛子很好", "人很多", "音樂好聽"],
+                        answer: "沒有真本事卻混在行家裡",
+                        hint: "不會吹笛也在樂隊裡"
+                    },
+                    {
+                        id: "c3-k-045",
+                        type: "choice",
+                        question: "「美麗的花朵」和「認真地學習」哪個用「的」？",
+                        options: ["美麗的花朵", "認真地學習", "兩個都用", "兩個都不用"],
+                        answer: "美麗的花朵",
+                        hint: "形容名詞用「的」"
+                    },
+                    {
+                        id: "c3-k-046",
+                        type: "choice",
+                        question: "「掩耳盜鈴」比喻什麼？",
+                        options: ["自欺欺人", "偷東西", "耳朵很大", "鈴鐺很響"],
+                        answer: "自欺欺人",
+                        hint: "捂住耳朵偷鈴鐺"
+                    },
+                    {
+                        id: "c3-k-047",
+                        type: "choice",
+                        question: "「危險」的反義詞是？",
+                        options: ["安全", "害怕", "恐怖", "驚嚇"],
+                        answer: "安全",
+                        hint: "危險的相反"
+                    },
+                    {
+                        id: "c3-k-048",
+                        type: "choice",
+                        question: "「葉公好龍」比喻什麼？",
+                        options: ["表面喜歡實際害怕", "喜歡龍", "龍很可怕", "葉公很勇敢"],
+                        answer: "表面喜歡實際害怕",
+                        hint: "口頭說喜歡其實不是"
+                    },
+                    {
+                        id: "c3-k-049",
+                        type: "choice",
+                        question: "「仔細」的近義詞是？",
+                        options: ["認真", "馬虎", "粗心", "大意"],
+                        answer: "認真",
+                        hint: "仔細的意思"
+                    },
+                    {
+                        id: "c3-k-050",
+                        type: "choice",
+                        question: "「一箭雙鵰」是什麼意思？",
+                        options: ["一個行動達成兩個目標", "射箭", "兩隻鳥", "技術好"],
+                        answer: "一個行動達成兩個目標",
+                        hint: "一支箭射中兩隻鵰"
+                    },
+                    {
+                        id: "c3-k-051",
+                        type: "choice",
+                        question: "「失敗」的反義詞是？",
+                        options: ["成功", "難過", "放棄", "努力"],
+                        answer: "成功",
+                        hint: "失敗的相反"
+                    },
+                    {
+                        id: "c3-k-052",
+                        type: "choice",
+                        question: "「打草驚蛇」是什麼意思？",
+                        options: ["行動不小心驚動對方", "打蛇", "草很多", "蛇很可怕"],
+                        answer: "行動不小心驚動對方",
+                        hint: "打草時驚動了蛇"
+                    },
+                    {
+                        id: "c3-k-053",
+                        type: "choice",
+                        question: "「豐富」的反義詞是？",
+                        options: ["貧乏", "充足", "很多", "富有"],
+                        answer: "貧乏",
+                        hint: "豐富的相反"
+                    },
+                    {
+                        id: "c3-k-054",
+                        type: "choice",
+                        question: "「望梅止渴」說的是誰的故事？",
+                        options: ["曹操", "劉備", "孔子", "孟子"],
+                        answer: "曹操",
+                        hint: "三國時期的人物"
+                    },
+                    {
+                        id: "c3-k-055",
+                        type: "choice",
+                        question: "「困難」的反義詞是？",
+                        options: ["容易", "艱難", "辛苦", "麻煩"],
+                        answer: "容易",
+                        hint: "困難的相反"
+                    },
+                    {
+                        id: "c3-k-056",
+                        type: "choice",
+                        question: "「愚公移山」教導我們什麼？",
+                        options: ["有恆心就能成功", "不要搬山", "山太大", "愚公很笨"],
+                        answer: "有恆心就能成功",
+                        hint: "堅持不懈的精神"
+                    },
+                    {
+                        id: "c3-k-057",
+                        type: "choice",
+                        question: "「輕」的反義詞是？",
+                        options: ["重", "快", "慢", "小"],
+                        answer: "重",
+                        hint: "輕的相反"
+                    },
+                    {
+                        id: "c3-k-058",
+                        type: "choice",
+                        question: "「塞翁失馬」的寓意是？",
+                        options: ["禍福相依", "馬不見了", "老人很可憐", "騎馬危險"],
+                        answer: "禍福相依",
+                        hint: "壞事可能變好事"
+                    },
+                    {
+                        id: "c3-k-059",
+                        type: "choice",
+                        question: "「開始」的反義詞是？",
+                        options: ["結束", "繼續", "進行", "持續"],
+                        answer: "結束",
+                        hint: "開始的相反"
+                    },
+                    {
+                        id: "c3-k-060",
+                        type: "choice",
+                        question: "「鳥語花香」最適合形容哪個季節？",
+                        options: ["春天", "夏天", "秋天", "冬天"],
+                        answer: "春天",
+                        hint: "鳥兒歌唱花朵盛開"
                     }
                 ],
                 nanyi: [
@@ -1121,6 +2003,447 @@ const QuestionBank = {
                         options: ["bread", "pencil", "book", "desk"],
                         answer: "bread",
                         hint: "早餐吃的食物"
+                    },
+                    // === 期末考範圍 ===
+                    {
+                        id: "e3-k-006",
+                        type: "choice",
+                        question: "He ___ to school every day.",
+                        options: ["goes", "go", "going", "went"],
+                        answer: "goes",
+                        hint: "第三人稱單數動詞要加 s"
+                    },
+                    {
+                        id: "e3-k-007",
+                        type: "choice",
+                        question: "What ___ is it? It's 3 o'clock.",
+                        options: ["time", "color", "day", "name"],
+                        answer: "time",
+                        hint: "問時間"
+                    },
+                    {
+                        id: "e3-k-008",
+                        type: "choice",
+                        question: "I like to ___ books.",
+                        options: ["read", "reads", "reading", "readed"],
+                        answer: "read",
+                        hint: "like to + 原形動詞"
+                    },
+                    {
+                        id: "e3-k-009",
+                        type: "choice",
+                        question: "There ___ three apples on the table.",
+                        options: ["are", "is", "am", "be"],
+                        answer: "are",
+                        hint: "複數名詞用 are"
+                    },
+                    {
+                        id: "e3-k-010",
+                        type: "choice",
+                        question: "Can you ___ basketball?",
+                        options: ["play", "plays", "playing", "played"],
+                        answer: "play",
+                        hint: "Can 後面接原形動詞"
+                    },
+                    {
+                        id: "e3-k-011",
+                        type: "choice",
+                        question: "My mother is a ___. She works in a hospital.",
+                        options: ["nurse", "teacher", "farmer", "driver"],
+                        answer: "nurse",
+                        hint: "在醫院工作的人"
+                    },
+                    {
+                        id: "e3-k-012",
+                        type: "choice",
+                        question: "Do you have a pen? Yes, I ___.",
+                        options: ["do", "does", "am", "have"],
+                        answer: "do",
+                        hint: "Do 問句用 do 回答"
+                    },
+                    {
+                        id: "e3-k-013",
+                        type: "choice",
+                        question: "Where ___ you from?",
+                        options: ["are", "is", "am", "do"],
+                        answer: "are",
+                        hint: "you 搭配 are"
+                    },
+                    {
+                        id: "e3-k-014",
+                        type: "choice",
+                        question: "I ___ a big family.",
+                        options: ["have", "has", "had", "having"],
+                        answer: "have",
+                        hint: "I 搭配 have"
+                    },
+                    {
+                        id: "e3-k-015",
+                        type: "choice",
+                        question: "What is your favorite ___?",
+                        options: ["food", "foods", "fooding", "fooded"],
+                        answer: "food",
+                        hint: "favorite 後接單數名詞"
+                    },
+                    {
+                        id: "e3-k-016",
+                        type: "choice",
+                        question: "She ___ English every day.",
+                        options: ["studies", "study", "studying", "studied"],
+                        answer: "studies",
+                        hint: "第三人稱單數加 -ies"
+                    },
+                    {
+                        id: "e3-k-017",
+                        type: "choice",
+                        question: "How ___ are you?",
+                        options: ["old", "many", "much", "long"],
+                        answer: "old",
+                        hint: "問年齡"
+                    },
+                    {
+                        id: "e3-k-018",
+                        type: "choice",
+                        question: "They ___ students.",
+                        options: ["are", "is", "am", "be"],
+                        answer: "are",
+                        hint: "They 搭配 are"
+                    },
+                    {
+                        id: "e3-k-019",
+                        type: "choice",
+                        question: "What ___ you like? I like apples.",
+                        options: ["do", "does", "is", "are"],
+                        answer: "do",
+                        hint: "you 用 do"
+                    },
+                    {
+                        id: "e3-k-020",
+                        type: "choice",
+                        question: "There ___ a cat under the table.",
+                        options: ["is", "are", "am", "be"],
+                        answer: "is",
+                        hint: "單數用 is"
+                    },
+                    {
+                        id: "e3-k-021",
+                        type: "choice",
+                        question: "___ is your birthday?",
+                        options: ["When", "What", "Who", "Where"],
+                        answer: "When",
+                        hint: "問時間用 When"
+                    },
+                    {
+                        id: "e3-k-022",
+                        type: "choice",
+                        question: "My father is a ___. He drives a taxi.",
+                        options: ["driver", "teacher", "doctor", "farmer"],
+                        answer: "driver",
+                        hint: "開計程車的人"
+                    },
+                    {
+                        id: "e3-k-023",
+                        type: "choice",
+                        question: "I ___ hungry now.",
+                        options: ["am", "is", "are", "be"],
+                        answer: "am",
+                        hint: "I 搭配 am"
+                    },
+                    {
+                        id: "e3-k-024",
+                        type: "choice",
+                        question: "Does she like ice cream? Yes, she ___.",
+                        options: ["does", "do", "is", "like"],
+                        answer: "does",
+                        hint: "Does 問句用 does 回答"
+                    },
+                    {
+                        id: "e3-k-025",
+                        type: "choice",
+                        question: "___ old is your sister?",
+                        options: ["How", "What", "Who", "Where"],
+                        answer: "How",
+                        hint: "問年齡用 How old"
+                    },
+                    {
+                        id: "e3-k-026",
+                        type: "choice",
+                        question: "He ___ a nice boy.",
+                        options: ["is", "am", "are", "be"],
+                        answer: "is",
+                        hint: "He 搭配 is"
+                    },
+                    {
+                        id: "e3-k-027",
+                        type: "choice",
+                        question: "We like to ___ soccer.",
+                        options: ["play", "plays", "playing", "played"],
+                        answer: "play",
+                        hint: "like to + 原形動詞"
+                    },
+                    {
+                        id: "e3-k-028",
+                        type: "choice",
+                        question: "What ___ this? It's a book.",
+                        options: ["is", "are", "am", "do"],
+                        answer: "is",
+                        hint: "this 是單數"
+                    },
+                    {
+                        id: "e3-k-029",
+                        type: "choice",
+                        question: "Can he ___ a bike?",
+                        options: ["ride", "rides", "riding", "rode"],
+                        answer: "ride",
+                        hint: "Can 後面接原形動詞"
+                    },
+                    {
+                        id: "e3-k-030",
+                        type: "choice",
+                        question: "___ is your name?",
+                        options: ["What", "How", "When", "Where"],
+                        answer: "What",
+                        hint: "問名字用 What"
+                    },
+                    {
+                        id: "e3-k-031",
+                        type: "choice",
+                        question: "The cat is ___ the box.",
+                        options: ["in", "on", "at", "to"],
+                        answer: "in",
+                        hint: "在盒子裡面"
+                    },
+                    {
+                        id: "e3-k-032",
+                        type: "choice",
+                        question: "She ___ two brothers.",
+                        options: ["has", "have", "had", "having"],
+                        answer: "has",
+                        hint: "第三人稱用 has"
+                    },
+                    {
+                        id: "e3-k-033",
+                        type: "choice",
+                        question: "It is ___ pencil. (他的)",
+                        options: ["his", "he", "him", "her"],
+                        answer: "his",
+                        hint: "他的所有格"
+                    },
+                    {
+                        id: "e3-k-034",
+                        type: "choice",
+                        question: "How many ___ do you have?",
+                        options: ["books", "book", "bookes", "booked"],
+                        answer: "books",
+                        hint: "How many 後接複數名詞"
+                    },
+                    {
+                        id: "e3-k-035",
+                        type: "choice",
+                        question: "The bird is ___ the tree.",
+                        options: ["on", "in", "at", "to"],
+                        answer: "on",
+                        hint: "在樹上"
+                    },
+                    {
+                        id: "e3-k-036",
+                        type: "choice",
+                        question: "I go to school ___ bus.",
+                        options: ["by", "on", "in", "at"],
+                        answer: "by",
+                        hint: "搭乘交通工具用 by"
+                    },
+                    {
+                        id: "e3-k-037",
+                        type: "choice",
+                        question: "___ do you live?",
+                        options: ["Where", "What", "Who", "When"],
+                        answer: "Where",
+                        hint: "問地點用 Where"
+                    },
+                    {
+                        id: "e3-k-038",
+                        type: "choice",
+                        question: "This is ___ apple.",
+                        options: ["an", "a", "the", "is"],
+                        answer: "an",
+                        hint: "母音前用 an"
+                    },
+                    {
+                        id: "e3-k-039",
+                        type: "choice",
+                        question: "He ___ to swim.",
+                        options: ["likes", "like", "liking", "liked"],
+                        answer: "likes",
+                        hint: "第三人稱單數加 s"
+                    },
+                    {
+                        id: "e3-k-040",
+                        type: "choice",
+                        question: "What color is the banana? It is ___.",
+                        options: ["yellow", "red", "blue", "green"],
+                        answer: "yellow",
+                        hint: "香蕉的顏色"
+                    },
+                    {
+                        id: "e3-k-041",
+                        type: "choice",
+                        question: "My mother ___ breakfast every morning.",
+                        options: ["makes", "make", "making", "made"],
+                        answer: "makes",
+                        hint: "第三人稱單數加 s"
+                    },
+                    {
+                        id: "e3-k-042",
+                        type: "choice",
+                        question: "___ is your teacher?",
+                        options: ["Who", "What", "When", "Where"],
+                        answer: "Who",
+                        hint: "問人用 Who"
+                    },
+                    {
+                        id: "e3-k-043",
+                        type: "choice",
+                        question: "I have ___ (一個) egg.",
+                        options: ["an", "a", "the", "two"],
+                        answer: "an",
+                        hint: "egg 是母音開頭"
+                    },
+                    {
+                        id: "e3-k-044",
+                        type: "choice",
+                        question: "The dog ___ fast.",
+                        options: ["runs", "run", "running", "ran"],
+                        answer: "runs",
+                        hint: "第三人稱單數加 s"
+                    },
+                    {
+                        id: "e3-k-045",
+                        type: "choice",
+                        question: "Can you ___ English?",
+                        options: ["speak", "speaks", "speaking", "spoke"],
+                        answer: "speak",
+                        hint: "Can 後面接原形動詞"
+                    },
+                    {
+                        id: "e3-k-046",
+                        type: "choice",
+                        question: "It is ___ pen. (她的)",
+                        options: ["her", "she", "hers", "he"],
+                        answer: "her",
+                        hint: "她的所有格"
+                    },
+                    {
+                        id: "e3-k-047",
+                        type: "choice",
+                        question: "What day is today? It's ___.",
+                        options: ["Monday", "January", "morning", "sunny"],
+                        answer: "Monday",
+                        hint: "問星期幾"
+                    },
+                    {
+                        id: "e3-k-048",
+                        type: "choice",
+                        question: "There ___ many students in the classroom.",
+                        options: ["are", "is", "am", "be"],
+                        answer: "are",
+                        hint: "複數用 are"
+                    },
+                    {
+                        id: "e3-k-049",
+                        type: "choice",
+                        question: "I wake up ___ 7 o'clock.",
+                        options: ["at", "in", "on", "by"],
+                        answer: "at",
+                        hint: "時間點用 at"
+                    },
+                    {
+                        id: "e3-k-050",
+                        type: "choice",
+                        question: "___ she a student? Yes, she is.",
+                        options: ["Is", "Are", "Am", "Do"],
+                        answer: "Is",
+                        hint: "she 搭配 Is"
+                    },
+                    {
+                        id: "e3-k-051",
+                        type: "choice",
+                        question: "The book is ___ the desk.",
+                        options: ["on", "in", "at", "by"],
+                        answer: "on",
+                        hint: "在桌上"
+                    },
+                    {
+                        id: "e3-k-052",
+                        type: "choice",
+                        question: "He ___ not like vegetables.",
+                        options: ["does", "do", "is", "are"],
+                        answer: "does",
+                        hint: "第三人稱用 does"
+                    },
+                    {
+                        id: "e3-k-053",
+                        type: "choice",
+                        question: "This is ___ classroom.",
+                        options: ["our", "we", "us", "ours"],
+                        answer: "our",
+                        hint: "我們的所有格"
+                    },
+                    {
+                        id: "e3-k-054",
+                        type: "choice",
+                        question: "How is the weather? It is ___.",
+                        options: ["sunny", "happy", "hungry", "thirsty"],
+                        answer: "sunny",
+                        hint: "天氣晴朗"
+                    },
+                    {
+                        id: "e3-k-055",
+                        type: "choice",
+                        question: "She ___ homework every day.",
+                        options: ["does", "do", "doing", "did"],
+                        answer: "does",
+                        hint: "第三人稱單數"
+                    },
+                    {
+                        id: "e3-k-056",
+                        type: "choice",
+                        question: "___ are you? I'm fine, thank you.",
+                        options: ["How", "What", "Who", "Where"],
+                        answer: "How",
+                        hint: "問候語"
+                    },
+                    {
+                        id: "e3-k-057",
+                        type: "choice",
+                        question: "We go to school ___ Monday.",
+                        options: ["on", "in", "at", "by"],
+                        answer: "on",
+                        hint: "星期幾用 on"
+                    },
+                    {
+                        id: "e3-k-058",
+                        type: "choice",
+                        question: "It is ___ book. (他們的)",
+                        options: ["their", "they", "them", "theirs"],
+                        answer: "their",
+                        hint: "他們的所有格"
+                    },
+                    {
+                        id: "e3-k-059",
+                        type: "choice",
+                        question: "What time do you ___ up?",
+                        options: ["get", "gets", "getting", "got"],
+                        answer: "get",
+                        hint: "助動詞後用原形"
+                    },
+                    {
+                        id: "e3-k-060",
+                        type: "choice",
+                        question: "The cat is ___ the chair.",
+                        options: ["under", "on", "in", "at"],
+                        answer: "under",
+                        hint: "在椅子下面"
                     }
                 ],
                 nanyi: [
