@@ -53,3 +53,194 @@ grade,subject,item_a,item_b,semester,exam
 3,english,small,小的,2,final
 3,english,long,長的,2,final
 3,english,short,短的,2,final
+3,math,直角,90度,1,final
+3,math,銳角,比直角小,1,final
+3,math,鈍角,比直角大,1,final
+3,math,三角板的直角,只有一個,1,final
+3,math,三角板的銳角,有兩個,1,final
+3,math,正方形,4個角都是直角，4條邊一樣長,1,final
+3,math,長方形,4個角都是直角，對邊一樣長,1,final
+3,math,正方形的角,4個直角,1,final
+3,math,長方形的角,4個直角,1,final
+3,math,邊,組成角的兩條直線,1,final
+3,math,頂點,兩條邊相接的點,1,final
+3,math,角的大小,看張開的程度,1,final
+3,math,邊越長，角會變大嗎?,不會，角的大小不變,1,final
+3,math,拿放大鏡看角,角的大小不變,1,final
+3,math,比較角: 直角 vs 銳角,直角比較大,1,final
+3,math,比較角: 直角 vs 鈍角,鈍角比較大,1,final
+3,math,教室門的角落,是直角,1,final
+3,math,課本的角落,是直角,1,final
+3,math,正方形有幾條邊?,4條邊,1,final
+3,math,正方形有幾個頂點?,4個頂點,1,final
+3,math,被除數,放在除號前面的數,1,final
+3,math,除數,放在除號後面的數,1,final
+3,math,商,算出來的答案,1,final
+3,math,餘數,分不完剩下的數,1,final
+3,math,餘數必須比除數?,小,1,final
+3,math,除數必須比餘數?,大,1,final
+3,math,剛好分完,餘數是0 (整除),1,final
+3,math,0 ÷ 5 = (?),0,1,final
+3,math,0 ÷ 8 = (?),0,1,final
+3,math,7 ÷ 1 = (?),7,1,final
+3,math,驗算公式,商 × 除數 + 餘數 = 被除數,1,final
+3,math,9 ÷ 3 = (?),3,1,final
+3,math,12 ÷ 4 = (?),3,1,final
+3,math,16 ÷ 4 = (?),4,1,final
+3,math,25 ÷ 5 = (?),5,1,final
+3,math,30 ÷ 6 = (?),5,1,final
+3,math,42 ÷ 7 = (?),6,1,final
+3,math,48 ÷ 8 = (?),6,1,final
+3,math,56 ÷ 8 = (?),7,1,final
+3,math,63 ÷ 9 = (?),7,1,final
+3,math,72 ÷ 9 = (?),8,1,final
+3,math,81 ÷ 9 = (?),9,1,final
+3,math,10 ÷ 3 = (?),3...1,1,final
+3,math,14 ÷ 4 = (?),3...2,1,final
+3,math,20 ÷ 6 = (?),3...2,1,final
+3,math,"2, 4, 6, (?)",8 (加2規律),1,final
+3,math,"1, 3, 5, (?)",7 (奇數規律),1,final
+3,math,"5, 10, 15, (?)",20 (加5規律),1,final
+3,math,"10, 20, 30, (?)",40 (加10規律),1,final
+3,math,"22, 33, 44, (?)",55 (重複數字),1,final
+3,math,"90, 80, 70, (?)",60 (減10規律),1,final
+3,math,"25, 20, 15, (?)",10 (減5規律),1,final
+3,math,"12, 12, 12, (?)",12 (重複規律),1,final
+3,math,"1, 2, 4, 8, (?)",16 (倍數規律),1,final
+3,math,"○● ○● (?)",○,1,final
+3,math,"▲△▲△ (?)",▲,1,final
+3,math,"紅, 藍, 紅, 藍, (?)",紅,1,final
+3,math,"上, 下, 左, 右, 上, 下, 左, (?)",右,1,final
+3,math,"101, 202, 303, (?)",404,1,final
+3,math,"11, 22, 33, (?)",44,1,final
+3,math,二分之一,1/2,1,final
+3,math,三分之一,1/3,1,final
+3,math,四分之一,1/4,1,final
+3,math,五分之一,1/5,1,final
+3,math,六分之一,1/6,1,final
+3,math,八分之一,1/8,1,final
+3,math,十分之一,1/10,1,final
+3,math,十二分之一,1/12,1,final
+3,math,分數線上面的數,分子,1,final
+3,math,分數線下面的數,分母,1,final
+3,math,分子是1的分數,單位分數,1,final
+3,math,1個披薩平分給2人,每人吃 1/2 個,1,final
+3,math,1條繩子平分給4人,每人拿 1/4 條,1,final
+3,math,1盒蘋果有6顆，1顆是,1/6 盒,1,final
+3,math,1包糖果有10顆，1顆是,1/10 包,1,final
+3,math,比較 1/2 和 1/4,1/2 > 1/4,1,final
+3,math,比較 1/8 和 1/3,1/3 > 1/8,1,final
+3,math,比較 1/5 和 1/10,1/5 > 1/10,1,final
+3,math,分母越大 (分子固定),分數越小,1,final
+3,math,分母越小 (分子固定),分數越大,1,final
+3,math,圓規的針尖,固定在圓心,1,final
+3,math,圓規的筆尖,畫出圓周,1,final
+3,math,圓規兩腳張開的距離,是半徑,1,final
+3,math,圓心到圓周的距離,半徑,1,final
+3,math,通過圓心且兩端在圓上的線,直徑,1,final
+3,math,同一個圓裡，所有半徑,都一樣長,1,final
+3,math,同一個圓裡，所有直徑,都一樣長,1,final
+3,math,直徑是半徑的幾倍?,2倍,1,final
+3,math,半徑是直徑的幾倍?,一半 (1/2),1,final
+3,math,如果要畫半徑3公分的圓,圓規張開3公分,1,final
+3,math,如果要畫直徑10公分的圓,圓規張開5公分,1,final
+3,math,圓的大小由誰決定?,半徑 (或直徑),1,final
+3,math,半徑越長,圓越大,1,final
+3,math,一顆球切一半的切面,是圓形,1,final
+3,math,硬幣的形狀,圓形,1,final
+3,chinese,阿婆,ㄚ ㄆㄛˊ,1,final
+3,chinese,阿婆,對年長婦人的通稱,1,final
+3,chinese,鐵蛋,ㄊㄧㄝˇ ㄉㄢˋ,1,final
+3,chinese,鐵蛋,一種經過反覆滷製的蛋,1,final
+3,chinese,街道,ㄐㄧㄝ ㄉㄠˋ,1,final
+3,chinese,街道,供人車通行的道路,1,final
+3,chinese,夕陽,ㄒㄧˋ ㄧㄤˊ,1,final
+3,chinese,夕陽,傍晚時將西下的太陽,1,final
+3,chinese,充滿,ㄔㄨㄥ ㄇㄢˇ,1,final
+3,chinese,充滿,填滿、布滿,1,final
+3,chinese,歷史,ㄌㄧˋ ㄕˇ,1,final
+3,chinese,歷史,過去發生的人事物記錄,1,final
+3,chinese,古老,ㄍㄨˇ ㄌㄠˇ,1,final
+3,chinese,古老,年代久遠,1,final
+3,chinese,美景,ㄇㄟˇ ㄐㄧㄥˇ,1,final
+3,chinese,美景,美麗的景色,1,final
+3,chinese,參觀,ㄘㄢ ㄍㄨㄢ,1,final
+3,chinese,參觀,實地觀覽,1,final
+3,chinese,古堡,ㄍㄨˇ ㄅㄠˇ,1,final
+3,chinese,古堡,古代的堡壘,1,final
+3,chinese,瞭望台,ㄌㄧㄠˋ ㄨㄤˋ ㄊㄞˊ,1,final
+3,chinese,瞭望台,登高遠望的高臺,1,final
+3,chinese,陳列館,ㄔㄣˊ ㄌㄧㄝˋ ㄍㄨㄢˇ,1,final
+3,chinese,陳列館,擺設物品供人參觀的場所,1,final
+3,chinese,炮臺,ㄆㄠˋ ㄊㄞˊ,1,final
+3,chinese,炮臺,架設火炮的臺座,1,final
+3,chinese,緬懷,ㄇㄧㄢˇ ㄏㄨㄞˊ,1,final
+3,chinese,緬懷,追念懷思,1,final
+3,chinese,荷蘭,ㄏㄜˊ ㄌㄢˊ,1,final
+3,chinese,荷蘭,國名，曾統治台灣,1,final
+3,chinese,防禦,ㄈㄤˊ ㄩˋ,1,final
+3,chinese,防禦,防備抵禦,1,final
+3,chinese,馬太鞍,ㄇㄚˇ ㄊㄞˋ ㄢ,1,final
+3,chinese,馬太鞍,地名，位於花蓮光復鄉,1,final
+3,chinese,巴拉告,ㄅㄚ ㄌㄚ ㄍㄠˋ,1,final
+3,chinese,巴拉告,阿美族的捕魚方式,1,final
+3,chinese,阿美族,ㄚ ㄇㄟˇ ㄗㄨˊ,1,final
+3,chinese,阿美族,台灣原住民族之一,1,final
+3,chinese,智慧,ㄓˋ ㄏㄨㄟˋ,1,final
+3,chinese,智慧,聰明才智,1,final
+3,chinese,生態,ㄕㄥ ㄊㄞˋ,1,final
+3,chinese,生態,生物生存的狀態,1,final
+3,chinese,居住,ㄐㄩ ㄓㄨˋ,1,final
+3,chinese,居住,即使、住處,1,final
+3,chinese,蝦子,ㄒㄧㄚ ˙ㄗ,1,final
+3,chinese,蝦子,水生動物,1,final
+3,chinese,捕捉,ㄅㄨˇ ㄓㄨㄛ,1,final
+3,chinese,捕捉,捉拿、在此指抓魚,1,final
+3,chinese,狐狸,ㄏㄨˊ ㄌㄧˊ,1,final
+3,chinese,狐狸,動物名，生性狡猾,1,final
+3,chinese,葡萄,ㄆㄨˊ ㄊㄠˊ,1,final
+3,chinese,葡萄,水果名,1,final
+3,chinese,口水,ㄎㄡˇ ㄕㄨㄟˇ,1,final
+3,chinese,口水,唾液,1,final
+3,chinese,放棄,ㄈㄤˋ ㄑㄧˋ,1,final
+3,chinese,放棄,拋棄、不堅持,1,final
+3,chinese,嘗試,ㄔㄤˊ ㄕˋ,1,final
+3,chinese,嘗試,試一試,1,final
+3,chinese,酸,ㄙㄨㄢ,1,final
+3,chinese,酸,味覺之一，如醋的味道,1,final
+3,chinese,垂頭喪氣,ㄔㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˋ,1,final
+3,chinese,垂頭喪氣,形容失意沮喪的樣子,1,final
+3,chinese,吃不到,ㄔ ㄅㄨˊ ㄉㄠˋ,1,final
+3,chinese,吃不到,無法食用,1,final
+3,chinese,巨人,ㄐㄩˋ ㄖㄣˊ,1,final
+3,chinese,巨人,身材高大的人,1,final
+3,chinese,花園,ㄏㄨㄚ ㄩㄢˊ,1,final
+3,chinese,花園,種植花草的地方,1,final
+3,chinese,自私,ㄗˋ ㄙ,1,final
+3,chinese,自私,只顧自己利益,1,final
+3,chinese,分享,ㄈㄣ ㄒㄧㄤˇ,1,final
+3,chinese,分享,共同享受,1,final
+3,chinese,圍牆,ㄨㄟˊ ㄑㄧㄤˊ,1,final
+3,chinese,圍牆,圍繞在四周的牆垣,1,final
+3,chinese,寒冬,ㄏㄢˊ ㄉㄨㄥ,1,final
+3,chinese,寒冬,寒冷的冬天,1,final
+3,chinese,春天,ㄔㄨㄣ ㄊㄧㄢ,1,final
+3,chinese,春天,四季之首,1,final
+3,chinese,笑聲,ㄒㄧㄠˋ ㄕㄥ,1,final
+3,chinese,笑聲,歡笑的聲音,1,final
+3,chinese,飛行員,ㄈㄟ ㄒㄧㄥˊ ㄩㄢˊ,1,final
+3,chinese,飛行員,駕駛飛機的人,1,final
+3,chinese,沙漠,ㄕㄚ ㄇㄛˋ,1,final
+3,chinese,沙漠,廣大乾旱的地方,1,final
+3,chinese,獨特,ㄉㄨˊ ㄊㄜˋ,1,final
+3,chinese,獨特,獨一無二，與眾不同,1,final
+3,chinese,玫瑰,ㄇㄟˊ ㄍㄨㄟ,1,final
+3,chinese,玫瑰,花名，象徵愛情,1,final
+3,chinese,馴養,ㄒㄩㄣˊ ㄧㄤˇ,1,final
+3,chinese,馴養,飼養並建立關係,1,final
+3,chinese,朋友,ㄆㄥˊ ㄧㄡˇ,1,final
+3,chinese,朋友,志同道合的人,1,final
+3,chinese,故障,ㄍㄨˋ ㄓㄤˋ,1,final
+3,chinese,故障,機器發生毛病,1,final
+3,chinese,星球,ㄒㄧㄥ ㄑㄧㄡˊ,1,final
+3,chinese,星球,宇宙中的天體,1,final

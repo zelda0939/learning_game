@@ -7,39 +7,827 @@ c1-k-001,1,chinese,kangxuan,choice,「大」的相反詞是什麼？,中,小,高
 e1-k-001,1,english,kangxuan,choice,What color is an apple?,Red,Blue,Green,Yellow,Red,蘋果通常是紅色的,1,midterm
 e3-k-001,3,english,kangxuan,choice,Who's he?,He is my brother.,She is my mom.,It is a cat.,He is tall.,He is my brother.,問男生他是誰,1,final
 e3-k-002,3,english,kangxuan,choice,Who's she?,She is my grandma.,He is my dad.,It is a dog.,She is short.,She is my grandma.,問女生她是誰,1,final
-e3-k-003,3,english,kangxuan,choice,"Is he your grandpa?","Yes, he is.",He is old.,"No, she isn't.",I like him.,"Yes, he is.",他是你爺爺嗎？,1,final
-e3-k-004,3,english,kangxuan,choice,What color is it? (紅色),"It's red.","It's blue.","Yes, it is.",I like red.,"It's red.",詢問顏色,1,final
-e3-k-005,3,english,kangxuan,choice,What color is the book?,"It's blue.","It's a book.","No, it isn't.",I can read.,"It's blue.",書本的顏色,1,final
-e3-k-006,3,english,kangxuan,choice,"Is it red?","No, it's green.","Yes, I am.","It's red.",I like green.,"No, it's green.",猜測顏色,1,final
+e3-k-003,3,english,kangxuan,choice,Is he your grandpa?,"Yes, he is.",He is old.,"No, she isn't.",I like him.,"Yes, he is.",他是你爺爺嗎？,1,final
+e3-k-004,3,english,kangxuan,choice,What color is it? (紅色),It's red.,It's blue.,"Yes, it is.",I like red.,It's red.,詢問顏色,1,final
+e3-k-005,3,english,kangxuan,choice,What color is the book?,It's blue.,It's a book.,"No, it isn't.",I can read.,It's blue.,書本的顏色,1,final
+e3-k-006,3,english,kangxuan,choice,Is it red?,"No, it's green.","Yes, I am.",It's red.,I like green.,"No, it's green.",猜測顏色,1,final
 e3-k-007,3,english,kangxuan,choice,It is a ___ ball. (黃色的),yellow,red,big,small,yellow,顏色形容詞,1,final
-e3-k-008,3,english,kangxuan,choice,"Is this a ball?","Yes, it is.","No, I am not.",It is round.,I can play.,"Yes, it is.",確認物品,1,final
-e3-k-009,3,english,kangxuan,choice,What's this?,"It's a pencil.","Yes, it is.",I like it.,It is long.,"It's a pencil.",詢問物品,1,final
+e3-k-008,3,english,kangxuan,choice,Is this a ball?,"Yes, it is.","No, I am not.",It is round.,I can play.,"Yes, it is.",確認物品,1,final
+e3-k-009,3,english,kangxuan,choice,What's this?,It's a pencil.,"Yes, it is.",I like it.,It is long.,It's a pencil.,詢問物品,1,final
 e3-k-010,3,english,kangxuan,choice,___ is not my sister.,He,She,It,They,He,He 用於男生,1,final
-e3-k-011,3,english,kangxuan,choice,What's this? (鉛筆),"It's a pencil.","It's a pen.","It's a ruler.","It's a book.","It's a pencil.",詢問物品,2,final
-e3-k-012,3,english,kangxuan,choice,What's that? (橡皮擦),"It's an eraser.","It's a marker.","It's a book.","It's a desk.","It's an eraser.",詢問遠處物品,2,final
-e3-k-013,3,english,kangxuan,choice,Is this a ruler? (是),"Yes, it is.","No, it isn't.","It's a ruler.","It's long.","Yes, it is.",確認物品,2,final
-e3-k-014,3,english,kangxuan,choice,Is that a book? (不是，它是筆),"No, it's a pen.","Yes, it is.","It's a book.","I like books.","No, it's a pen.",確認遠處物品,2,final
+e3-k-011,3,english,kangxuan,choice,What's this? (鉛筆),It's a pencil.,It's a pen.,It's a ruler.,It's a book.,It's a pencil.,詢問物品,2,final
+e3-k-012,3,english,kangxuan,choice,What's that? (橡皮擦),It's an eraser.,It's a marker.,It's a book.,It's a desk.,It's an eraser.,詢問遠處物品,2,final
+e3-k-013,3,english,kangxuan,choice,Is this a ruler? (是),"Yes, it is.","No, it isn't.",It's a ruler.,It's long.,"Yes, it is.",確認物品,2,final
+e3-k-014,3,english,kangxuan,choice,Is that a book? (不是，它是筆),"No, it's a pen.","Yes, it is.",It's a book.,I like books.,"No, it's a pen.",確認遠處物品,2,final
 e3-k-015,3,english,kangxuan,choice,It is a ______ (馬克筆).,marker,pencil,ruler,pen,marker,文具單字,2,final
 e3-k-016,3,english,kangxuan,choice,It is ______ eraser.,an,a,the,two,an,母音開頭用an,2,final
-e3-k-017,3,english,kangxuan,choice,Is this your pen? (是),"Yes, it is.","No, it isn't.","It's my pen.","It's red.","Yes, it is.",詢問所有權,2,final
-e3-k-018,3,english,kangxuan,choice,Is this your ruler? (不是),"No, it isn't.","Yes, it is.","It's long.","I don't know.","No, it isn't.",所有權否定,2,final
+e3-k-017,3,english,kangxuan,choice,Is this your pen? (是),"Yes, it is.","No, it isn't.",It's my pen.,It's red.,"Yes, it is.",詢問所有權,2,final
+e3-k-018,3,english,kangxuan,choice,Is this your ruler? (不是),"No, it isn't.","Yes, it is.",It's long.,I don't know.,"No, it isn't.",所有權否定,2,final
 e3-k-019,3,english,kangxuan,choice,______ this your book?,Is,What,Where,How,Is,Yes/No問句用Be動詞,2,final
 e3-k-020,3,english,kangxuan,choice,______ is it? It is a pencil.,What,Where,Who,How,What,詢問是什麼,2,final
 e3-k-021,3,english,kangxuan,choice,Is ______ a marker?,this,he,she,they,this,指稱代名詞,2,final
-e3-k-022,3,english,kangxuan,choice,"Is that a pencil? (不是，是麥克筆)","No, it's a marker.","Yes, it is.","It's blue.","No, it's a pen.","No, it's a marker.",物品辨識,2,final
+e3-k-022,3,english,kangxuan,choice,Is that a pencil? (不是，是麥克筆),"No, it's a marker.","Yes, it is.",It's blue.,"No, it's a pen.","No, it's a marker.",物品辨識,2,final
 e3-k-023,3,english,kangxuan,choice,What's ______? It's a ruler.,that,he,she,they,that,詢問那個是什麼,2,final
 e3-k-024,3,english,kangxuan,choice,Is this ______ eraser? (你的),your,you,me,my,your,你的,2,final
-e3-k-025,3,english,kangxuan,choice,Where is the cat? (在箱子裡),"It's in the box.","It's on the box.","It's under the box.","It's a box.","It's in the box.",方位 in,2,final
-e3-k-026,3,english,kangxuan,choice,Where is the dog? (在椅子上),"It's on the chair.","It's in the chair.","It's under the chair.","It's a chair.","It's on the chair.",方位 on,2,final
-e3-k-027,3,english,kangxuan,choice,Where is the book? (在桌子下),"It's under the desk.","It's on the desk.","It's in the desk.","It's a desk.","It's under the desk.",方位 under,2,final
+e3-k-025,3,english,kangxuan,choice,Where is the cat? (在箱子裡),It's in the box.,It's on the box.,It's under the box.,It's a box.,It's in the box.,方位 in,2,final
+e3-k-026,3,english,kangxuan,choice,Where is the dog? (在椅子上),It's on the chair.,It's in the chair.,It's under the chair.,It's a chair.,It's on the chair.,方位 on,2,final
+e3-k-027,3,english,kangxuan,choice,Where is the book? (在桌子下),It's under the desk.,It's on the desk.,It's in the desk.,It's a desk.,It's under the desk.,方位 under,2,final
 e3-k-028,3,english,kangxuan,choice,The apple is ______ the box. (在...裡面),in,on,under,at,in,介係詞 in,2,final
 e3-k-029,3,english,kangxuan,choice,The ruler is ______ the chair. (在...上面),on,in,under,at,on,介係詞 on,2,final
 e3-k-030,3,english,kangxuan,choice,The ball is ______ the desk. (在...下面),under,in,on,at,under,介係詞 under,2,final
 e3-k-031,3,english,kangxuan,choice,______ is the robot? It's on the chair.,Where,What,Who,How,Where,詢問地點,2,final
-e3-k-032,3,english,kangxuan,choice,Is the cat in the box? (是),"Yes, it is.","No, it isn't.","It's a cat.","It's in the box.","Yes, it is.",確認地點,2,final
-e3-k-033,3,english,kangxuan,choice,Is the dog under the desk? (不是),"No, it isn't.","Yes, it is.","It's a dog.","It's cute.","No, it isn't.",確認地點否定,2,final
+e3-k-032,3,english,kangxuan,choice,Is the cat in the box? (是),"Yes, it is.","No, it isn't.",It's a cat.,It's in the box.,"Yes, it is.",確認地點,2,final
+e3-k-033,3,english,kangxuan,choice,Is the dog under the desk? (不是),"No, it isn't.","Yes, it is.",It's a dog.,It's cute.,"No, it isn't.",確認地點否定,2,final
 e3-k-034,3,english,kangxuan,choice,Where's the ______? (橡皮擦),eraser,pen,ruler,book,eraser,單字填空,2,final
 e3-k-035,3,english,kangxuan,choice,It's on the ______. (椅子),chair,desk,box,room,chair,地點單字,2,final
 e3-k-036,3,english,kangxuan,choice,Where ______ the marker?,is,are,am,be,is,單數Be動詞,2,final
-e3-k-037,3,english,kangxuan,choice,"Where is my book?","It's on the desk.","It's a book.","Yes, it is.","I don't know.","It's on the desk.",尋找物品,2,final
+e3-k-037,3,english,kangxuan,choice,Where is my book?,It's on the desk.,It's a book.,"Yes, it is.",I don't know.,It's on the desk.,尋找物品,2,final
 e3-k-038,3,english,kangxuan,choice,The pen is in the ______. (盒子),box,bag,desk,chair,box,地點單字,2,final
+m3-n-u5-001,3,math,nanyi,choice,長方形的邊長有什麼特色？,只有三條邊一樣長,對邊一樣長,四條邊一樣長,四條邊都不一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-002,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,直角,無法比較,一樣大,鈍角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-003,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,無法比較,鈍角,一樣大,銳角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-004,3,math,nanyi,choice,長方形有幾個直角？,2個,0個,3個,4個,4個,每個角落都是直角,1,final
+m3-n-u5-005,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,鈍角,無法比較,直角,一樣大,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-006,3,math,nanyi,choice,請問 48 度的角是什麼角？,平角,銳角,鈍角,直角,銳角,比 90 度小,1,final
+m3-n-u5-007,3,math,nanyi,choice,請問 90 度的角是什麼角？,銳角,平角,直角,鈍角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-008,3,math,nanyi,choice,請問 87 度的角是什麼角？,鈍角,銳角,直角,平角,銳角,比 90 度小,1,final
+m3-n-u5-009,3,math,nanyi,choice,長方形有幾個直角？,4個,2個,0個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-010,3,math,nanyi,choice,長方形的邊長有什麼特色？,對邊一樣長,只有三條邊一樣長,四條邊都不一樣長,四條邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-011,3,math,nanyi,choice,請問 172 度的角是什麼角？,鈍角,銳角,平角,直角,鈍角,比 90 度大,1,final
+m3-n-u5-012,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,無法比較,一樣大,銳角,鈍角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-013,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,鈍角,一樣大,直角,無法比較,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-014,3,math,nanyi,choice,正方形的邊長有什麼特色？,四條邊都不一樣長,四條邊一樣長,對邊一樣長,只有兩條邊一樣長,四條邊一樣長,正方形很特別，每邊都相等,1,final
+m3-n-u5-015,3,math,nanyi,choice,請問 15 度的角是什麼角？,鈍角,平角,銳角,直角,銳角,比 90 度小,1,final
+m3-n-u5-016,3,math,nanyi,choice,正方形的邊長有什麼特色？,只有兩條邊一樣長,對邊一樣長,四條邊都不一樣長,四條邊一樣長,四條邊一樣長,正方形很特別，每邊都相等,1,final
+m3-n-u5-017,3,math,nanyi,choice,正方形有幾個直角？,2個,3個,4個,0個,4個,每個角落都是直角,1,final
+m3-n-u5-018,3,math,nanyi,choice,請問 72 度的角是什麼角？,平角,銳角,直角,鈍角,銳角,比 90 度小,1,final
+m3-n-u5-019,3,math,nanyi,choice,正方形的邊長有什麼特色？,只有兩條邊一樣長,對邊一樣長,四條邊都不一樣長,四條邊一樣長,四條邊一樣長,正方形很特別，每邊都相等,1,final
+m3-n-u5-020,3,math,nanyi,choice,請問 90 度的角是什麼角？,鈍角,銳角,平角,直角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-021,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,無法比較,鈍角,直角,一樣大,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-022,3,math,nanyi,choice,請問 14 度的角是什麼角？,平角,銳角,直角,鈍角,銳角,比 90 度小,1,final
+m3-n-u5-023,3,math,nanyi,choice,正方形有幾個直角？,0個,4個,2個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-024,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,銳角,直角,無法比較,一樣大,直角,想想看它們的角度度數,1,final
+m3-n-u5-025,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,無法比較,銳角,鈍角,一樣大,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-026,3,math,nanyi,choice,長方形的邊長有什麼特色？,對邊一樣長,四條邊都不一樣長,四條邊一樣長,只有三條邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-027,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,鈍角,直角,無法比較,一樣大,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-028,3,math,nanyi,choice,請問 129 度的角是什麼角？,平角,直角,銳角,鈍角,鈍角,比 90 度大,1,final
+m3-n-u5-029,3,math,nanyi,choice,請問 90 度的角是什麼角？,銳角,鈍角,直角,平角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-030,3,math,nanyi,choice,請問 35 度的角是什麼角？,鈍角,銳角,平角,直角,銳角,比 90 度小,1,final
+m3-n-u5-031,3,math,nanyi,choice,正方形的邊長有什麼特色？,只有兩條邊一樣長,四條邊一樣長,對邊一樣長,四條邊都不一樣長,四條邊一樣長,正方形很特別，每邊都相等,1,final
+m3-n-u5-032,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,直角,銳角,無法比較,一樣大,直角,想想看它們的角度度數,1,final
+m3-n-u5-033,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,鈍角,無法比較,直角,一樣大,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-034,3,math,nanyi,choice,長方形有幾個直角？,0個,4個,3個,2個,4個,每個角落都是直角,1,final
+m3-n-u5-035,3,math,nanyi,choice,請問 93 度的角是什麼角？,銳角,平角,鈍角,直角,鈍角,比 90 度大,1,final
+m3-n-u5-036,3,math,nanyi,choice,請問 149 度的角是什麼角？,直角,平角,銳角,鈍角,鈍角,比 90 度大,1,final
+m3-n-u5-037,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,銳角,鈍角,一樣大,無法比較,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-038,3,math,nanyi,choice,長方形的邊長有什麼特色？,只有三條邊一樣長,四條邊都不一樣長,四條邊一樣長,對邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-039,3,math,nanyi,choice,請問 90 度的角是什麼角？,平角,鈍角,直角,銳角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-040,3,math,nanyi,choice,請問 52 度的角是什麼角？,鈍角,直角,銳角,平角,銳角,比 90 度小,1,final
+m3-n-u5-041,3,math,nanyi,choice,請問 90 度的角是什麼角？,平角,直角,鈍角,銳角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-042,3,math,nanyi,choice,請問 90 度的角是什麼角？,直角,平角,銳角,鈍角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-043,3,math,nanyi,choice,長方形有幾個直角？,0個,2個,4個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-044,3,math,nanyi,choice,請問 90 度的角是什麼角？,平角,銳角,直角,鈍角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-045,3,math,nanyi,choice,請問 112 度的角是什麼角？,銳角,鈍角,平角,直角,鈍角,比 90 度大,1,final
+m3-n-u5-046,3,math,nanyi,choice,長方形有幾個直角？,0個,4個,2個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-047,3,math,nanyi,choice,長方形的邊長有什麼特色？,只有三條邊一樣長,四條邊都不一樣長,四條邊一樣長,對邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-048,3,math,nanyi,choice,長方形的邊長有什麼特色？,四條邊都不一樣長,四條邊一樣長,對邊一樣長,只有三條邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-049,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,無法比較,銳角,一樣大,直角,直角,想想看它們的角度度數,1,final
+m3-n-u5-050,3,math,nanyi,choice,長方形有幾個直角？,3個,2個,4個,0個,4個,每個角落都是直角,1,final
+m3-n-u5-051,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,鈍角,一樣大,無法比較,直角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-052,3,math,nanyi,choice,請問 60 度的角是什麼角？,銳角,平角,直角,鈍角,銳角,比 90 度小,1,final
+m3-n-u5-053,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,一樣大,無法比較,銳角,鈍角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-054,3,math,nanyi,choice,正方形有幾個直角？,4個,3個,2個,0個,4個,每個角落都是直角,1,final
+m3-n-u5-055,3,math,nanyi,choice,正方形有幾個直角？,0個,2個,4個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-056,3,math,nanyi,choice,請問 80 度的角是什麼角？,銳角,直角,鈍角,平角,銳角,比 90 度小,1,final
+m3-n-u5-057,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,一樣大,鈍角,銳角,無法比較,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-058,3,math,nanyi,choice,正方形有幾個直角？,3個,2個,4個,0個,4個,每個角落都是直角,1,final
+m3-n-u5-059,3,math,nanyi,choice,長方形的邊長有什麼特色？,對邊一樣長,只有三條邊一樣長,四條邊都不一樣長,四條邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-060,3,math,nanyi,choice,正方形的邊長有什麼特色？,對邊一樣長,四條邊都不一樣長,只有兩條邊一樣長,四條邊一樣長,四條邊一樣長,正方形很特別，每邊都相等,1,final
+m3-n-u5-061,3,math,nanyi,choice,請問 81 度的角是什麼角？,直角,鈍角,平角,銳角,銳角,比 90 度小,1,final
+m3-n-u5-062,3,math,nanyi,choice,請問 90 度的角是什麼角？,平角,鈍角,直角,銳角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-063,3,math,nanyi,choice,請問 115 度的角是什麼角？,平角,鈍角,直角,銳角,鈍角,比 90 度大,1,final
+m3-n-u5-064,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,一樣大,鈍角,直角,無法比較,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-065,3,math,nanyi,choice,請問 17 度的角是什麼角？,銳角,平角,鈍角,直角,銳角,比 90 度小,1,final
+m3-n-u5-066,3,math,nanyi,choice,請問 24 度的角是什麼角？,平角,銳角,直角,鈍角,銳角,比 90 度小,1,final
+m3-n-u5-067,3,math,nanyi,choice,長方形的邊長有什麼特色？,四條邊都不一樣長,只有三條邊一樣長,對邊一樣長,四條邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-068,3,math,nanyi,choice,長方形有幾個直角？,2個,0個,4個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-069,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,鈍角,一樣大,無法比較,銳角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-070,3,math,nanyi,choice,正方形有幾個直角？,4個,0個,2個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-071,3,math,nanyi,choice,正方形的邊長有什麼特色？,對邊一樣長,只有兩條邊一樣長,四條邊一樣長,四條邊都不一樣長,四條邊一樣長,正方形很特別，每邊都相等,1,final
+m3-n-u5-072,3,math,nanyi,choice,長方形的邊長有什麼特色？,只有三條邊一樣長,四條邊都不一樣長,對邊一樣長,四條邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-073,3,math,nanyi,choice,請問 71 度的角是什麼角？,平角,銳角,鈍角,直角,銳角,比 90 度小,1,final
+m3-n-u5-074,3,math,nanyi,choice,請問 157 度的角是什麼角？,直角,鈍角,平角,銳角,鈍角,比 90 度大,1,final
+m3-n-u5-075,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,直角,一樣大,鈍角,無法比較,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-076,3,math,nanyi,choice,長方形有幾個直角？,0個,4個,2個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-077,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,無法比較,銳角,一樣大,直角,直角,想想看它們的角度度數,1,final
+m3-n-u5-078,3,math,nanyi,choice,請問 65 度的角是什麼角？,鈍角,直角,銳角,平角,銳角,比 90 度小,1,final
+m3-n-u5-079,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,無法比較,銳角,直角,一樣大,直角,想想看它們的角度度數,1,final
+m3-n-u5-080,3,math,nanyi,choice,請問 90 度的角是什麼角？,直角,平角,銳角,鈍角,直角,三角板上有一個這樣的角,1,final
+m3-n-u5-081,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,直角,無法比較,銳角,一樣大,直角,想想看它們的角度度數,1,final
+m3-n-u5-082,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,一樣大,鈍角,無法比較,直角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-083,3,math,nanyi,choice,正方形有幾個直角？,0個,3個,4個,2個,4個,每個角落都是直角,1,final
+m3-n-u5-084,3,math,nanyi,choice,請問 92 度的角是什麼角？,平角,鈍角,直角,銳角,鈍角,比 90 度大,1,final
+m3-n-u5-085,3,math,nanyi,choice,長方形的邊長有什麼特色？,只有三條邊一樣長,四條邊一樣長,四條邊都不一樣長,對邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-086,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,無法比較,一樣大,鈍角,銳角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-087,3,math,nanyi,choice,請問 鈍角 和 直角 誰比較大？,直角,無法比較,一樣大,鈍角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-088,3,math,nanyi,choice,請問 51 度的角是什麼角？,鈍角,銳角,平角,直角,銳角,比 90 度小,1,final
+m3-n-u5-089,3,math,nanyi,choice,請問 79 度的角是什麼角？,鈍角,直角,平角,銳角,銳角,比 90 度小,1,final
+m3-n-u5-090,3,math,nanyi,choice,請問 20 度的角是什麼角？,平角,直角,銳角,鈍角,銳角,比 90 度小,1,final
+m3-n-u5-091,3,math,nanyi,choice,正方形的邊長有什麼特色？,對邊一樣長,四條邊一樣長,四條邊都不一樣長,只有兩條邊一樣長,四條邊一樣長,正方形很特別，每邊都相等,1,final
+m3-n-u5-092,3,math,nanyi,choice,請問 102 度的角是什麼角？,直角,銳角,平角,鈍角,鈍角,比 90 度大,1,final
+m3-n-u5-093,3,math,nanyi,choice,請問 110 度的角是什麼角？,鈍角,直角,平角,銳角,鈍角,比 90 度大,1,final
+m3-n-u5-094,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,直角,一樣大,無法比較,銳角,直角,想想看它們的角度度數,1,final
+m3-n-u5-095,3,math,nanyi,choice,長方形有幾個直角？,4個,2個,0個,3個,4個,每個角落都是直角,1,final
+m3-n-u5-096,3,math,nanyi,choice,長方形有幾個直角？,0個,3個,2個,4個,4個,每個角落都是直角,1,final
+m3-n-u5-097,3,math,nanyi,choice,長方形的邊長有什麼特色？,四條邊都不一樣長,四條邊一樣長,只有三條邊一樣長,對邊一樣長,對邊一樣長,長方形兩兩相對的邊相等,1,final
+m3-n-u5-098,3,math,nanyi,choice,請問 鈍角 和 銳角 誰比較大？,一樣大,無法比較,銳角,鈍角,鈍角,想想看它們的角度度數,1,final
+m3-n-u5-099,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,銳角,一樣大,無法比較,直角,直角,想想看它們的角度度數,1,final
+m3-n-u5-100,3,math,nanyi,choice,請問 直角 和 銳角 誰比較大？,銳角,無法比較,一樣大,直角,直角,想想看它們的角度度數,1,final
+m3-n-u6-001,3,math,nanyi,choice,22 ÷ 3 = ?,7 ... 2,8 ... 1,7 ... 1,6 ... 1,7 ... 1,先用乘法想: 3 乘以多少最接近 22?,1,final
+m3-n-u6-002,3,math,nanyi,choice,39 ÷ 4 = ?,10 ... 3,8 ... 3,9 ... 3,10 ... 3,9 ... 3,先用乘法想: 4 乘以多少最接近 39?,1,final
+m3-n-u6-003,3,math,nanyi,choice,16 ÷ 2 = ?,9,8 ... 1,8,7,8,先用乘法想: 2 乘以多少最接近 16?,1,final
+m3-n-u6-004,3,math,nanyi,choice,17 ÷ 3 = ?,6 ... 2,4 ... 2,5 ... 2,6 ... 2,5 ... 2,先用乘法想: 3 乘以多少最接近 17?,1,final
+m3-n-u6-005,3,math,nanyi,choice,22 ÷ 9 = ?,2 ... 4,2 ... 5,3 ... 4,1 ... 4,2 ... 4,先用乘法想: 9 乘以多少最接近 22?,1,final
+m3-n-u6-006,3,math,nanyi,choice,54 ÷ 6 = ?,8,10,9 ... 1,9,9,先用乘法想: 6 乘以多少最接近 54?,1,final
+m3-n-u6-007,3,math,nanyi,choice,49 ÷ 8 = ?,6 ... 1,7 ... 1,5 ... 1,6 ... 2,6 ... 1,先用乘法想: 8 乘以多少最接近 49?,1,final
+m3-n-u6-008,3,math,nanyi,choice,14 ÷ 3 = ?,3 ... 2,4 ... 2,5 ... 2,5 ... 2,4 ... 2,先用乘法想: 3 乘以多少最接近 14?,1,final
+m3-n-u6-009,3,math,nanyi,choice,23 ÷ 4 = ?,6 ... 3,6 ... 3,5 ... 3,4 ... 3,5 ... 3,先用乘法想: 4 乘以多少最接近 23?,1,final
+m3-n-u6-010,3,math,nanyi,choice,38 ÷ 4 = ?,9 ... 3,9 ... 2,8 ... 2,10 ... 2,9 ... 2,先用乘法想: 4 乘以多少最接近 38?,1,final
+m3-n-u6-011,3,math,nanyi,choice,55 ÷ 6 = ?,9 ... 2,9 ... 1,10 ... 1,8 ... 1,9 ... 1,先用乘法想: 6 乘以多少最接近 55?,1,final
+m3-n-u6-012,3,math,nanyi,choice,87 ÷ 8 = ?,10 ... 7,9 ... 7,11 ... 7,11 ... 7,10 ... 7,先用乘法想: 8 乘以多少最接近 87?,1,final
+m3-n-u6-013,3,math,nanyi,choice,43 ÷ 8 = ?,5 ... 4,5 ... 3,4 ... 3,6 ... 3,5 ... 3,先用乘法想: 8 乘以多少最接近 43?,1,final
+m3-n-u6-014,3,math,nanyi,choice,25 ÷ 8 = ?,2 ... 1,3 ... 2,4 ... 1,3 ... 1,3 ... 1,先用乘法想: 8 乘以多少最接近 25?,1,final
+m3-n-u6-015,3,math,nanyi,choice,32 ÷ 3 = ?,10 ... 2,11 ... 2,11 ... 2,9 ... 2,10 ... 2,先用乘法想: 3 乘以多少最接近 32?,1,final
+m3-n-u6-016,3,math,nanyi,choice,53 ÷ 7 = ?,7 ... 5,8 ... 4,7 ... 4,6 ... 4,7 ... 4,先用乘法想: 7 乘以多少最接近 53?,1,final
+m3-n-u6-017,3,math,nanyi,choice,30 ÷ 5 = ?,7,5,6 ... 1,6,6,先用乘法想: 5 乘以多少最接近 30?,1,final
+m3-n-u6-018,3,math,nanyi,choice,13 ÷ 4 = ?,3 ... 2,2 ... 1,3 ... 1,4 ... 1,3 ... 1,先用乘法想: 4 乘以多少最接近 13?,1,final
+m3-n-u6-019,3,math,nanyi,choice,62 ÷ 9 = ?,5 ... 8,7 ... 8,7 ... 8,6 ... 8,6 ... 8,先用乘法想: 9 乘以多少最接近 62?,1,final
+m3-n-u6-020,3,math,nanyi,choice,52 ÷ 9 = ?,5 ... 7,6 ... 7,5 ... 8,4 ... 7,5 ... 7,先用乘法想: 9 乘以多少最接近 52?,1,final
+m3-n-u6-021,3,math,nanyi,choice,26 ÷ 4 = ?,6 ... 3,5 ... 2,6 ... 2,7 ... 2,6 ... 2,先用乘法想: 4 乘以多少最接近 26?,1,final
+m3-n-u6-022,3,math,nanyi,choice,17 ÷ 7 = ?,1 ... 3,2 ... 4,2 ... 3,3 ... 3,2 ... 3,先用乘法想: 7 乘以多少最接近 17?,1,final
+m3-n-u6-023,3,math,nanyi,choice,55 ÷ 7 = ?,6 ... 6,8 ... 6,7 ... 6,8 ... 6,7 ... 6,先用乘法想: 7 乘以多少最接近 55?,1,final
+m3-n-u6-024,3,math,nanyi,choice,24 ÷ 4 = ?,5,7,6,6 ... 1,6,先用乘法想: 4 乘以多少最接近 24?,1,final
+m3-n-u6-025,3,math,nanyi,choice,25 ÷ 5 = ?,5,6,5 ... 1,4,5,先用乘法想: 5 乘以多少最接近 25?,1,final
+m3-n-u6-026,3,math,nanyi,choice,24 ÷ 5 = ?,4 ... 4,5 ... 4,5 ... 4,3 ... 4,4 ... 4,先用乘法想: 5 乘以多少最接近 24?,1,final
+m3-n-u6-027,3,math,nanyi,choice,45 ÷ 6 = ?,7 ... 4,7 ... 3,6 ... 3,8 ... 3,7 ... 3,先用乘法想: 6 乘以多少最接近 45?,1,final
+m3-n-u6-028,3,math,nanyi,choice,13 ÷ 3 = ?,3 ... 1,4 ... 2,4 ... 1,5 ... 1,4 ... 1,先用乘法想: 3 乘以多少最接近 13?,1,final
+m3-n-u6-029,3,math,nanyi,choice,9 ÷ 2 = ?,4 ... 1,5 ... 1,5 ... 1,3 ... 1,4 ... 1,先用乘法想: 2 乘以多少最接近 9?,1,final
+m3-n-u6-030,3,math,nanyi,choice,71 ÷ 7 = ?,9 ... 1,10 ... 2,11 ... 1,10 ... 1,10 ... 1,先用乘法想: 7 乘以多少最接近 71?,1,final
+m3-n-u6-031,3,math,nanyi,choice,76 ÷ 7 = ?,10 ... 6,11 ... 6,9 ... 6,11 ... 6,10 ... 6,先用乘法想: 7 乘以多少最接近 76?,1,final
+m3-n-u6-032,3,math,nanyi,choice,93 ÷ 9 = ?,9 ... 3,10 ... 3,11 ... 3,10 ... 4,10 ... 3,先用乘法想: 9 乘以多少最接近 93?,1,final
+m3-n-u6-033,3,math,nanyi,choice,18 ÷ 3 = ?,6,7,6 ... 1,5,6,先用乘法想: 3 乘以多少最接近 18?,1,final
+m3-n-u6-034,3,math,nanyi,choice,63 ÷ 8 = ?,7 ... 7,8 ... 7,6 ... 7,8 ... 7,7 ... 7,先用乘法想: 8 乘以多少最接近 63?,1,final
+m3-n-u6-035,3,math,nanyi,choice,52 ÷ 9 = ?,4 ... 7,6 ... 7,5 ... 7,5 ... 8,5 ... 7,先用乘法想: 9 乘以多少最接近 52?,1,final
+m3-n-u6-036,3,math,nanyi,choice,15 ÷ 7 = ?,1 ... 1,2 ... 1,2 ... 2,3 ... 1,2 ... 1,先用乘法想: 7 乘以多少最接近 15?,1,final
+m3-n-u6-037,3,math,nanyi,choice,60 ÷ 8 = ?,7 ... 5,8 ... 4,7 ... 4,6 ... 4,7 ... 4,先用乘法想: 8 乘以多少最接近 60?,1,final
+m3-n-u6-038,3,math,nanyi,choice,59 ÷ 6 = ?,10 ... 5,9 ... 5,10 ... 5,8 ... 5,9 ... 5,先用乘法想: 6 乘以多少最接近 59?,1,final
+m3-n-u6-039,3,math,nanyi,choice,13 ÷ 2 = ?,7 ... 1,7 ... 1,5 ... 1,6 ... 1,6 ... 1,先用乘法想: 2 乘以多少最接近 13?,1,final
+m3-n-u6-040,3,math,nanyi,choice,52 ÷ 9 = ?,5 ... 8,4 ... 7,6 ... 7,5 ... 7,5 ... 7,先用乘法想: 9 乘以多少最接近 52?,1,final
+m3-n-u6-041,3,math,nanyi,choice,44 ÷ 6 = ?,7 ... 2,6 ... 2,7 ... 3,8 ... 2,7 ... 2,先用乘法想: 6 乘以多少最接近 44?,1,final
+m3-n-u6-042,3,math,nanyi,choice,79 ÷ 9 = ?,8 ... 7,9 ... 7,8 ... 8,7 ... 7,8 ... 7,先用乘法想: 9 乘以多少最接近 79?,1,final
+m3-n-u6-043,3,math,nanyi,choice,20 ÷ 4 = ?,6,5 ... 1,5,4,5,先用乘法想: 4 乘以多少最接近 20?,1,final
+m3-n-u6-044,3,math,nanyi,choice,63 ÷ 8 = ?,7 ... 7,8 ... 7,8 ... 7,6 ... 7,7 ... 7,先用乘法想: 8 乘以多少最接近 63?,1,final
+m3-n-u6-045,3,math,nanyi,choice,44 ÷ 5 = ?,8 ... 4,9 ... 4,7 ... 4,9 ... 4,8 ... 4,先用乘法想: 5 乘以多少最接近 44?,1,final
+m3-n-u6-046,3,math,nanyi,choice,51 ÷ 7 = ?,7 ... 2,6 ... 2,7 ... 3,8 ... 2,7 ... 2,先用乘法想: 7 乘以多少最接近 51?,1,final
+m3-n-u6-047,3,math,nanyi,choice,74 ÷ 8 = ?,9 ... 2,10 ... 2,8 ... 2,9 ... 3,9 ... 2,先用乘法想: 8 乘以多少最接近 74?,1,final
+m3-n-u6-048,3,math,nanyi,choice,8 ÷ 3 = ?,3 ... 2,1 ... 2,3 ... 2,2 ... 2,2 ... 2,先用乘法想: 3 乘以多少最接近 8?,1,final
+m3-n-u6-049,3,math,nanyi,choice,5 ÷ 2 = ?,3 ... 1,2 ... 1,3 ... 1,1 ... 1,2 ... 1,先用乘法想: 2 乘以多少最接近 5?,1,final
+m3-n-u6-050,3,math,nanyi,choice,14 ÷ 3 = ?,5 ... 2,4 ... 2,3 ... 2,5 ... 2,4 ... 2,先用乘法想: 3 乘以多少最接近 14?,1,final
+m3-n-u6-051,3,math,nanyi,choice,35 ÷ 5 = ?,8,6,7 ... 1,7,7,先用乘法想: 5 乘以多少最接近 35?,1,final
+m3-n-u6-052,3,math,nanyi,choice,49 ÷ 8 = ?,7 ... 1,5 ... 1,6 ... 2,6 ... 1,6 ... 1,先用乘法想: 8 乘以多少最接近 49?,1,final
+m3-n-u6-053,3,math,nanyi,choice,32 ÷ 6 = ?,6 ... 2,5 ... 3,4 ... 2,5 ... 2,5 ... 2,先用乘法想: 6 乘以多少最接近 32?,1,final
+m3-n-u6-054,3,math,nanyi,choice,12 ÷ 5 = ?,1 ... 2,2 ... 2,2 ... 3,3 ... 2,2 ... 2,先用乘法想: 5 乘以多少最接近 12?,1,final
+m3-n-u6-055,3,math,nanyi,choice,41 ÷ 5 = ?,7 ... 1,8 ... 1,9 ... 1,8 ... 2,8 ... 1,先用乘法想: 5 乘以多少最接近 41?,1,final
+m3-n-u6-056,3,math,nanyi,choice,26 ÷ 7 = ?,3 ... 6,4 ... 5,2 ... 5,3 ... 5,3 ... 5,先用乘法想: 7 乘以多少最接近 26?,1,final
+m3-n-u6-057,3,math,nanyi,choice,43 ÷ 7 = ?,7 ... 1,5 ... 1,6 ... 2,6 ... 1,6 ... 1,先用乘法想: 7 乘以多少最接近 43?,1,final
+m3-n-u6-058,3,math,nanyi,choice,16 ÷ 5 = ?,2 ... 1,4 ... 1,3 ... 2,3 ... 1,3 ... 1,先用乘法想: 5 乘以多少最接近 16?,1,final
+m3-n-u6-059,3,math,nanyi,choice,51 ÷ 7 = ?,6 ... 2,7 ... 2,7 ... 3,8 ... 2,7 ... 2,先用乘法想: 7 乘以多少最接近 51?,1,final
+m3-n-u6-060,3,math,nanyi,choice,82 ÷ 8 = ?,10 ... 2,11 ... 2,9 ... 2,10 ... 3,10 ... 2,先用乘法想: 8 乘以多少最接近 82?,1,final
+m3-n-u6-061,3,math,nanyi,choice,36 ÷ 6 = ?,7,6,6 ... 1,5,6,先用乘法想: 6 乘以多少最接近 36?,1,final
+m3-n-u6-062,3,math,nanyi,choice,4 ÷ 2 = ?,3,1,2,2 ... 1,2,先用乘法想: 2 乘以多少最接近 4?,1,final
+m3-n-u6-063,3,math,nanyi,choice,64 ÷ 9 = ?,7 ... 2,7 ... 1,8 ... 1,6 ... 1,7 ... 1,先用乘法想: 9 乘以多少最接近 64?,1,final
+m3-n-u6-064,3,math,nanyi,choice,32 ÷ 6 = ?,5 ... 2,5 ... 3,6 ... 2,4 ... 2,5 ... 2,先用乘法想: 6 乘以多少最接近 32?,1,final
+m3-n-u6-065,3,math,nanyi,choice,23 ÷ 7 = ?,2 ... 2,3 ... 2,4 ... 2,3 ... 3,3 ... 2,先用乘法想: 7 乘以多少最接近 23?,1,final
+m3-n-u6-066,3,math,nanyi,choice,25 ÷ 6 = ?,4 ... 2,3 ... 1,5 ... 1,4 ... 1,4 ... 1,先用乘法想: 6 乘以多少最接近 25?,1,final
+m3-n-u6-067,3,math,nanyi,choice,62 ÷ 9 = ?,7 ... 8,6 ... 8,7 ... 8,5 ... 8,6 ... 8,先用乘法想: 9 乘以多少最接近 62?,1,final
+m3-n-u6-068,3,math,nanyi,choice,57 ÷ 7 = ?,8 ... 1,9 ... 1,7 ... 1,8 ... 2,8 ... 1,先用乘法想: 7 乘以多少最接近 57?,1,final
+m3-n-u6-069,3,math,nanyi,choice,60 ÷ 7 = ?,7 ... 4,8 ... 4,9 ... 4,8 ... 5,8 ... 4,先用乘法想: 7 乘以多少最接近 60?,1,final
+m3-n-u6-070,3,math,nanyi,choice,64 ÷ 8 = ?,9,7,8,8 ... 1,8,先用乘法想: 8 乘以多少最接近 64?,1,final
+m3-n-u6-071,3,math,nanyi,choice,15 ÷ 2 = ?,6 ... 1,8 ... 1,8 ... 1,7 ... 1,7 ... 1,先用乘法想: 2 乘以多少最接近 15?,1,final
+m3-n-u6-072,3,math,nanyi,choice,37 ÷ 8 = ?,4 ... 6,3 ... 5,5 ... 5,4 ... 5,4 ... 5,先用乘法想: 8 乘以多少最接近 37?,1,final
+m3-n-u6-073,3,math,nanyi,choice,57 ÷ 6 = ?,8 ... 3,10 ... 3,9 ... 4,9 ... 3,9 ... 3,先用乘法想: 6 乘以多少最接近 57?,1,final
+m3-n-u6-074,3,math,nanyi,choice,31 ÷ 3 = ?,10 ... 2,9 ... 1,10 ... 1,11 ... 1,10 ... 1,先用乘法想: 3 乘以多少最接近 31?,1,final
+m3-n-u6-075,3,math,nanyi,choice,59 ÷ 8 = ?,8 ... 3,7 ... 4,7 ... 3,6 ... 3,7 ... 3,先用乘法想: 8 乘以多少最接近 59?,1,final
+m3-n-u6-076,3,math,nanyi,choice,54 ÷ 7 = ?,7 ... 5,8 ... 5,7 ... 6,6 ... 5,7 ... 5,先用乘法想: 7 乘以多少最接近 54?,1,final
+m3-n-u6-077,3,math,nanyi,choice,33 ÷ 5 = ?,6 ... 4,7 ... 3,5 ... 3,6 ... 3,6 ... 3,先用乘法想: 5 乘以多少最接近 33?,1,final
+m3-n-u6-078,3,math,nanyi,choice,8 ÷ 2 = ?,4,3,5,4 ... 1,4,先用乘法想: 2 乘以多少最接近 8?,1,final
+m3-n-u6-079,3,math,nanyi,choice,91 ÷ 9 = ?,9 ... 1,10 ... 1,11 ... 1,10 ... 2,10 ... 1,先用乘法想: 9 乘以多少最接近 91?,1,final
+m3-n-u6-080,3,math,nanyi,choice,83 ÷ 8 = ?,10 ... 4,10 ... 3,11 ... 3,9 ... 3,10 ... 3,先用乘法想: 8 乘以多少最接近 83?,1,final
+m3-n-u6-081,3,math,nanyi,choice,39 ÷ 7 = ?,6 ... 4,4 ... 4,5 ... 4,5 ... 5,5 ... 4,先用乘法想: 7 乘以多少最接近 39?,1,final
+m3-n-u6-082,3,math,nanyi,choice,42 ÷ 5 = ?,8 ... 3,8 ... 2,7 ... 2,9 ... 2,8 ... 2,先用乘法想: 5 乘以多少最接近 42?,1,final
+m3-n-u6-083,3,math,nanyi,choice,74 ÷ 8 = ?,10 ... 2,9 ... 3,8 ... 2,9 ... 2,9 ... 2,先用乘法想: 8 乘以多少最接近 74?,1,final
+m3-n-u6-084,3,math,nanyi,choice,32 ÷ 7 = ?,4 ... 5,5 ... 4,3 ... 4,4 ... 4,4 ... 4,先用乘法想: 7 乘以多少最接近 32?,1,final
+m3-n-u6-085,3,math,nanyi,choice,19 ÷ 6 = ?,3 ... 1,3 ... 2,4 ... 1,2 ... 1,3 ... 1,先用乘法想: 6 乘以多少最接近 19?,1,final
+m3-n-u6-086,3,math,nanyi,choice,45 ÷ 5 = ?,9,8,10,9 ... 1,9,先用乘法想: 5 乘以多少最接近 45?,1,final
+m3-n-u6-087,3,math,nanyi,choice,29 ÷ 5 = ?,6 ... 4,6 ... 4,5 ... 4,4 ... 4,5 ... 4,先用乘法想: 5 乘以多少最接近 29?,1,final
+m3-n-u6-088,3,math,nanyi,choice,60 ÷ 9 = ?,6 ... 6,7 ... 6,5 ... 6,6 ... 7,6 ... 6,先用乘法想: 9 乘以多少最接近 60?,1,final
+m3-n-u6-089,3,math,nanyi,choice,29 ÷ 8 = ?,3 ... 6,2 ... 5,3 ... 5,4 ... 5,3 ... 5,先用乘法想: 8 乘以多少最接近 29?,1,final
+m3-n-u6-090,3,math,nanyi,choice,30 ÷ 6 = ?,6,5 ... 1,4,5,5,先用乘法想: 6 乘以多少最接近 30?,1,final
+m3-n-u6-091,3,math,nanyi,choice,32 ÷ 4 = ?,8 ... 1,8,7,9,8,先用乘法想: 4 乘以多少最接近 32?,1,final
+m3-n-u6-092,3,math,nanyi,choice,44 ÷ 7 = ?,6 ... 2,7 ... 2,5 ... 2,6 ... 3,6 ... 2,先用乘法想: 7 乘以多少最接近 44?,1,final
+m3-n-u6-093,3,math,nanyi,choice,53 ÷ 5 = ?,11 ... 3,10 ... 4,9 ... 3,10 ... 3,10 ... 3,先用乘法想: 5 乘以多少最接近 53?,1,final
+m3-n-u6-094,3,math,nanyi,choice,14 ÷ 3 = ?,5 ... 2,4 ... 2,5 ... 2,3 ... 2,4 ... 2,先用乘法想: 3 乘以多少最接近 14?,1,final
+m3-n-u6-095,3,math,nanyi,choice,16 ÷ 5 = ?,3 ... 1,3 ... 2,2 ... 1,4 ... 1,3 ... 1,先用乘法想: 5 乘以多少最接近 16?,1,final
+m3-n-u6-096,3,math,nanyi,choice,23 ÷ 7 = ?,3 ... 3,3 ... 2,2 ... 2,4 ... 2,3 ... 2,先用乘法想: 7 乘以多少最接近 23?,1,final
+m3-n-u6-097,3,math,nanyi,choice,19 ÷ 2 = ?,8 ... 1,10 ... 1,9 ... 1,10 ... 1,9 ... 1,先用乘法想: 2 乘以多少最接近 19?,1,final
+m3-n-u6-098,3,math,nanyi,choice,8 ÷ 3 = ?,1 ... 2,3 ... 2,3 ... 2,2 ... 2,2 ... 2,先用乘法想: 3 乘以多少最接近 8?,1,final
+m3-n-u6-099,3,math,nanyi,choice,45 ÷ 5 = ?,8,9,10,9 ... 1,9,先用乘法想: 5 乘以多少最接近 45?,1,final
+m3-n-u6-100,3,math,nanyi,choice,12 ÷ 2 = ?,5,6 ... 1,7,6,6,先用乘法想: 2 乘以多少最接近 12?,1,final
+m3-n-u7-001,3,math,nanyi,choice,"找規律: 100, 91, 82, (?), 64",64,73,72,82,73,每次減 9,1,final
+m3-n-u7-002,3,math,nanyi,choice,"找規律: 4, 8, 16, (?), 64",16,34,32,64,32,後面的數是前面的2倍,1,final
+m3-n-u7-003,3,math,nanyi,choice,"找規律: 60, 54, 48, (?), 36",48,41,42,36,42,每次減 6,1,final
+m3-n-u7-004,3,math,nanyi,choice,"找規律: 1, 2, 4, (?), 16",10,4,16,8,8,後面的數是前面的2倍,1,final
+m3-n-u7-005,3,math,nanyi,choice,"找規律: 6, 4, 6, 4, (?), 4",10,6,2,4,6,數字重複出現,1,final
+m3-n-u7-006,3,math,nanyi,choice,"找規律: 36, 41, 46, (?), 56",51,52,56,46,51,每次加 5,1,final
+m3-n-u7-007,3,math,nanyi,choice,"找規律: 11, 15, 19, (?), 27",24,23,19,27,23,每次加 4,1,final
+m3-n-u7-008,3,math,nanyi,choice,"找規律: 96, 90, 84, (?), 72",72,84,77,78,78,每次減 6,1,final
+m3-n-u7-009,3,math,nanyi,choice,"找規律: 5, 7, 5, 7, (?), 7",5,7,2,12,5,數字重複出現,1,final
+m3-n-u7-010,3,math,nanyi,choice,"找規律: 9, 1, 9, 1, (?), 1",1,9,10,8,9,數字重複出現,1,final
+m3-n-u7-011,3,math,nanyi,choice,"找規律: 51, 43, 35, (?), 19",27,35,26,19,27,每次減 8,1,final
+m3-n-u7-012,3,math,nanyi,choice,"找規律: 34, 41, 48, (?), 62",56,55,48,62,55,每次加 7,1,final
+m3-n-u7-013,3,math,nanyi,choice,"找規律: 51, 48, 45, (?), 39",41,42,45,39,42,每次減 3,1,final
+m3-n-u7-014,3,math,nanyi,choice,"找規律: 5, 10, 20, (?), 80",42,80,20,40,40,後面的數是前面的2倍,1,final
+m3-n-u7-015,3,math,nanyi,choice,"找規律: 78, 71, 64, (?), 50",50,64,56,57,57,每次減 7,1,final
+m3-n-u7-016,3,math,nanyi,choice,"找規律: 5, 10, 20, (?), 80",80,20,40,42,40,後面的數是前面的2倍,1,final
+m3-n-u7-017,3,math,nanyi,choice,"找規律: 75, 65, 55, (?), 35",35,45,44,55,45,每次減 10,1,final
+m3-n-u7-018,3,math,nanyi,choice,"找規律: 3, 6, 12, (?), 48",12,26,48,24,24,後面的數是前面的2倍,1,final
+m3-n-u7-019,3,math,nanyi,choice,"找規律: 95, 87, 79, (?), 63",63,79,71,70,71,每次減 8,1,final
+m3-n-u7-020,3,math,nanyi,choice,"找規律: 5, 10, 20, (?), 80",40,80,20,42,40,後面的數是前面的2倍,1,final
+m3-n-u7-021,3,math,nanyi,choice,"找規律: 29, 37, 45, (?), 61",53,54,61,45,53,每次加 8,1,final
+m3-n-u7-022,3,math,nanyi,choice,"找規律: 3, 6, 12, (?), 48",48,24,26,12,24,後面的數是前面的2倍,1,final
+m3-n-u7-023,3,math,nanyi,choice,"找規律: 4, 8, 16, (?), 64",34,32,64,16,32,後面的數是前面的2倍,1,final
+m3-n-u7-024,3,math,nanyi,choice,"找規律: 3, 9, 15, (?), 27",22,15,27,21,21,每次加 6,1,final
+m3-n-u7-025,3,math,nanyi,choice,"找規律: 58, 49, 40, (?), 22",30,22,31,40,31,每次減 9,1,final
+m3-n-u7-026,3,math,nanyi,choice,"找規律: 1, 9, 1, 9, (?), 9",10,1,8,9,1,數字重複出現,1,final
+m3-n-u7-027,3,math,nanyi,choice,"找規律: 7, 3, 7, 3, (?), 3",7,3,10,4,7,數字重複出現,1,final
+m3-n-u7-028,3,math,nanyi,choice,"找規律: 39, 42, 45, (?), 51",49,45,51,48,48,每次加 3,1,final
+m3-n-u7-029,3,math,nanyi,choice,"找規律: 85, 82, 79, (?), 73",75,79,76,73,76,每次減 3,1,final
+m3-n-u7-030,3,math,nanyi,choice,"找規律: 2, 4, 8, (?), 32",8,16,18,32,16,後面的數是前面的2倍,1,final
+m3-n-u7-031,3,math,nanyi,choice,"找規律: 46, 50, 54, (?), 62",59,58,62,54,58,每次加 4,1,final
+m3-n-u7-032,3,math,nanyi,choice,"找規律: 5, 10, 20, (?), 80",20,42,80,40,40,後面的數是前面的2倍,1,final
+m3-n-u7-033,3,math,nanyi,choice,"找規律: 5, 10, 20, (?), 80",80,42,40,20,40,後面的數是前面的2倍,1,final
+m3-n-u7-034,3,math,nanyi,choice,"找規律: 77, 70, 63, (?), 49",55,49,63,56,56,每次減 7,1,final
+m3-n-u7-035,3,math,nanyi,choice,"找規律: 40, 47, 54, (?), 68",68,61,54,62,61,每次加 7,1,final
+m3-n-u7-036,3,math,nanyi,choice,"找規律: 7, 2, 7, 2, (?), 2",5,2,7,9,7,數字重複出現,1,final
+m3-n-u7-037,3,math,nanyi,choice,"找規律: 41, 45, 49, (?), 57",53,57,54,49,53,每次加 4,1,final
+m3-n-u7-038,3,math,nanyi,choice,"找規律: 75, 73, 71, (?), 67",67,71,69,68,69,每次減 2,1,final
+m3-n-u7-039,3,math,nanyi,choice,"找規律: 5, 8, 11, (?), 17",15,17,14,11,14,每次加 3,1,final
+m3-n-u7-040,3,math,nanyi,choice,"找規律: 23, 32, 41, (?), 59",41,59,50,51,50,每次加 9,1,final
+m3-n-u7-041,3,math,nanyi,choice,"找規律: 2, 4, 2, 4, (?), 4",2,4,2,6,2,數字重複出現,1,final
+m3-n-u7-042,3,math,nanyi,choice,"找規律: 5, 2, 5, 2, (?), 2",7,5,3,2,5,數字重複出現,1,final
+m3-n-u7-043,3,math,nanyi,choice,"找規律: 4, 8, 16, (?), 64",16,32,64,34,32,後面的數是前面的2倍,1,final
+m3-n-u7-044,3,math,nanyi,choice,"找規律: 57, 49, 41, (?), 25",33,41,32,25,33,每次減 8,1,final
+m3-n-u7-045,3,math,nanyi,choice,"找規律: 6, 12, 18, (?), 30",25,18,30,24,24,每次加 6,1,final
+m3-n-u7-046,3,math,nanyi,choice,"找規律: 73, 65, 57, (?), 41",48,49,41,57,49,每次減 8,1,final
+m3-n-u7-047,3,math,nanyi,choice,"找規律: 4, 2, 4, 2, (?), 2",6,4,2,2,4,數字重複出現,1,final
+m3-n-u7-048,3,math,nanyi,choice,"找規律: 3, 6, 12, (?), 48",48,26,12,24,24,後面的數是前面的2倍,1,final
+m3-n-u7-049,3,math,nanyi,choice,"找規律: 1, 2, 4, (?), 16",16,8,4,10,8,後面的數是前面的2倍,1,final
+m3-n-u7-050,3,math,nanyi,choice,"找規律: 2, 4, 6, (?), 10",8,9,6,10,8,每次加 2,1,final
+m3-n-u7-051,3,math,nanyi,choice,"找規律: 70, 65, 60, (?), 50",50,60,54,55,55,每次減 5,1,final
+m3-n-u7-052,3,math,nanyi,choice,"找規律: 47, 55, 63, (?), 79",63,72,71,79,71,每次加 8,1,final
+m3-n-u7-053,3,math,nanyi,choice,"找規律: 43, 53, 63, (?), 83",74,63,73,83,73,每次加 10,1,final
+m3-n-u7-054,3,math,nanyi,choice,"找規律: 1, 2, 4, (?), 16",16,10,4,8,8,後面的數是前面的2倍,1,final
+m3-n-u7-055,3,math,nanyi,choice,"找規律: 5, 10, 20, (?), 80",80,40,20,42,40,後面的數是前面的2倍,1,final
+m3-n-u7-056,3,math,nanyi,choice,"找規律: 7, 5, 7, 5, (?), 5",7,12,5,2,7,數字重複出現,1,final
+m3-n-u7-057,3,math,nanyi,choice,"找規律: 57, 50, 43, (?), 29",29,35,36,43,36,每次減 7,1,final
+m3-n-u7-058,3,math,nanyi,choice,"找規律: 3, 7, 3, 7, (?), 7",3,4,7,10,3,數字重複出現,1,final
+m3-n-u7-059,3,math,nanyi,choice,"找規律: 90, 83, 76, (?), 62",62,69,68,76,69,每次減 7,1,final
+m3-n-u7-060,3,math,nanyi,choice,"找規律: 4, 8, 16, (?), 64",16,32,34,64,32,後面的數是前面的2倍,1,final
+m3-n-u7-061,3,math,nanyi,choice,"找規律: 64, 61, 58, (?), 52",55,58,52,54,55,每次減 3,1,final
+m3-n-u7-062,3,math,nanyi,choice,"找規律: 24, 29, 34, (?), 44",34,39,44,40,39,每次加 5,1,final
+m3-n-u7-063,3,math,nanyi,choice,"找規律: 4, 3, 4, 3, (?), 3",3,4,7,1,4,數字重複出現,1,final
+m3-n-u7-064,3,math,nanyi,choice,"找規律: 88, 78, 68, (?), 48",58,57,48,68,58,每次減 10,1,final
+m3-n-u7-065,3,math,nanyi,choice,"找規律: 97, 91, 85, (?), 73",73,78,85,79,79,每次減 6,1,final
+m3-n-u7-066,3,math,nanyi,choice,"找規律: 6, 1, 6, 1, (?), 1",7,6,1,5,6,數字重複出現,1,final
+m3-n-u7-067,3,math,nanyi,choice,"找規律: 12, 14, 16, (?), 20",20,18,16,19,18,每次加 2,1,final
+m3-n-u7-068,3,math,nanyi,choice,"找規律: 8, 16, 24, (?), 40",40,24,33,32,32,每次加 8,1,final
+m3-n-u7-069,3,math,nanyi,choice,"找規律: 3, 6, 12, (?), 48",12,24,48,26,24,後面的數是前面的2倍,1,final
+m3-n-u7-070,3,math,nanyi,choice,"找規律: 92, 90, 88, (?), 84",86,88,85,84,86,每次減 2,1,final
+m3-n-u7-071,3,math,nanyi,choice,"找規律: 97, 88, 79, (?), 61",61,79,70,69,70,每次減 9,1,final
+m3-n-u7-072,3,math,nanyi,choice,"找規律: 2, 4, 8, (?), 32",16,8,18,32,16,後面的數是前面的2倍,1,final
+m3-n-u7-073,3,math,nanyi,choice,"找規律: 3, 6, 12, (?), 48",12,48,26,24,24,後面的數是前面的2倍,1,final
+m3-n-u7-074,3,math,nanyi,choice,"找規律: 9, 11, 13, (?), 17",17,15,13,16,15,每次加 2,1,final
+m3-n-u7-075,3,math,nanyi,choice,"找規律: 97, 88, 79, (?), 61",61,69,79,70,70,每次減 9,1,final
+m3-n-u7-076,3,math,nanyi,choice,"找規律: 87, 85, 83, (?), 79",83,81,80,79,81,每次減 2,1,final
+m3-n-u7-077,3,math,nanyi,choice,"找規律: 83, 75, 67, (?), 51",67,51,59,58,59,每次減 8,1,final
+m3-n-u7-078,3,math,nanyi,choice,"找規律: 6, 8, 6, 8, (?), 8",8,2,14,6,6,數字重複出現,1,final
+m3-n-u7-079,3,math,nanyi,choice,"找規律: 1, 2, 4, (?), 16",8,16,10,4,8,後面的數是前面的2倍,1,final
+m3-n-u7-080,3,math,nanyi,choice,"找規律: 60, 50, 40, (?), 20",40,20,29,30,30,每次減 10,1,final
+m3-n-u7-081,3,math,nanyi,choice,"找規律: 5, 6, 5, 6, (?), 6",6,11,5,1,5,數字重複出現,1,final
+m3-n-u7-082,3,math,nanyi,choice,"找規律: 9, 5, 9, 5, (?), 5",5,4,14,9,9,數字重複出現,1,final
+m3-n-u7-083,3,math,nanyi,choice,"找規律: 4, 9, 4, 9, (?), 9",9,5,4,13,4,數字重複出現,1,final
+m3-n-u7-084,3,math,nanyi,choice,"找規律: 7, 1, 7, 1, (?), 1",6,1,7,8,7,數字重複出現,1,final
+m3-n-u7-085,3,math,nanyi,choice,"找規律: 1, 2, 4, (?), 16",16,4,8,10,8,後面的數是前面的2倍,1,final
+m3-n-u7-086,3,math,nanyi,choice,"找規律: 2, 1, 2, 1, (?), 1",3,2,1,1,2,數字重複出現,1,final
+m3-n-u7-087,3,math,nanyi,choice,"找規律: 4, 5, 4, 5, (?), 5",5,4,9,1,4,數字重複出現,1,final
+m3-n-u7-088,3,math,nanyi,choice,"找規律: 34, 37, 40, (?), 46",44,43,46,40,43,每次加 3,1,final
+m3-n-u7-089,3,math,nanyi,choice,"找規律: 96, 91, 86, (?), 76",81,80,86,76,81,每次減 5,1,final
+m3-n-u7-090,3,math,nanyi,choice,"找規律: 2, 11, 20, (?), 38",29,38,20,30,29,每次加 9,1,final
+m3-n-u7-091,3,math,nanyi,choice,"找規律: 9, 6, 9, 6, (?), 6",3,15,6,9,9,數字重複出現,1,final
+m3-n-u7-092,3,math,nanyi,choice,"找規律: 61, 53, 45, (?), 29",45,36,29,37,37,每次減 8,1,final
+m3-n-u7-093,3,math,nanyi,choice,"找規律: 10, 12, 14, (?), 18",14,17,18,16,16,每次加 2,1,final
+m3-n-u7-094,3,math,nanyi,choice,"找規律: 1, 7, 1, 7, (?), 7",6,1,7,8,1,數字重複出現,1,final
+m3-n-u7-095,3,math,nanyi,choice,"找規律: 28, 35, 42, (?), 56",56,42,49,50,49,每次加 7,1,final
+m3-n-u7-096,3,math,nanyi,choice,"找規律: 57, 48, 39, (?), 21",39,29,21,30,30,每次減 9,1,final
+m3-n-u7-097,3,math,nanyi,choice,"找規律: 83, 73, 63, (?), 43",52,53,63,43,53,每次減 10,1,final
+m3-n-u7-098,3,math,nanyi,choice,"找規律: 10, 19, 28, (?), 46",38,37,28,46,37,每次加 9,1,final
+m3-n-u7-099,3,math,nanyi,choice,"找規律: 3, 6, 12, (?), 48",24,12,26,48,24,後面的數是前面的2倍,1,final
+m3-n-u7-100,3,math,nanyi,choice,"找規律: 2, 4, 8, (?), 32",18,32,8,16,16,後面的數是前面的2倍,1,final
+m3-n-u8-001,3,math,nanyi,choice,比較 五分之一 和 六分之一 誰比較大？,五分之一,六分之一,一樣大,不能比較,五分之一,分母越小，分數越大,1,final
+m3-n-u8-002,3,math,nanyi,choice,比較 十二分之一 和 九分之一 誰比較大？,一樣大,九分之一,不能比較,十二分之一,九分之一,分母越小，分數越大,1,final
+m3-n-u8-003,3,math,nanyi,choice,比較 四分之一 和 十二分之一 誰比較大？,不能比較,十二分之一,四分之一,一樣大,四分之一,分母越小，分數越大,1,final
+m3-n-u8-004,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,二分之一,三分之一,三,四分之一,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-005,3,math,nanyi,choice,比較 十二分之一 和 四分之一 誰比較大？,十二分之一,不能比較,四分之一,一樣大,四分之一,分母越小，分數越大,1,final
+m3-n-u8-006,3,math,nanyi,choice,比較 七分之一 和 六分之一 誰比較大？,六分之一,一樣大,七分之一,不能比較,六分之一,分母越小，分數越大,1,final
+m3-n-u8-007,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,二分之一,三分之一,四分之一,三,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-008,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,二分之一,四分之一,三,三分之一,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-009,3,math,nanyi,choice,比較 四分之一 和 六分之一 誰比較大？,四分之一,不能比較,六分之一,一樣大,四分之一,分母越小，分數越大,1,final
+m3-n-u8-010,3,math,nanyi,choice,比較 十二分之一 和 九分之一 誰比較大？,不能比較,九分之一,一樣大,十二分之一,九分之一,分母越小，分數越大,1,final
+m3-n-u8-011,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,四分之一,三,二分之一,三分之一,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-012,3,math,nanyi,choice,一盒布丁有 8 個，吃掉 1 個是幾盒？,八分之一,七分之一,八,九分之一,八分之一,全部有 8 個，其中的 1 個,1,final
+m3-n-u8-013,3,math,nanyi,choice,一盒布丁有 9 個，吃掉 1 個是幾盒？,九,十分之一,八分之一,九分之一,九分之一,全部有 9 個，其中的 1 個,1,final
+m3-n-u8-014,3,math,nanyi,choice,比較 七分之一 和 十一分之一 誰比較大？,十一分之一,一樣大,不能比較,七分之一,七分之一,分母越小，分數越大,1,final
+m3-n-u8-015,3,math,nanyi,choice,比較 二分之一 和 八分之一 誰比較大？,一樣大,八分之一,不能比較,二分之一,二分之一,分母越小，分數越大,1,final
+m3-n-u8-016,3,math,nanyi,choice,比較 十分之一 和 九分之一 誰比較大？,不能比較,一樣大,十分之一,九分之一,九分之一,分母越小，分數越大,1,final
+m3-n-u8-017,3,math,nanyi,choice,比較 三分之一 和 十二分之一 誰比較大？,三分之一,不能比較,一樣大,十二分之一,三分之一,分母越小，分數越大,1,final
+m3-n-u8-018,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,五,六分之一,四分之一,五分之一,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-019,3,math,nanyi,choice,比較 四分之一 和 九分之一 誰比較大？,一樣大,九分之一,不能比較,四分之一,四分之一,分母越小，分數越大,1,final
+m3-n-u8-020,3,math,nanyi,choice,比較 十一分之一 和 六分之一 誰比較大？,六分之一,十一分之一,一樣大,不能比較,六分之一,分母越小，分數越大,1,final
+m3-n-u8-021,3,math,nanyi,choice,比較 八分之一 和 四分之一 誰比較大？,四分之一,不能比較,八分之一,一樣大,四分之一,分母越小，分數越大,1,final
+m3-n-u8-022,3,math,nanyi,choice,比較 六分之一 和 三分之一 誰比較大？,三分之一,不能比較,六分之一,一樣大,三分之一,分母越小，分數越大,1,final
+m3-n-u8-023,3,math,nanyi,choice,一盒布丁有 4 個，吃掉 1 個是幾盒？,五分之一,四分之一,三分之一,四,四分之一,全部有 4 個，其中的 1 個,1,final
+m3-n-u8-024,3,math,nanyi,choice,一盒布丁有 2 個，吃掉 1 個是幾盒？,二分之一,三分之一,一,二,二分之一,全部有 2 個，其中的 1 個,1,final
+m3-n-u8-025,3,math,nanyi,choice,比較 九分之一 和 六分之一 誰比較大？,不能比較,六分之一,一樣大,九分之一,六分之一,分母越小，分數越大,1,final
+m3-n-u8-026,3,math,nanyi,choice,一盒布丁有 7 個，吃掉 1 個是幾盒？,七分之一,七,六分之一,八分之一,七分之一,全部有 7 個，其中的 1 個,1,final
+m3-n-u8-027,3,math,nanyi,choice,比較 十一分之一 和 四分之一 誰比較大？,四分之一,一樣大,十一分之一,不能比較,四分之一,分母越小，分數越大,1,final
+m3-n-u8-028,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,四分之一,五分之一,五,六分之一,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-029,3,math,nanyi,choice,比較 十分之一 和 九分之一 誰比較大？,十分之一,一樣大,九分之一,不能比較,九分之一,分母越小，分數越大,1,final
+m3-n-u8-030,3,math,nanyi,choice,比較 九分之一 和 十一分之一 誰比較大？,九分之一,一樣大,不能比較,十一分之一,九分之一,分母越小，分數越大,1,final
+m3-n-u8-031,3,math,nanyi,choice,比較 九分之一 和 八分之一 誰比較大？,九分之一,八分之一,一樣大,不能比較,八分之一,分母越小，分數越大,1,final
+m3-n-u8-032,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,十,十分之一,十一分之一,九分之一,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-033,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,二分之一,三分之一,四分之一,三,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-034,3,math,nanyi,choice,比較 九分之一 和 十分之一 誰比較大？,一樣大,九分之一,十分之一,不能比較,九分之一,分母越小，分數越大,1,final
+m3-n-u8-035,3,math,nanyi,choice,比較 二分之一 和 四分之一 誰比較大？,一樣大,不能比較,二分之一,四分之一,二分之一,分母越小，分數越大,1,final
+m3-n-u8-036,3,math,nanyi,choice,比較 五分之一 和 九分之一 誰比較大？,五分之一,一樣大,九分之一,不能比較,五分之一,分母越小，分數越大,1,final
+m3-n-u8-037,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,九分之一,十分之一,十,十一分之一,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-038,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,十分之一,十一分之一,十,九分之一,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-039,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,四分之一,五,六分之一,五分之一,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-040,3,math,nanyi,choice,比較 十二分之一 和 八分之一 誰比較大？,不能比較,八分之一,十二分之一,一樣大,八分之一,分母越小，分數越大,1,final
+m3-n-u8-041,3,math,nanyi,choice,比較 十分之一 和 七分之一 誰比較大？,一樣大,七分之一,十分之一,不能比較,七分之一,分母越小，分數越大,1,final
+m3-n-u8-042,3,math,nanyi,choice,一盒布丁有 6 個，吃掉 1 個是幾盒？,六,五分之一,六分之一,七分之一,六分之一,全部有 6 個，其中的 1 個,1,final
+m3-n-u8-043,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,十一分之一,九分之一,十分之一,十,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-044,3,math,nanyi,choice,一盒布丁有 4 個，吃掉 1 個是幾盒？,五分之一,四分之一,三分之一,四,四分之一,全部有 4 個，其中的 1 個,1,final
+m3-n-u8-045,3,math,nanyi,choice,比較 七分之一 和 九分之一 誰比較大？,七分之一,一樣大,不能比較,九分之一,七分之一,分母越小，分數越大,1,final
+m3-n-u8-046,3,math,nanyi,choice,一盒布丁有 6 個，吃掉 1 個是幾盒？,七分之一,五分之一,六分之一,六,六分之一,全部有 6 個，其中的 1 個,1,final
+m3-n-u8-047,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,六分之一,五分之一,四分之一,五,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-048,3,math,nanyi,choice,比較 十二分之一 和 八分之一 誰比較大？,不能比較,十二分之一,一樣大,八分之一,八分之一,分母越小，分數越大,1,final
+m3-n-u8-049,3,math,nanyi,choice,一盒布丁有 6 個，吃掉 1 個是幾盒？,七分之一,六,六分之一,五分之一,六分之一,全部有 6 個，其中的 1 個,1,final
+m3-n-u8-050,3,math,nanyi,choice,比較 十分之一 和 六分之一 誰比較大？,六分之一,十分之一,不能比較,一樣大,六分之一,分母越小，分數越大,1,final
+m3-n-u8-051,3,math,nanyi,choice,比較 九分之一 和 二分之一 誰比較大？,二分之一,不能比較,一樣大,九分之一,二分之一,分母越小，分數越大,1,final
+m3-n-u8-052,3,math,nanyi,choice,一盒布丁有 6 個，吃掉 1 個是幾盒？,七分之一,六分之一,五分之一,六,六分之一,全部有 6 個，其中的 1 個,1,final
+m3-n-u8-053,3,math,nanyi,choice,一盒布丁有 8 個，吃掉 1 個是幾盒？,八,七分之一,九分之一,八分之一,八分之一,全部有 8 個，其中的 1 個,1,final
+m3-n-u8-054,3,math,nanyi,choice,一盒布丁有 2 個，吃掉 1 個是幾盒？,一,二分之一,三分之一,二,二分之一,全部有 2 個，其中的 1 個,1,final
+m3-n-u8-055,3,math,nanyi,choice,比較 十一分之一 和 六分之一 誰比較大？,一樣大,十一分之一,六分之一,不能比較,六分之一,分母越小，分數越大,1,final
+m3-n-u8-056,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,六分之一,五分之一,五,四分之一,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-057,3,math,nanyi,choice,比較 六分之一 和 五分之一 誰比較大？,不能比較,一樣大,六分之一,五分之一,五分之一,分母越小，分數越大,1,final
+m3-n-u8-058,3,math,nanyi,choice,比較 二分之一 和 三分之一 誰比較大？,一樣大,不能比較,三分之一,二分之一,二分之一,分母越小，分數越大,1,final
+m3-n-u8-059,3,math,nanyi,choice,一盒布丁有 8 個，吃掉 1 個是幾盒？,八分之一,七分之一,八,九分之一,八分之一,全部有 8 個，其中的 1 個,1,final
+m3-n-u8-060,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,五,四分之一,五分之一,六分之一,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-061,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,九分之一,十一分之一,十分之一,十,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-062,3,math,nanyi,choice,比較 十分之一 和 九分之一 誰比較大？,九分之一,不能比較,十分之一,一樣大,九分之一,分母越小，分數越大,1,final
+m3-n-u8-063,3,math,nanyi,choice,比較 六分之一 和 十二分之一 誰比較大？,六分之一,十二分之一,一樣大,不能比較,六分之一,分母越小，分數越大,1,final
+m3-n-u8-064,3,math,nanyi,choice,比較 十二分之一 和 六分之一 誰比較大？,十二分之一,六分之一,不能比較,一樣大,六分之一,分母越小，分數越大,1,final
+m3-n-u8-065,3,math,nanyi,choice,一盒布丁有 4 個，吃掉 1 個是幾盒？,三分之一,五分之一,四分之一,四,四分之一,全部有 4 個，其中的 1 個,1,final
+m3-n-u8-066,3,math,nanyi,choice,一盒布丁有 7 個，吃掉 1 個是幾盒？,八分之一,六分之一,七,七分之一,七分之一,全部有 7 個，其中的 1 個,1,final
+m3-n-u8-067,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,三分之一,三,四分之一,二分之一,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-068,3,math,nanyi,choice,比較 二分之一 和 三分之一 誰比較大？,三分之一,不能比較,二分之一,一樣大,二分之一,分母越小，分數越大,1,final
+m3-n-u8-069,3,math,nanyi,choice,比較 十二分之一 和 九分之一 誰比較大？,一樣大,不能比較,十二分之一,九分之一,九分之一,分母越小，分數越大,1,final
+m3-n-u8-070,3,math,nanyi,choice,比較 八分之一 和 七分之一 誰比較大？,一樣大,不能比較,七分之一,八分之一,七分之一,分母越小，分數越大,1,final
+m3-n-u8-071,3,math,nanyi,choice,一盒布丁有 4 個，吃掉 1 個是幾盒？,四,三分之一,四分之一,五分之一,四分之一,全部有 4 個，其中的 1 個,1,final
+m3-n-u8-072,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,四分之一,三分之一,三,二分之一,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-073,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,九分之一,十一分之一,十,十分之一,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-074,3,math,nanyi,choice,比較 八分之一 和 六分之一 誰比較大？,六分之一,不能比較,一樣大,八分之一,六分之一,分母越小，分數越大,1,final
+m3-n-u8-075,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,三,三分之一,二分之一,四分之一,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-076,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,十分之一,十,十一分之一,九分之一,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-077,3,math,nanyi,choice,一盒布丁有 7 個，吃掉 1 個是幾盒？,八分之一,七分之一,七,六分之一,七分之一,全部有 7 個，其中的 1 個,1,final
+m3-n-u8-078,3,math,nanyi,choice,比較 十二分之一 和 九分之一 誰比較大？,十二分之一,九分之一,一樣大,不能比較,九分之一,分母越小，分數越大,1,final
+m3-n-u8-079,3,math,nanyi,choice,比較 四分之一 和 八分之一 誰比較大？,一樣大,八分之一,四分之一,不能比較,四分之一,分母越小，分數越大,1,final
+m3-n-u8-080,3,math,nanyi,choice,比較 三分之一 和 四分之一 誰比較大？,三分之一,不能比較,四分之一,一樣大,三分之一,分母越小，分數越大,1,final
+m3-n-u8-081,3,math,nanyi,choice,比較 七分之一 和 二分之一 誰比較大？,一樣大,七分之一,二分之一,不能比較,二分之一,分母越小，分數越大,1,final
+m3-n-u8-082,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,五,五分之一,六分之一,四分之一,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-083,3,math,nanyi,choice,一盒布丁有 6 個，吃掉 1 個是幾盒？,五分之一,六分之一,六,七分之一,六分之一,全部有 6 個，其中的 1 個,1,final
+m3-n-u8-084,3,math,nanyi,choice,比較 八分之一 和 九分之一 誰比較大？,一樣大,八分之一,不能比較,九分之一,八分之一,分母越小，分數越大,1,final
+m3-n-u8-085,3,math,nanyi,choice,比較 五分之一 和 十二分之一 誰比較大？,不能比較,十二分之一,五分之一,一樣大,五分之一,分母越小，分數越大,1,final
+m3-n-u8-086,3,math,nanyi,choice,一盒布丁有 8 個，吃掉 1 個是幾盒？,七分之一,八,八分之一,九分之一,八分之一,全部有 8 個，其中的 1 個,1,final
+m3-n-u8-087,3,math,nanyi,choice,一盒布丁有 4 個，吃掉 1 個是幾盒？,四分之一,三分之一,四,五分之一,四分之一,全部有 4 個，其中的 1 個,1,final
+m3-n-u8-088,3,math,nanyi,choice,一盒布丁有 8 個，吃掉 1 個是幾盒？,八,九分之一,八分之一,七分之一,八分之一,全部有 8 個，其中的 1 個,1,final
+m3-n-u8-089,3,math,nanyi,choice,比較 二分之一 和 十分之一 誰比較大？,不能比較,十分之一,一樣大,二分之一,二分之一,分母越小，分數越大,1,final
+m3-n-u8-090,3,math,nanyi,choice,比較 三分之一 和 十一分之一 誰比較大？,三分之一,不能比較,一樣大,十一分之一,三分之一,分母越小，分數越大,1,final
+m3-n-u8-091,3,math,nanyi,choice,一盒布丁有 10 個，吃掉 1 個是幾盒？,九分之一,十一分之一,十,十分之一,十分之一,全部有 10 個，其中的 1 個,1,final
+m3-n-u8-092,3,math,nanyi,choice,比較 十分之一 和 十二分之一 誰比較大？,不能比較,十二分之一,一樣大,十分之一,十分之一,分母越小，分數越大,1,final
+m3-n-u8-093,3,math,nanyi,choice,一盒布丁有 4 個，吃掉 1 個是幾盒？,三分之一,四,四分之一,五分之一,四分之一,全部有 4 個，其中的 1 個,1,final
+m3-n-u8-094,3,math,nanyi,choice,一盒布丁有 3 個，吃掉 1 個是幾盒？,三,三分之一,四分之一,二分之一,三分之一,全部有 3 個，其中的 1 個,1,final
+m3-n-u8-095,3,math,nanyi,choice,一盒布丁有 8 個，吃掉 1 個是幾盒？,八,八分之一,七分之一,九分之一,八分之一,全部有 8 個，其中的 1 個,1,final
+m3-n-u8-096,3,math,nanyi,choice,一盒布丁有 5 個，吃掉 1 個是幾盒？,六分之一,五,四分之一,五分之一,五分之一,全部有 5 個，其中的 1 個,1,final
+m3-n-u8-097,3,math,nanyi,choice,一盒布丁有 9 個，吃掉 1 個是幾盒？,十分之一,九分之一,八分之一,九,九分之一,全部有 9 個，其中的 1 個,1,final
+m3-n-u8-098,3,math,nanyi,choice,比較 八分之一 和 二分之一 誰比較大？,不能比較,二分之一,一樣大,八分之一,二分之一,分母越小，分數越大,1,final
+m3-n-u8-099,3,math,nanyi,choice,一盒布丁有 7 個，吃掉 1 個是幾盒？,七分之一,六分之一,七,八分之一,七分之一,全部有 7 個，其中的 1 個,1,final
+m3-n-u8-100,3,math,nanyi,choice,比較 十分之一 和 九分之一 誰比較大？,一樣大,九分之一,十分之一,不能比較,九分之一,分母越小，分數越大,1,final
+m3-n-u9-001,3,math,nanyi,choice,若圓的半徑是 2 公分，請問直徑是多少公分？,4,4,8,2,4,直徑 = 半徑 × 2,1,final
+m3-n-u9-002,3,math,nanyi,choice,若圓的直徑是 38 公分，請問半徑是多少公分？,76,17,38,19,19,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-003,3,math,nanyi,choice,若圓的半徑是 13 公分，請問直徑是多少公分？,15,13,52,26,26,直徑 = 半徑 × 2,1,final
+m3-n-u9-004,3,math,nanyi,choice,若圓的直徑是 34 公分，請問半徑是多少公分？,34,17,15,68,17,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-005,3,math,nanyi,choice,若圓的半徑是 17 公分，請問直徑是多少公分？,19,34,17,68,34,直徑 = 半徑 × 2,1,final
+m3-n-u9-006,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,半徑,圓心,直徑,圓周,半徑,畫圓時固定的距離,1,final
+m3-n-u9-007,3,math,nanyi,choice,若圓的直徑是 22 公分，請問半徑是多少公分？,11,44,9,22,11,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-008,3,math,nanyi,choice,若圓的半徑是 6 公分，請問直徑是多少公分？,8,6,12,24,12,直徑 = 半徑 × 2,1,final
+m3-n-u9-009,3,math,nanyi,choice,若圓的半徑是 14 公分，請問直徑是多少公分？,14,16,56,28,28,直徑 = 半徑 × 2,1,final
+m3-n-u9-010,3,math,nanyi,choice,決定圓大小的是什麼？,半徑,位置,顏色,圓心,半徑,半徑越長圓越大,1,final
+m3-n-u9-011,3,math,nanyi,choice,若圓的直徑是 32 公分，請問半徑是多少公分？,64,14,32,16,16,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-012,3,math,nanyi,choice,圓裡面最長的直線是什麼？,直徑,半徑,圓心,圓周,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-013,3,math,nanyi,choice,若圓的直徑是 8 公分，請問半徑是多少公分？,16,8,2,4,4,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-014,3,math,nanyi,choice,若圓的半徑是 10 公分，請問直徑是多少公分？,10,40,12,20,20,直徑 = 半徑 × 2,1,final
+m3-n-u9-015,3,math,nanyi,choice,若圓的半徑是 12 公分，請問直徑是多少公分？,24,48,12,14,24,直徑 = 半徑 × 2,1,final
+m3-n-u9-016,3,math,nanyi,choice,決定圓大小的是什麼？,半徑,顏色,位置,圓心,半徑,半徑越長圓越大,1,final
+m3-n-u9-017,3,math,nanyi,choice,若圓的半徑是 14 公分，請問直徑是多少公分？,14,56,16,28,28,直徑 = 半徑 × 2,1,final
+m3-n-u9-018,3,math,nanyi,choice,圓裡面最長的直線是什麼？,圓周,圓心,直徑,半徑,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-019,3,math,nanyi,choice,若圓的半徑是 4 公分，請問直徑是多少公分？,4,16,8,6,8,直徑 = 半徑 × 2,1,final
+m3-n-u9-020,3,math,nanyi,choice,圓裡面最長的直線是什麼？,圓周,圓心,半徑,直徑,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-021,3,math,nanyi,choice,若圓的直徑是 16 公分，請問半徑是多少公分？,6,8,32,16,8,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-022,3,math,nanyi,choice,若圓的直徑是 16 公分，請問半徑是多少公分？,32,6,16,8,8,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-023,3,math,nanyi,choice,若圓的半徑是 13 公分，請問直徑是多少公分？,52,15,26,13,26,直徑 = 半徑 × 2,1,final
+m3-n-u9-024,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓周,半徑,直徑,圓心,半徑,畫圓時固定的距離,1,final
+m3-n-u9-025,3,math,nanyi,choice,若圓的半徑是 6 公分，請問直徑是多少公分？,12,24,8,6,12,直徑 = 半徑 × 2,1,final
+m3-n-u9-026,3,math,nanyi,choice,若圓的半徑是 18 公分，請問直徑是多少公分？,20,72,36,18,36,直徑 = 半徑 × 2,1,final
+m3-n-u9-027,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓周,半徑,直徑,圓心,半徑,畫圓時固定的距離,1,final
+m3-n-u9-028,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,半徑,直徑,圓心,圓周,半徑,畫圓時固定的距離,1,final
+m3-n-u9-029,3,math,nanyi,choice,若圓的半徑是 6 公分，請問直徑是多少公分？,12,6,8,24,12,直徑 = 半徑 × 2,1,final
+m3-n-u9-030,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓心,圓周,直徑,半徑,半徑,畫圓時固定的距離,1,final
+m3-n-u9-031,3,math,nanyi,choice,若圓的半徑是 13 公分，請問直徑是多少公分？,52,13,26,15,26,直徑 = 半徑 × 2,1,final
+m3-n-u9-032,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓心,圓周,半徑,直徑,半徑,畫圓時固定的距離,1,final
+m3-n-u9-033,3,math,nanyi,choice,若圓的直徑是 10 公分，請問半徑是多少公分？,10,20,3,5,5,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-034,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,半徑,直徑,圓周,圓心,半徑,畫圓時固定的距離,1,final
+m3-n-u9-035,3,math,nanyi,choice,若圓的直徑是 36 公分，請問半徑是多少公分？,16,72,36,18,18,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-036,3,math,nanyi,choice,若圓的半徑是 8 公分，請問直徑是多少公分？,8,32,10,16,16,直徑 = 半徑 × 2,1,final
+m3-n-u9-037,3,math,nanyi,choice,若圓的直徑是 36 公分，請問半徑是多少公分？,36,72,18,16,18,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-038,3,math,nanyi,choice,若圓的半徑是 10 公分，請問直徑是多少公分？,10,12,40,20,20,直徑 = 半徑 × 2,1,final
+m3-n-u9-039,3,math,nanyi,choice,圓裡面最長的直線是什麼？,圓心,半徑,圓周,直徑,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-040,3,math,nanyi,choice,若圓的半徑是 8 公分，請問直徑是多少公分？,32,16,8,10,16,直徑 = 半徑 × 2,1,final
+m3-n-u9-041,3,math,nanyi,choice,若圓的直徑是 10 公分，請問半徑是多少公分？,10,3,5,20,5,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-042,3,math,nanyi,choice,若圓的直徑是 4 公分，請問半徑是多少公分？,2,4,0,8,2,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-043,3,math,nanyi,choice,若圓的半徑是 13 公分，請問直徑是多少公分？,13,52,15,26,26,直徑 = 半徑 × 2,1,final
+m3-n-u9-044,3,math,nanyi,choice,若圓的直徑是 26 公分，請問半徑是多少公分？,26,13,11,52,13,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-045,3,math,nanyi,choice,決定圓大小的是什麼？,圓心,位置,半徑,顏色,半徑,半徑越長圓越大,1,final
+m3-n-u9-046,3,math,nanyi,choice,若圓的半徑是 18 公分，請問直徑是多少公分？,20,72,36,18,36,直徑 = 半徑 × 2,1,final
+m3-n-u9-047,3,math,nanyi,choice,若圓的直徑是 34 公分，請問半徑是多少公分？,15,34,17,68,17,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-048,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓心,半徑,直徑,圓周,半徑,畫圓時固定的距離,1,final
+m3-n-u9-049,3,math,nanyi,choice,若圓的半徑是 3 公分，請問直徑是多少公分？,6,5,3,12,6,直徑 = 半徑 × 2,1,final
+m3-n-u9-050,3,math,nanyi,choice,若圓的半徑是 7 公分，請問直徑是多少公分？,14,28,9,7,14,直徑 = 半徑 × 2,1,final
+m3-n-u9-051,3,math,nanyi,choice,若圓的直徑是 6 公分，請問半徑是多少公分？,3,1,6,12,3,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-052,3,math,nanyi,choice,圓裡面最長的直線是什麼？,圓心,半徑,直徑,圓周,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-053,3,math,nanyi,choice,圓裡面最長的直線是什麼？,直徑,圓心,半徑,圓周,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-054,3,math,nanyi,choice,若圓的半徑是 16 公分，請問直徑是多少公分？,18,32,64,16,32,直徑 = 半徑 × 2,1,final
+m3-n-u9-055,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,直徑,圓心,半徑,圓周,半徑,畫圓時固定的距離,1,final
+m3-n-u9-056,3,math,nanyi,choice,若圓的直徑是 16 公分，請問半徑是多少公分？,32,16,6,8,8,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-057,3,math,nanyi,choice,若圓的半徑是 16 公分，請問直徑是多少公分？,32,64,18,16,32,直徑 = 半徑 × 2,1,final
+m3-n-u9-058,3,math,nanyi,choice,若圓的半徑是 6 公分，請問直徑是多少公分？,6,12,24,8,12,直徑 = 半徑 × 2,1,final
+m3-n-u9-059,3,math,nanyi,choice,若圓的半徑是 8 公分，請問直徑是多少公分？,16,32,10,8,16,直徑 = 半徑 × 2,1,final
+m3-n-u9-060,3,math,nanyi,choice,圓裡面最長的直線是什麼？,直徑,圓心,圓周,半徑,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-061,3,math,nanyi,choice,若圓的半徑是 11 公分，請問直徑是多少公分？,22,44,13,11,22,直徑 = 半徑 × 2,1,final
+m3-n-u9-062,3,math,nanyi,choice,圓裡面最長的直線是什麼？,半徑,圓心,直徑,圓周,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-063,3,math,nanyi,choice,決定圓大小的是什麼？,圓心,位置,半徑,顏色,半徑,半徑越長圓越大,1,final
+m3-n-u9-064,3,math,nanyi,choice,圓裡面最長的直線是什麼？,半徑,圓周,直徑,圓心,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-065,3,math,nanyi,choice,圓裡面最長的直線是什麼？,圓心,直徑,圓周,半徑,直徑,通過圓心且兩端在圓上的線,1,final
+m3-n-u9-066,3,math,nanyi,choice,若圓的直徑是 32 公分，請問半徑是多少公分？,16,64,32,14,16,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-067,3,math,nanyi,choice,若圓的直徑是 10 公分，請問半徑是多少公分？,3,20,10,5,5,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-068,3,math,nanyi,choice,若圓的半徑是 14 公分，請問直徑是多少公分？,16,56,14,28,28,直徑 = 半徑 × 2,1,final
+m3-n-u9-069,3,math,nanyi,choice,若圓的直徑是 30 公分，請問半徑是多少公分？,15,13,60,30,15,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-070,3,math,nanyi,choice,若圓的半徑是 10 公分，請問直徑是多少公分？,10,12,20,40,20,直徑 = 半徑 × 2,1,final
+m3-n-u9-071,3,math,nanyi,choice,若圓的半徑是 2 公分，請問直徑是多少公分？,8,4,2,4,4,直徑 = 半徑 × 2,1,final
+m3-n-u9-072,3,math,nanyi,choice,決定圓大小的是什麼？,位置,圓心,顏色,半徑,半徑,半徑越長圓越大,1,final
+m3-n-u9-073,3,math,nanyi,choice,若圓的直徑是 38 公分，請問半徑是多少公分？,19,17,38,76,19,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-074,3,math,nanyi,choice,若圓的直徑是 18 公分，請問半徑是多少公分？,7,36,9,18,9,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-075,3,math,nanyi,choice,若圓的直徑是 24 公分，請問半徑是多少公分？,10,12,48,24,12,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-076,3,math,nanyi,choice,若圓的半徑是 5 公分，請問直徑是多少公分？,7,10,5,20,10,直徑 = 半徑 × 2,1,final
+m3-n-u9-077,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓周,圓心,半徑,直徑,半徑,畫圓時固定的距離,1,final
+m3-n-u9-078,3,math,nanyi,choice,若圓的直徑是 34 公分，請問半徑是多少公分？,17,68,34,15,17,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-079,3,math,nanyi,choice,若圓的直徑是 38 公分，請問半徑是多少公分？,76,19,38,17,19,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-080,3,math,nanyi,choice,決定圓大小的是什麼？,顏色,位置,半徑,圓心,半徑,半徑越長圓越大,1,final
+m3-n-u9-081,3,math,nanyi,choice,若圓的半徑是 16 公分，請問直徑是多少公分？,32,64,18,16,32,直徑 = 半徑 × 2,1,final
+m3-n-u9-082,3,math,nanyi,choice,若圓的直徑是 6 公分，請問半徑是多少公分？,12,3,6,1,3,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-083,3,math,nanyi,choice,若圓的半徑是 2 公分，請問直徑是多少公分？,8,2,4,4,4,直徑 = 半徑 × 2,1,final
+m3-n-u9-084,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓周,半徑,直徑,圓心,半徑,畫圓時固定的距離,1,final
+m3-n-u9-085,3,math,nanyi,choice,圓規兩腳張開的距離代表什麼？,圓心,直徑,圓周,半徑,半徑,畫圓時固定的距離,1,final
+m3-n-u9-086,3,math,nanyi,choice,決定圓大小的是什麼？,圓心,半徑,顏色,位置,半徑,半徑越長圓越大,1,final
+m3-n-u9-087,3,math,nanyi,choice,若圓的直徑是 14 公分，請問半徑是多少公分？,28,14,5,7,7,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-088,3,math,nanyi,choice,決定圓大小的是什麼？,位置,圓心,顏色,半徑,半徑,半徑越長圓越大,1,final
+m3-n-u9-089,3,math,nanyi,choice,若圓的直徑是 12 公分，請問半徑是多少公分？,6,12,24,4,6,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-090,3,math,nanyi,choice,若圓的直徑是 14 公分，請問半徑是多少公分？,28,14,5,7,7,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-091,3,math,nanyi,choice,若圓的半徑是 7 公分，請問直徑是多少公分？,28,14,7,9,14,直徑 = 半徑 × 2,1,final
+m3-n-u9-092,3,math,nanyi,choice,若圓的半徑是 5 公分，請問直徑是多少公分？,20,10,7,5,10,直徑 = 半徑 × 2,1,final
+m3-n-u9-093,3,math,nanyi,choice,決定圓大小的是什麼？,半徑,位置,圓心,顏色,半徑,半徑越長圓越大,1,final
+m3-n-u9-094,3,math,nanyi,choice,若圓的半徑是 13 公分，請問直徑是多少公分？,26,15,52,13,26,直徑 = 半徑 × 2,1,final
+m3-n-u9-095,3,math,nanyi,choice,若圓的直徑是 6 公分，請問半徑是多少公分？,3,1,12,6,3,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-096,3,math,nanyi,choice,若圓的直徑是 18 公分，請問半徑是多少公分？,7,18,36,9,9,半徑 = 直徑 ÷ 2,1,final
+m3-n-u9-097,3,math,nanyi,choice,若圓的半徑是 6 公分，請問直徑是多少公分？,8,6,12,24,12,直徑 = 半徑 × 2,1,final
+m3-n-u9-098,3,math,nanyi,choice,若圓的半徑是 12 公分，請問直徑是多少公分？,14,48,12,24,24,直徑 = 半徑 × 2,1,final
+m3-n-u9-099,3,math,nanyi,choice,決定圓大小的是什麼？,顏色,半徑,圓心,位置,半徑,半徑越長圓越大,1,final
+m3-n-u9-100,3,math,nanyi,choice,決定圓大小的是什麼？,顏色,圓心,位置,半徑,半徑,半徑越長圓越大,1,final
+c3-k-L7-zy-w2z-000,3,chinese,kangxuan,choice,請問「阿婆」的注音是？,ㄨㄟˊ ㄑㄧㄤˊ,ㄌㄧˋ ㄕˇ,ㄚ ㄆㄛ,ㄚ ㄆㄛˊ,ㄚ ㄆㄛˊ,請注意聲調,1,final
+c3-k-L7-zy-w2z-001,3,chinese,kangxuan,choice,請問「鐵蛋」的注音是？,ㄐㄧㄝ ㄉㄠˋ,ㄊㄧㄝˇ ㄉㄤˋ,ㄊㄧㄝˇ ㄉㄢˋ,ㄊㄧㄝˇ ㄉㄢˇ,ㄊㄧㄝˇ ㄉㄢˋ,請注意聲調,1,final
+c3-k-L7-zy-w2z-002,3,chinese,kangxuan,choice,請問「街道」的注音是？,ㄐㄧㄝ ㄉㄠˋ,ㄌㄧˋ ㄕˇ,ㄇㄟˇ ㄐㄧㄥˇ,ㄐㄧㄝ ㄉㄠ˙,ㄐㄧㄝ ㄉㄠˋ,請注意聲調,1,final
+c3-k-L7-zy-w2z-003,3,chinese,kangxuan,choice,請問「夕陽」的注音是？,ㄒㄧˋ ㄧㄤˇ,ㄒㄧˋ ㄧㄤˊ,ㄔㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˋ,ㄒㄧˋ ㄧㄢˊ,ㄒㄧˋ ㄧㄤˊ,請注意聲調,1,final
+c3-k-L7-zy-w2z-004,3,chinese,kangxuan,choice,請問「充滿」的注音是？,ㄔㄨㄥ ㄇㄢˇ,ㄈㄣ ㄒㄧㄤˇ,ㄔㄨㄥ ㄇㄢˋ,ㄘㄨㄥ ㄇㄢˇ,ㄔㄨㄥ ㄇㄢˇ,請注意聲調,1,final
+c3-k-L7-zy-w2z-005,3,chinese,kangxuan,choice,請問「歷史」的注音是？,ㄌㄧˋ ㄙˇ,ㄌㄧˋ ㄕ˙,ㄌㄧˋ ㄕˇ,ㄔㄨㄣ ㄊㄧㄢ,ㄌㄧˋ ㄕˇ,請注意聲調,1,final
+c3-k-L7-zy-w2z-006,3,chinese,kangxuan,choice,請問「古老」的注音是？,ㄍㄨˇ ㄌㄠˊ,ㄚ ㄆㄛˊ,ㄍㄨˇ ㄌㄠˇ,ㄍㄨˇ ㄋㄠˇ,ㄍㄨˇ ㄌㄠˇ,請注意聲調,1,final
+c3-k-L7-zy-w2z-007,3,chinese,kangxuan,choice,請問「美景」的注音是？,ㄇㄟˇ ㄐㄧㄥˇ,ㄍㄨˋ ㄓㄤˋ,ㄇㄟˇ ㄐㄧㄥ˙,ㄇㄟˇ ㄐㄧㄣˇ,ㄇㄟˇ ㄐㄧㄥˇ,請注意聲調,1,final
+c3-k-L7-zy-z2w-000,3,chinese,kangxuan,choice,請問注音「ㄚ ㄆㄛˊ」對應的解釋或詞語是？,阿婆,阿姨,阿公,巫婆,阿婆,請拼讀注音,1,final
+c3-k-L7-zy-z2w-001,3,chinese,kangxuan,choice,請問注音「ㄊㄧㄝˇ ㄉㄢˋ」對應的解釋或詞語是？,鐵蛋,壞蛋,鐵球,雞蛋,鐵蛋,請拼讀注音,1,final
+c3-k-L7-zy-z2w-002,3,chinese,kangxuan,choice,請問注音「ㄐㄧㄝ ㄉㄠˋ」對應的解釋或詞語是？,巷弄,街道,大道,樓梯,街道,請拼讀注音,1,final
+c3-k-L7-zy-z2w-003,3,chinese,kangxuan,choice,請問注音「ㄒㄧˋ ㄧㄤˊ」對應的解釋或詞語是？,夕陽,月亮,星星,朝陽,夕陽,請拼讀注音,1,final
+c3-k-L7-zy-z2w-004,3,chinese,kangxuan,choice,請問注音「ㄔㄨㄥ ㄇㄢˇ」對應的解釋或詞語是？,充實,裝滿,充滿,補充,充滿,請拼讀注音,1,final
+c3-k-L7-zy-z2w-005,3,chinese,kangxuan,choice,請問注音「ㄌㄧˋ ㄕˇ」對應的解釋或詞語是？,地理,來歷,歷史,經歷,歷史,請拼讀注音,1,final
+c3-k-L7-zy-z2w-006,3,chinese,kangxuan,choice,請問注音「ㄍㄨˇ ㄌㄠˇ」對應的解釋或詞語是？,年老,古老,古蹟,古代,古老,請拼讀注音,1,final
+c3-k-L7-zy-z2w-007,3,chinese,kangxuan,choice,請問注音「ㄇㄟˇ ㄐㄧㄥˇ」對應的解釋或詞語是？,背景,美景,景色,風景,美景,請拼讀注音,1,final
+c3-k-L7-mean-w2m-000,3,chinese,kangxuan,choice,「阿婆」的意思是什麼？,美麗的景色,對年長婦人的通稱,一種經過反覆滷製的蛋,傍晚時將西下的太陽,對年長婦人的通稱,根據課文內容,1,final
+c3-k-L7-mean-w2m-001,3,chinese,kangxuan,choice,「鐵蛋」的意思是什麼？,美麗的景色,對年長婦人的通稱,一種經過反覆滷製的蛋,過去發生的人事物記錄,一種經過反覆滷製的蛋,根據課文內容,1,final
+c3-k-L7-mean-w2m-002,3,chinese,kangxuan,choice,「街道」的意思是什麼？,供人車通行的道路,對年長婦人的通稱,一種經過反覆滷製的蛋,美麗的景色,供人車通行的道路,根據課文內容,1,final
+c3-k-L7-mean-w2m-003,3,chinese,kangxuan,choice,「夕陽」的意思是什麼？,供人車通行的道路,過去發生的人事物記錄,填滿、布滿,傍晚時將西下的太陽,傍晚時將西下的太陽,根據課文內容,1,final
+c3-k-L7-mean-w2m-004,3,chinese,kangxuan,choice,「充滿」的意思是什麼？,傍晚時將西下的太陽,過去發生的人事物記錄,對年長婦人的通稱,填滿、布滿,填滿、布滿,根據課文內容,1,final
+c3-k-L7-mean-w2m-005,3,chinese,kangxuan,choice,「歷史」的意思是什麼？,過去發生的人事物記錄,一種經過反覆滷製的蛋,對年長婦人的通稱,年代久遠,過去發生的人事物記錄,根據課文內容,1,final
+c3-k-L7-mean-w2m-006,3,chinese,kangxuan,choice,「古老」的意思是什麼？,年代久遠,填滿、布滿,供人車通行的道路,美麗的景色,年代久遠,根據課文內容,1,final
+c3-k-L7-mean-w2m-007,3,chinese,kangxuan,choice,「美景」的意思是什麼？,美麗的景色,傍晚時將西下的太陽,過去發生的人事物記錄,一種經過反覆滷製的蛋,美麗的景色,根據課文內容,1,final
+c3-k-L7-use-cloze-000,3,chinese,kangxuan,choice,選詞填空：這位____賣的鐵蛋非常有名，遊客都排隊購買。,美景,鐵蛋,阿婆,古老,阿婆,請選出最適合填入空格的詞,1,final
+c3-k-L7-use-cloze-001,3,chinese,kangxuan,choice,選詞填空：淡水的名產____吃起來又香又Q。,鐵蛋,歷史,古老,夕陽,鐵蛋,請選出最適合填入空格的詞,1,final
+c3-k-L7-use-cloze-002,3,chinese,kangxuan,choice,選詞填空：這條____兩旁保留了許多古老的建築。,街道,充滿,古老,阿婆,街道,請選出最適合填入空格的詞,1,final
+c3-k-L7-use-cloze-003,3,chinese,kangxuan,choice,選詞填空：我們坐在河邊，欣賞美麗的____緩緩落下。,充滿,古老,夕陽,歷史,夕陽,請選出最適合填入空格的詞,1,final
+c3-k-L7-use-cloze-004,3,chinese,kangxuan,choice,選詞填空：教室裡____了同學們的歡笑聲。,街道,古老,充滿,夕陽,充滿,請選出最適合填入空格的詞,1,final
+c3-k-L7-use-cloze-005,3,chinese,kangxuan,choice,選詞填空：這座古廟有三百年的____，是珍貴的古蹟。,歷史,美景,街道,鐵蛋,歷史,請選出最適合填入空格的詞,1,final
+c3-k-L7-use-cloze-006,3,chinese,kangxuan,choice,選詞填空：爺爺講了一個____的傳說給我們聽。,阿婆,充滿,古老,夕陽,古老,請選出最適合填入空格的詞,1,final
+c3-k-L7-use-cloze-007,3,chinese,kangxuan,choice,選詞填空：登上山頂，眼前的____盡收眼底。,美景,充滿,古老,歷史,美景,請選出最適合填入空格的詞,1,final
+c3-k-L7-char-rad-000,3,chinese,kangxuan,choice,請問「阿」字的部首是什麼？,心,手,阜,夕,阜,部首通常在字的旁邊或上下,1,final
+c3-k-L7-char-rad-001,3,chinese,kangxuan,choice,請問「鐵」字的部首是什麼？,金,水,口,心,金,部首通常在字的旁邊或上下,1,final
+c3-k-L7-char-rad-002,3,chinese,kangxuan,choice,請問「街」字的部首是什麼？,日,行,土,口,行,部首通常在字的旁邊或上下,1,final
+c3-k-L7-char-rad-003,3,chinese,kangxuan,choice,請問「夕」字的部首是什麼？,人,日,夕,口,夕,部首通常在字的旁邊或上下,1,final
+c3-k-L7-char-rad-004,3,chinese,kangxuan,choice,請問「充」字的部首是什麼？,羊,水,儿,行,儿,部首通常在字的旁邊或上下,1,final
+c3-k-L7-char-rad-005,3,chinese,kangxuan,choice,請問「歷」字的部首是什麼？,止,夕,心,金,止,部首通常在字的旁邊或上下,1,final
+c3-k-L7-char-rad-006,3,chinese,kangxuan,choice,請問「古」字的部首是什麼？,口,日,阜,艸,口,部首通常在字的旁邊或上下,1,final
+c3-k-L7-char-rad-007,3,chinese,kangxuan,choice,請問「美」字的部首是什麼？,人,艸,羊,夕,羊,部首通常在字的旁邊或上下,1,final
+c3-k-L7-gram-000,3,chinese,kangxuan,choice,下列哪個句子使用了「除了……還……」的句型？,因為下雨，所以我們不去公園。,雖然他很累，但是他還是堅持做完。,如果明天放假，我就去爬山。,淡水小鎮除了有熱鬧的街道，還有美味的小吃。,淡水小鎮除了有熱鬧的街道，還有美味的小吃。,句型練習,1,final
+c3-k-L7-gram-001,3,chinese,kangxuan,choice,媽媽____回到家，____開始準備晚餐。,一……就……,除了……還……,雖然……但是……,不但……而且……,一……就……,句型練習,1,final
+c3-k-L7-cont-000,3,chinese,kangxuan,choice,淡水小鎮著名的美食是什麼？,珍珠奶茶,阿婆鐵蛋,肉圓,臭豆腐,阿婆鐵蛋,回想一下課文內容,1,final
+c3-k-L7-cont-001,3,chinese,kangxuan,choice,課文中提到的「紅紅的圓球」是指什麼？,蘋果,氣球,夕陽,燈籠,夕陽,回想一下課文內容,1,final
+c3-k-L7-cont-002,3,chinese,kangxuan,choice,淡水小鎮給人的感覺除了熱鬧，還有什麼？,科技發達,充滿歷史的故事,安靜無聲,高樓林立,充滿歷史的故事,回想一下課文內容,1,final
+c3-k-L7-cont-003,3,chinese,kangxuan,choice,作者在淡水小鎮看到了什麼樣的街道？,無人的巷子,古老的街道,泥濘的小路,寬闊的高速公路,古老的街道,回想一下課文內容,1,final
+c3-k-L7-cont-004,3,chinese,kangxuan,choice,淡水位於台灣的哪個方位？,東部,中部,南部,北部,北部,回想一下課文內容,1,final
+c3-k-L7-cont-005,3,chinese,kangxuan,choice,遊客喜歡在淡水河邊做什麼？,抓魚,游泳,看夕陽,睡覺,看夕陽,回想一下課文內容,1,final
+c3-k-L8-zy-w2z-000,3,chinese,kangxuan,choice,請問「參觀」的注音是？,ㄇㄧㄢˇ ㄏㄨㄞˊ,ㄘㄢ ㄍㄨㄢ,ㄔㄢ ㄍㄨㄢ,ㄘㄢ ㄍㄨㄢ˙,ㄘㄢ ㄍㄨㄢ,請注意聲調,1,final
+c3-k-L8-zy-w2z-001,3,chinese,kangxuan,choice,請問「古堡」的注音是？,ㄒㄧㄠˋ ㄕㄥ,ㄍㄨˇ ㄅㄠˇ,ㄍㄨˇ ㄅㄠˋ,ㄗˋ ㄙ,ㄍㄨˇ ㄅㄠˇ,請注意聲調,1,final
+c3-k-L8-zy-w2z-002,3,chinese,kangxuan,choice,請問「瞭望台」的注音是？,ㄌㄧㄠˋ ㄨㄢˋ ㄊㄞˊ,ㄌㄧㄠˋ ㄨㄤˋ ㄊㄞˊ,ㄕㄥ ㄊㄞˋ,ㄌㄧㄠˋ ㄨㄤˋ ㄊㄞˇ,ㄌㄧㄠˋ ㄨㄤˋ ㄊㄞˊ,請注意聲調,1,final
+c3-k-L8-zy-w2z-003,3,chinese,kangxuan,choice,請問「陳列館」的注音是？,ㄘㄣˊ ㄌㄧㄝˋ ㄍㄨㄢˇ,ㄔㄣˊ ㄌㄧㄝˋ ㄍㄨㄢˇ,ㄈㄤˋ ㄑㄧˋ,ㄔㄣˊ ㄌㄧㄝˋ ㄍㄨㄢ˙,ㄔㄣˊ ㄌㄧㄝˋ ㄍㄨㄢˇ,請注意聲調,1,final
+c3-k-L8-zy-w2z-004,3,chinese,kangxuan,choice,請問「炮臺」的注音是？,ㄇㄧㄢˇ ㄏㄨㄞˊ,ㄆㄠˋ ㄊㄞˋ,ㄇㄚˇ ㄊㄞˋ ㄢ,ㄆㄠˋ ㄊㄞˊ,ㄆㄠˋ ㄊㄞˊ,請注意聲調,1,final
+c3-k-L8-zy-w2z-005,3,chinese,kangxuan,choice,請問「緬懷」的注音是？,ㄇㄧㄢˇ ㄏㄨㄞˊ,ㄏㄨˊ ㄌㄧˊ,ㄇㄧㄢˇ ㄏㄨㄞ˙,ㄇㄧㄤˇ ㄏㄨㄞˊ,ㄇㄧㄢˇ ㄏㄨㄞˊ,請注意聲調,1,final
+c3-k-L8-zy-w2z-006,3,chinese,kangxuan,choice,請問「荷蘭」的注音是？,ㄏㄜˊ ㄌㄢ,ㄏㄜˊ ㄌㄢˊ,ㄙㄨㄢ,ㄏㄜˊ ㄌㄤˊ,ㄏㄜˊ ㄌㄢˊ,請注意聲調,1,final
+c3-k-L8-zy-w2z-007,3,chinese,kangxuan,choice,請問「防禦」的注音是？,ㄈㄢˊ ㄩˋ,ㄈㄤˊ ㄩˋ,ㄙㄨㄢ,ㄈㄤˊ ㄩ˙,ㄈㄤˊ ㄩˋ,請注意聲調,1,final
+c3-k-L8-zy-z2w-000,3,chinese,kangxuan,choice,請問注音「ㄘㄢ ㄍㄨㄢ」對應的解釋或詞語是？,參與,參觀,參加,觀看,參觀,請拼讀注音,1,final
+c3-k-L8-zy-z2w-001,3,chinese,kangxuan,choice,請問注音「ㄍㄨˇ ㄅㄠˇ」對應的解釋或詞語是？,漢堡,古蹟,古堡,城堡,古堡,請拼讀注音,1,final
+c3-k-L8-zy-z2w-002,3,chinese,kangxuan,choice,請問注音「ㄌㄧㄠˋ ㄨㄤˋ ㄊㄞˊ」對應的解釋或詞語是？,瞭望台,櫃台,司令台,舞台,瞭望台,請拼讀注音,1,final
+c3-k-L8-zy-z2w-003,3,chinese,kangxuan,choice,請問注音「ㄔㄣˊ ㄌㄧㄝˋ ㄍㄨㄢˇ」對應的解釋或詞語是？,博物館,陳列館,美術館,圖書館,陳列館,請拼讀注音,1,final
+c3-k-L8-zy-z2w-004,3,chinese,kangxuan,choice,請問注音「ㄆㄠˋ ㄊㄞˊ」對應的解釋或詞語是？,舞台,櫃台,炮臺,陽台,炮臺,請拼讀注音,1,final
+c3-k-L8-zy-z2w-005,3,chinese,kangxuan,choice,請問注音「ㄇㄧㄢˇ ㄏㄨㄞˊ」對應的解釋或詞語是？,懷疑,緬懷,懷念,感懷,緬懷,請拼讀注音,1,final
+c3-k-L8-zy-z2w-006,3,chinese,kangxuan,choice,請問注音「ㄏㄜˊ ㄌㄢˊ」對應的解釋或詞語是？,米蘭,荷蘭,宜蘭,波蘭,荷蘭,請拼讀注音,1,final
+c3-k-L8-zy-z2w-007,3,chinese,kangxuan,choice,請問注音「ㄈㄤˊ ㄩˋ」對應的解釋或詞語是？,防止,防禦,防守,防備,防禦,請拼讀注音,1,final
+c3-k-L8-mean-w2m-000,3,chinese,kangxuan,choice,「參觀」的意思是什麼？,防備抵禦,擺設物品供人參觀的場所,架設火炮的臺座,實地觀覽,實地觀覽,根據課文內容,1,final
+c3-k-L8-mean-w2m-001,3,chinese,kangxuan,choice,「古堡」的意思是什麼？,追念懷思,防備抵禦,古代的堡壘,擺設物品供人參觀的場所,古代的堡壘,根據課文內容,1,final
+c3-k-L8-mean-w2m-002,3,chinese,kangxuan,choice,「瞭望台」的意思是什麼？,登高遠望的高臺,追念懷思,擺設物品供人參觀的場所,架設火炮的臺座,登高遠望的高臺,根據課文內容,1,final
+c3-k-L8-mean-w2m-003,3,chinese,kangxuan,choice,「陳列館」的意思是什麼？,擺設物品供人參觀的場所,國名，曾統治台灣,追念懷思,實地觀覽,擺設物品供人參觀的場所,根據課文內容,1,final
+c3-k-L8-mean-w2m-004,3,chinese,kangxuan,choice,「炮臺」的意思是什麼？,古代的堡壘,國名，曾統治台灣,架設火炮的臺座,登高遠望的高臺,架設火炮的臺座,根據課文內容,1,final
+c3-k-L8-mean-w2m-005,3,chinese,kangxuan,choice,「緬懷」的意思是什麼？,登高遠望的高臺,擺設物品供人參觀的場所,國名，曾統治台灣,追念懷思,追念懷思,根據課文內容,1,final
+c3-k-L8-mean-w2m-006,3,chinese,kangxuan,choice,「荷蘭」的意思是什麼？,國名，曾統治台灣,防備抵禦,古代的堡壘,實地觀覽,國名，曾統治台灣,根據課文內容,1,final
+c3-k-L8-mean-w2m-007,3,chinese,kangxuan,choice,「防禦」的意思是什麼？,國名，曾統治台灣,防備抵禦,古代的堡壘,架設火炮的臺座,防備抵禦,根據課文內容,1,final
+c3-k-L8-use-cloze-000,3,chinese,kangxuan,choice,選詞填空：學校舉辦戶外教學，帶我們去____博物館。,防禦,荷蘭,瞭望台,參觀,參觀,請選出最適合填入空格的詞,1,final
+c3-k-L8-use-cloze-001,3,chinese,kangxuan,choice,選詞填空：這座____見證了數百年的戰爭歷史。,陳列館,古堡,荷蘭,緬懷,古堡,請選出最適合填入空格的詞,1,final
+c3-k-L8-use-cloze-002,3,chinese,kangxuan,choice,選詞填空：站在____上，可以看見遠處的大海。,緬懷,瞭望台,古堡,參觀,瞭望台,請選出最適合填入空格的詞,1,final
+c3-k-L8-use-cloze-003,3,chinese,kangxuan,choice,選詞填空：____裡展示著各式各樣的史前文物。,炮臺,緬懷,陳列館,防禦,陳列館,請選出最適合填入空格的詞,1,final
+c3-k-L8-use-cloze-004,3,chinese,kangxuan,choice,選詞填空：這座____是用來防禦敵人進攻的重要設施。,古堡,參觀,緬懷,炮臺,炮臺,請選出最適合填入空格的詞,1,final
+c3-k-L8-use-cloze-005,3,chinese,kangxuan,choice,選詞填空：我們舉辦音樂會，____這位偉大的作曲家。,緬懷,荷蘭,瞭望台,炮臺,緬懷,請選出最適合填入空格的詞,1,final
+c3-k-L8-use-cloze-006,3,chinese,kangxuan,choice,選詞填空：____以風車和鬱金香聞名於世。,荷蘭,炮臺,緬懷,陳列館,荷蘭,請選出最適合填入空格的詞,1,final
+c3-k-L8-use-cloze-007,3,chinese,kangxuan,choice,選詞填空：城牆的主要功能是為了____敵人的攻擊。,防禦,陳列館,緬懷,荷蘭,防禦,請選出最適合填入空格的詞,1,final
+c3-k-L8-char-rad-000,3,chinese,kangxuan,choice,請問「參」字的部首是什麼？,厶,行,羊,土,厶,部首通常在字的旁邊或上下,1,final
+c3-k-L8-char-rad-001,3,chinese,kangxuan,choice,請問「古」字的部首是什麼？,手,金,羊,土,土,部首通常在字的旁邊或上下,1,final
+c3-k-L8-char-rad-002,3,chinese,kangxuan,choice,請問「瞭」字的部首是什麼？,口,夕,目,土,目,部首通常在字的旁邊或上下,1,final
+c3-k-L8-char-rad-003,3,chinese,kangxuan,choice,請問「陳」字的部首是什麼？,心,阜,木,口,阜,部首通常在字的旁邊或上下,1,final
+c3-k-L8-char-rad-004,3,chinese,kangxuan,choice,請問「炮」字的部首是什麼？,火,阜,口,金,火,部首通常在字的旁邊或上下,1,final
+c3-k-L8-char-rad-005,3,chinese,kangxuan,choice,請問「緬」字的部首是什麼？,水,木,糸,夕,糸,部首通常在字的旁邊或上下,1,final
+c3-k-L8-char-rad-006,3,chinese,kangxuan,choice,請問「荷」字的部首是什麼？,心,言,水,艸,艸,部首通常在字的旁邊或上下,1,final
+c3-k-L8-char-rad-007,3,chinese,kangxuan,choice,請問「防」字的部首是什麼？,止,土,阜,日,阜,部首通常在字的旁邊或上下,1,final
+c3-k-L8-gram-000,3,chinese,kangxuan,choice,下列哪個句子表達「目的」？,不但風景美，而且空氣好。,為了看更遠的風景，我們爬上了瞭望台。,因為下雨了，所以我帶雨傘。,雖然很累，但我很開心。,為了看更遠的風景，我們爬上了瞭望台。,句型練習,1,final
+c3-k-L8-gram-001,3,chinese,kangxuan,choice,老樹根盤在牆上，____在訴說古老的故事。,所以,如果,彷彿,但是,彷彿,句型練習,1,final
+c3-k-L8-cont-000,3,chinese,kangxuan,choice,安平古堡位於哪裡？,台中,高雄,台北,台南,台南,回想一下課文內容,1,final
+c3-k-L8-cont-001,3,chinese,kangxuan,choice,安平古堡早期是誰建造的？,西班牙人,日本人,美國人,荷蘭人,荷蘭人,回想一下課文內容,1,final
+c3-k-L8-cont-002,3,chinese,kangxuan,choice,作者參觀安平古堡時，登上了什麼地方？,瞭望台,摩天輪,山頂,燈塔,瞭望台,回想一下課文內容,1,final
+c3-k-L8-cont-003,3,chinese,kangxuan,choice,陳列館裡展示了什麼？,恐龍化石,漫畫書,歷史文物與圖片,新型汽車,歷史文物與圖片,回想一下課文內容,1,final
+c3-k-L8-cont-004,3,chinese,kangxuan,choice,古堡裡的老樹根盤在牆上，看起來像什麼？,訴說著古老的故事,雜亂的草堆,巨大的蛇,可怕的怪獸,訴說著古老的故事,回想一下課文內容,1,final
+c3-k-L8-cont-005,3,chinese,kangxuan,choice,原本的安平古堡稱為什麼城？,紅毛城,熱蘭遮城,普羅民遮城,億載金城,熱蘭遮城,回想一下課文內容,1,final
+c3-k-L9-zy-w2z-000,3,chinese,kangxuan,choice,請問「馬太鞍」的注音是？,ㄇㄚˇ ㄊㄞˋ ㄤ,ㄆㄨˊ ㄊㄠˊ,ㄇㄚˇ ㄊㄞˋ ㄢ˙,ㄇㄚˇ ㄊㄞˋ ㄢ,ㄇㄚˇ ㄊㄞˋ ㄢ,請注意聲調,1,final
+c3-k-L9-zy-w2z-001,3,chinese,kangxuan,choice,請問「巴拉告」的注音是？,ㄅㄚ ㄌㄚ ㄍㄠˋ,ㄅㄚ ㄋㄚ ㄍㄠˋ,ㄅㄚ ㄌㄚ ㄍㄠˇ,ㄔㄨㄥ ㄇㄢˇ,ㄅㄚ ㄌㄚ ㄍㄠˋ,請注意聲調,1,final
+c3-k-L9-zy-w2z-002,3,chinese,kangxuan,choice,請問「阿美族」的注音是？,ㄏㄨˊ ㄌㄧˊ,ㄚ ㄇㄟˇ ㄓㄨˊ,ㄚ ㄇㄟˇ ㄗㄨˊ,ㄚ ㄇㄟˇ ㄗㄨˇ,ㄚ ㄇㄟˇ ㄗㄨˊ,請注意聲調,1,final
+c3-k-L9-zy-w2z-003,3,chinese,kangxuan,choice,請問「智慧」的注音是？,ㄍㄨˇ ㄌㄠˇ,ㄓˋ ㄏㄨㄟˋ,ㄓˋ ㄏㄨㄟ˙,ㄗˋ ㄏㄨㄟˋ,ㄓˋ ㄏㄨㄟˋ,請注意聲調,1,final
+c3-k-L9-zy-w2z-004,3,chinese,kangxuan,choice,請問「生態」的注音是？,ㄆㄥˊ ㄧㄡˇ,ㄕㄥ ㄊㄞ˙,ㄙㄥ ㄊㄞˋ,ㄕㄥ ㄊㄞˋ,ㄕㄥ ㄊㄞˋ,請注意聲調,1,final
+c3-k-L9-zy-w2z-005,3,chinese,kangxuan,choice,請問「居住」的注音是？,ㄐㄩ ㄗㄨˋ,ㄐㄩ ㄓㄨˋ,ㄙㄨㄢ,ㄐㄩ ㄓㄨˇ,ㄐㄩ ㄓㄨˋ,請注意聲調,1,final
+c3-k-L9-zy-w2z-006,3,chinese,kangxuan,choice,請問「蝦子」的注音是？,ㄒㄧㄚ ㄗˋ,ㄇㄟˊ ㄍㄨㄟ,ㄒㄧㄚ ˙ㄗ,ㄒㄧㄚ ˙ㄓ,ㄒㄧㄚ ˙ㄗ,請注意聲調,1,final
+c3-k-L9-zy-w2z-007,3,chinese,kangxuan,choice,請問「捕捉」的注音是？,ㄨㄟˊ ㄑㄧㄤˊ,ㄅㄨˇ ㄓㄨㄛ,ㄅㄨˇ ㄗㄨㄛ,ㄅㄨˇ ㄓㄨㄛˋ,ㄅㄨˇ ㄓㄨㄛ,請注意聲調,1,final
+c3-k-L9-zy-z2w-000,3,chinese,kangxuan,choice,請問注音「ㄇㄚˇ ㄊㄞˋ ㄢ」對應的解釋或詞語是？,馬太鞍,太魯閣,馬鞍山,馬蹄鐵,馬太鞍,請拼讀注音,1,final
+c3-k-L9-zy-z2w-001,3,chinese,kangxuan,choice,請問注音「ㄅㄚ ㄌㄚ ㄍㄠˋ」對應的解釋或詞語是？,報告,巴拉告,巴拉圭,芭樂,巴拉告,請拼讀注音,1,final
+c3-k-L9-zy-z2w-002,3,chinese,kangxuan,choice,請問注音「ㄚ ㄇㄟˇ ㄗㄨˊ」對應的解釋或詞語是？,泰雅族,布農族,卑南族,阿美族,阿美族,請拼讀注音,1,final
+c3-k-L9-zy-z2w-003,3,chinese,kangxuan,choice,請問注音「ㄓˋ ㄏㄨㄟˋ」對應的解釋或詞語是？,智慧,聰明,知識,優惠,智慧,請拼讀注音,1,final
+c3-k-L9-zy-z2w-004,3,chinese,kangxuan,choice,請問注音「ㄕㄥ ㄊㄞˋ」對應的解釋或詞語是？,生態,狀態,心態,生物,生態,請拼讀注音,1,final
+c3-k-L9-zy-z2w-005,3,chinese,kangxuan,choice,請問注音「ㄐㄩ ㄓㄨˋ」對應的解釋或詞語是？,相處,居住,佔據,住宿,居住,請拼讀注音,1,final
+c3-k-L9-zy-z2w-006,3,chinese,kangxuan,choice,請問注音「ㄒㄧㄚ ˙ㄗ」對應的解釋或詞語是？,夾子,箱子,蝦子,鴨子,蝦子,請拼讀注音,1,final
+c3-k-L9-zy-z2w-007,3,chinese,kangxuan,choice,請問注音「ㄅㄨˇ ㄓㄨㄛ」對應的解釋或詞語是？,步兵,把捉,捕捉,捕魚,捕捉,請拼讀注音,1,final
+c3-k-L9-mean-w2m-000,3,chinese,kangxuan,choice,「馬太鞍」的意思是什麼？,地名，位於花蓮光復鄉,阿美族的捕魚方式,生物生存的狀態,台灣原住民族之一,地名，位於花蓮光復鄉,根據課文內容,1,final
+c3-k-L9-mean-w2m-001,3,chinese,kangxuan,choice,「巴拉告」的意思是什麼？,阿美族的捕魚方式,地名，位於花蓮光復鄉,即使、住處,生物生存的狀態,阿美族的捕魚方式,根據課文內容,1,final
+c3-k-L9-mean-w2m-002,3,chinese,kangxuan,choice,「阿美族」的意思是什麼？,地名，位於花蓮光復鄉,台灣原住民族之一,即使、住處,聰明才智,台灣原住民族之一,根據課文內容,1,final
+c3-k-L9-mean-w2m-003,3,chinese,kangxuan,choice,「智慧」的意思是什麼？,地名，位於花蓮光復鄉,台灣原住民族之一,生物生存的狀態,聰明才智,聰明才智,根據課文內容,1,final
+c3-k-L9-mean-w2m-004,3,chinese,kangxuan,choice,「生態」的意思是什麼？,生物生存的狀態,捉拿、在此指抓魚,地名，位於花蓮光復鄉,阿美族的捕魚方式,生物生存的狀態,根據課文內容,1,final
+c3-k-L9-mean-w2m-005,3,chinese,kangxuan,choice,「居住」的意思是什麼？,台灣原住民族之一,地名，位於花蓮光復鄉,阿美族的捕魚方式,即使、住處,即使、住處,根據課文內容,1,final
+c3-k-L9-mean-w2m-006,3,chinese,kangxuan,choice,「蝦子」的意思是什麼？,生物生存的狀態,即使、住處,水生動物,地名，位於花蓮光復鄉,水生動物,根據課文內容,1,final
+c3-k-L9-mean-w2m-007,3,chinese,kangxuan,choice,「捕捉」的意思是什麼？,生物生存的狀態,捉拿、在此指抓魚,台灣原住民族之一,聰明才智,捉拿、在此指抓魚,根據課文內容,1,final
+c3-k-L9-use-cloze-000,3,chinese,kangxuan,choice,選詞填空：____溼地擁有豐富的自然生態資源。,阿美族,居住,蝦子,馬太鞍,馬太鞍,請選出最適合填入空格的詞,1,final
+c3-k-L9-use-cloze-001,3,chinese,kangxuan,choice,選詞填空：____展現了阿美族人與自然共存的智慧。,生態,居住,智慧,巴拉告,巴拉告,請選出最適合填入空格的詞,1,final
+c3-k-L9-use-cloze-002,3,chinese,kangxuan,choice,選詞填空：____的豐年祭是台灣重要的原住民文化活動。,蝦子,捕捉,生態,阿美族,阿美族,請選出最適合填入空格的詞,1,final
+c3-k-L9-use-cloze-003,3,chinese,kangxuan,choice,選詞填空：這項發明顯示了人類無窮的____。,智慧,居住,阿美族,巴拉告,智慧,請選出最適合填入空格的詞,1,final
+c3-k-L9-use-cloze-004,3,chinese,kangxuan,choice,選詞填空：保護環境才能維持良好的____平衡。,居住,生態,巴拉告,馬太鞍,生態,請選出最適合填入空格的詞,1,final
+c3-k-L9-use-cloze-005,3,chinese,kangxuan,choice,選詞填空：這棟大樓____著許多來自不同國家的住戶。,智慧,馬太鞍,居住,阿美族,居住,請選出最適合填入空格的詞,1,final
+c3-k-L9-use-cloze-006,3,chinese,kangxuan,choice,選詞填空：溪流裡的____躲在石頭縫隙中。,居住,生態,阿美族,蝦子,蝦子,請選出最適合填入空格的詞,1,final
+c3-k-L9-use-cloze-007,3,chinese,kangxuan,choice,選詞填空：蜘蛛結網是為了____昆蟲當作食物。,巴拉告,馬太鞍,阿美族,捕捉,捕捉,請選出最適合填入空格的詞,1,final
+c3-k-L9-char-rad-000,3,chinese,kangxuan,choice,請問「馬」字的部首是什麼？,馬,土,心,人,馬,部首通常在字的旁邊或上下,1,final
+c3-k-L9-char-rad-001,3,chinese,kangxuan,choice,請問「巴」字的部首是什麼？,巳,言,口,心,巳,部首通常在字的旁邊或上下,1,final
+c3-k-L9-char-rad-002,3,chinese,kangxuan,choice,請問「阿」字的部首是什麼？,行,言,阜,手,阜,部首通常在字的旁邊或上下,1,final
+c3-k-L9-char-rad-003,3,chinese,kangxuan,choice,請問「智」字的部首是什麼？,土,阜,日,口,日,部首通常在字的旁邊或上下,1,final
+c3-k-L9-char-rad-004,3,chinese,kangxuan,choice,請問「生」字的部首是什麼？,口,土,生,木,生,部首通常在字的旁邊或上下,1,final
+c3-k-L9-char-rad-005,3,chinese,kangxuan,choice,請問「居」字的部首是什麼？,尸,艸,心,木,尸,部首通常在字的旁邊或上下,1,final
+c3-k-L9-char-rad-006,3,chinese,kangxuan,choice,請問「蝦」字的部首是什麼？,口,虫,行,日,虫,部首通常在字的旁邊或上下,1,final
+c3-k-L9-char-rad-007,3,chinese,kangxuan,choice,請問「捕」字的部首是什麼？,土,艸,日,手,手,部首通常在字的旁邊或上下,1,final
+c3-k-L9-gram-000,3,chinese,kangxuan,choice,巴拉告的設計，是為了____魚蝦有棲息的地方。,讓,把,對,被,讓,句型練習,1,final
+c3-k-L9-gram-001,3,chinese,kangxuan,choice,下列哪個句子不通順？,我們過著無憂無慮的生活。,小魚在池塘裡過著安全的生活。,他過著肚子餓的生活。,阿美族人過著快樂的生活。,他過著肚子餓的生活。,句型練習,1,final
+c3-k-L9-cont-000,3,chinese,kangxuan,choice,「巴拉告」是哪一族的捕魚方式？,阿美族,泰雅族,布農族,排灣族,阿美族,回想一下課文內容,1,final
+c3-k-L9-cont-001,3,chinese,kangxuan,choice,巴拉告是一種什麼樣的捕魚方法？,電魚法,生態捕魚法,毒魚法,炸魚法,生態捕魚法,回想一下課文內容,1,final
+c3-k-L9-cont-002,3,chinese,kangxuan,choice,巴拉告的三層構造中，最底層是用來做什麼的？,種植水草,給底棲魚類居住,給小魚躲藏,給大魚捕食,給底棲魚類居住,回想一下課文內容,1,final
+c3-k-L9-cont-003,3,chinese,kangxuan,choice,這課主要在告訴我們什麼道理？,要努力賺錢,魚很好吃,科技很重要,與大自然和平共處,與大自然和平共處,回想一下課文內容,1,final
+c3-k-L9-cont-004,3,chinese,kangxuan,choice,馬太鞍位於台灣的哪個縣市？,宜蘭縣,花蓮縣,台東縣,屏東縣,花蓮縣,回想一下課文內容,1,final
+c3-k-L9-cont-005,3,chinese,kangxuan,choice,為什麼要製作巴拉告？,為了比賽,為了讓魚蝦有家，永續利用,為了裝飾,為了好玩,為了讓魚蝦有家，永續利用,回想一下課文內容,1,final
+c3-k-L10-zy-w2z-000,3,chinese,kangxuan,choice,請問「狐狸」的注音是？,ㄈㄨˊ ㄌㄧˊ,ㄏㄢˊ ㄉㄨㄥ,ㄏㄨˊ ㄌㄧˊ,ㄏㄨˊ ㄌㄧˇ,ㄏㄨˊ ㄌㄧˊ,請注意聲調,1,final
+c3-k-L10-zy-w2z-001,3,chinese,kangxuan,choice,請問「葡萄」的注音是？,ㄆㄨˊ ㄊㄠ,ㄆㄨˊ ㄊㄠˊ,ㄉㄨˊ ㄊㄜˋ,ㄐㄧㄝ ㄉㄠˋ,ㄆㄨˊ ㄊㄠˊ,請注意聲調,1,final
+c3-k-L10-zy-w2z-002,3,chinese,kangxuan,choice,請問「口水」的注音是？,ㄎㄡˇ ㄕㄨㄟˇ,ㄔㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˋ,ㄎㄡˇ ㄙㄨㄟˇ,ㄎㄡˇ ㄕㄨㄟ,ㄎㄡˇ ㄕㄨㄟˇ,請注意聲調,1,final
+c3-k-L10-zy-w2z-003,3,chinese,kangxuan,choice,請問「放棄」的注音是？,ㄈㄤˋ ㄑㄧˊ,ㄈㄢˋ ㄑㄧˋ,ㄆㄥˊ ㄧㄡˇ,ㄈㄤˋ ㄑㄧˋ,ㄈㄤˋ ㄑㄧˋ,請注意聲調,1,final
+c3-k-L10-zy-w2z-004,3,chinese,kangxuan,choice,請問「嘗試」的注音是？,ㄆㄨˊ ㄊㄠˊ,ㄔㄤˊ ㄕˋ,ㄘㄤˊ ㄕˋ,ㄔㄤˊ ㄕˊ,ㄔㄤˊ ㄕˋ,請注意聲調,1,final
+c3-k-L10-zy-w2z-005,3,chinese,kangxuan,choice,請問「酸」的注音是？,ㄕㄨㄢ,ㄙㄨㄢˊ,ㄙㄨㄢ,ㄌㄧˋ ㄕˇ,ㄙㄨㄢ,請注意聲調,1,final
+c3-k-L10-zy-w2z-006,3,chinese,kangxuan,choice,請問「垂頭喪氣」的注音是？,ㄗˋ ㄙ,ㄔㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˊ,ㄔㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˋ,ㄘㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˋ,ㄔㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˋ,請注意聲調,1,final
+c3-k-L10-zy-w2z-007,3,chinese,kangxuan,choice,請問「吃不到」的注音是？,ㄙㄨㄢ,ㄔ ㄅㄨˊ ㄉㄠˊ,ㄘ ㄅㄨˊ ㄉㄠˋ,ㄔ ㄅㄨˊ ㄉㄠˋ,ㄔ ㄅㄨˊ ㄉㄠˋ,請注意聲調,1,final
+c3-k-L10-zy-z2w-000,3,chinese,kangxuan,choice,請問注音「ㄏㄨˊ ㄌㄧˊ」對應的解釋或詞語是？,玻璃,野狼,狐狸,老虎,狐狸,請拼讀注音,1,final
+c3-k-L10-zy-z2w-001,3,chinese,kangxuan,choice,請問注音「ㄆㄨˊ ㄊㄠˊ」對應的解釋或詞語是？,葡萄,葡語,櫻桃,萄淘,葡萄,請拼讀注音,1,final
+c3-k-L10-zy-z2w-002,3,chinese,kangxuan,choice,請問注音「ㄎㄡˇ ㄕㄨㄟˇ」對應的解釋或詞語是？,口水,雨水,口渴,汽水,口水,請拼讀注音,1,final
+c3-k-L10-zy-z2w-003,3,chinese,kangxuan,choice,請問注音「ㄈㄤˋ ㄑㄧˋ」對應的解釋或詞語是？,拋棄,放開,丟棄,放棄,放棄,請拼讀注音,1,final
+c3-k-L10-zy-z2w-004,3,chinese,kangxuan,choice,請問注音「ㄔㄤˊ ㄕˋ」對應的解釋或詞語是？,常識,嘗試,長試,試驗,嘗試,請拼讀注音,1,final
+c3-k-L10-zy-z2w-005,3,chinese,kangxuan,choice,請問注音「ㄙㄨㄢ」對應的解釋或詞語是？,甜,苦,酸,辣,酸,請拼讀注音,1,final
+c3-k-L10-zy-z2w-006,3,chinese,kangxuan,choice,請問注音「ㄔㄨㄟˊ ㄊㄡˊ ㄙㄤˋ ㄑㄧˋ」對應的解釋或詞語是？,沒精打采,垂頭喪氣,興高采采,搖頭晃腦,垂頭喪氣,請拼讀注音,1,final
+c3-k-L10-zy-z2w-007,3,chinese,kangxuan,choice,請問注音「ㄔ ㄅㄨˊ ㄉㄠˋ」對應的解釋或詞語是？,想不到,不給吃,吃不到,看得到,吃不到,請拼讀注音,1,final
+c3-k-L10-mean-w2m-000,3,chinese,kangxuan,choice,「狐狸」的意思是什麼？,動物名，生性狡猾,拋棄、不堅持,味覺之一，如醋的味道,無法食用,動物名，生性狡猾,根據課文內容,1,final
+c3-k-L10-mean-w2m-001,3,chinese,kangxuan,choice,「葡萄」的意思是什麼？,味覺之一，如醋的味道,水果名,唾液,試一試,水果名,根據課文內容,1,final
+c3-k-L10-mean-w2m-002,3,chinese,kangxuan,choice,「口水」的意思是什麼？,形容失意沮喪的樣子,無法食用,唾液,味覺之一，如醋的味道,唾液,根據課文內容,1,final
+c3-k-L10-mean-w2m-003,3,chinese,kangxuan,choice,「放棄」的意思是什麼？,試一試,動物名，生性狡猾,味覺之一，如醋的味道,拋棄、不堅持,拋棄、不堅持,根據課文內容,1,final
+c3-k-L10-mean-w2m-004,3,chinese,kangxuan,choice,「嘗試」的意思是什麼？,水果名,味覺之一，如醋的味道,試一試,拋棄、不堅持,試一試,根據課文內容,1,final
+c3-k-L10-mean-w2m-005,3,chinese,kangxuan,choice,「酸」的意思是什麼？,無法食用,水果名,形容失意沮喪的樣子,味覺之一，如醋的味道,味覺之一，如醋的味道,根據課文內容,1,final
+c3-k-L10-mean-w2m-006,3,chinese,kangxuan,choice,「垂頭喪氣」的意思是什麼？,唾液,形容失意沮喪的樣子,味覺之一，如醋的味道,試一試,形容失意沮喪的樣子,根據課文內容,1,final
+c3-k-L10-mean-w2m-007,3,chinese,kangxuan,choice,「吃不到」的意思是什麼？,水果名,形容失意沮喪的樣子,拋棄、不堅持,無法食用,無法食用,根據課文內容,1,final
+c3-k-L10-use-cloze-000,3,chinese,kangxuan,choice,選詞填空：童話故事裡的____通常都很聰明但也狡猾。,口水,狐狸,葡萄,放棄,狐狸,請選出最適合填入空格的詞,1,final
+c3-k-L10-use-cloze-001,3,chinese,kangxuan,choice,選詞填空：架上的____成熟了，紫得發亮。,嘗試,葡萄,狐狸,酸,葡萄,請選出最適合填入空格的詞,1,final
+c3-k-L10-use-cloze-002,3,chinese,kangxuan,choice,選詞填空：看到滿桌的美食，我忍不住流下了____。,放棄,狐狸,口水,垂頭喪氣,口水,請選出最適合填入空格的詞,1,final
+c3-k-L10-use-cloze-003,3,chinese,kangxuan,choice,選詞填空：遇到困難不要輕易____，再試一次也許會成功。,嘗試,狐狸,口水,放棄,放棄,請選出最適合填入空格的詞,1,final
+c3-k-L10-use-cloze-004,3,chinese,kangxuan,choice,選詞填空：他____用各種方法解決這道數學難題。,口水,狐狸,放棄,嘗試,嘗試,請選出最適合填入空格的詞,1,final
+c3-k-L10-use-cloze-005,3,chinese,kangxuan,choice,選詞填空：這顆檸檬太____了，讓我皺起了眉頭。,放棄,嘗試,葡萄,酸,酸,請選出最適合填入空格的詞,1,final
+c3-k-L10-use-cloze-006,3,chinese,kangxuan,choice,選詞填空：他比賽輸了，____地走出場外。,酸,吃不到,放棄,垂頭喪氣,垂頭喪氣,請選出最適合填入空格的詞,1,final
+c3-k-L10-use-cloze-007,3,chinese,kangxuan,choice,選詞填空：小狗____桌上的肉，急得汪汪叫。,葡萄,吃不到,狐狸,放棄,吃不到,請選出最適合填入空格的詞,1,final
+c3-k-L10-char-rad-000,3,chinese,kangxuan,choice,請問「狐」字的部首是什麼？,阜,艸,心,犬,犬,部首通常在字的旁邊或上下,1,final
+c3-k-L10-char-rad-001,3,chinese,kangxuan,choice,請問「葡」字的部首是什麼？,木,人,止,艸,艸,部首通常在字的旁邊或上下,1,final
+c3-k-L10-char-rad-002,3,chinese,kangxuan,choice,請問「口」字的部首是什麼？,口,阜,金,土,口,部首通常在字的旁邊或上下,1,final
+c3-k-L10-char-rad-003,3,chinese,kangxuan,choice,請問「放」字的部首是什麼？,行,心,攴,羊,攴,部首通常在字的旁邊或上下,1,final
+c3-k-L10-char-rad-004,3,chinese,kangxuan,choice,請問「嘗」字的部首是什麼？,金,土,食,艸,食,部首通常在字的旁邊或上下,1,final
+c3-k-L10-char-rad-005,3,chinese,kangxuan,choice,請問「酸」字的部首是什麼？,日,止,酉,木,酉,部首通常在字的旁邊或上下,1,final
+c3-k-L10-char-rad-006,3,chinese,kangxuan,choice,請問「垂」字的部首是什麼？,行,土,羊,日,土,部首通常在字的旁邊或上下,1,final
+c3-k-L10-char-rad-007,3,chinese,kangxuan,choice,請問「吃」字的部首是什麼？,心,行,人,口,口,部首通常在字的旁邊或上下,1,final
+c3-k-L10-gram-000,3,chinese,kangxuan,choice,____狐狸很努力跳，____還是沒摘到葡萄。,如果……就……,不但……而且……,雖然……但是……,因為……所以……,雖然……但是……,句型練習,1,final
+c3-k-L10-gram-001,3,chinese,kangxuan,choice,雨下得太大了，我們____取消今天的野餐。,不小心,不可以,不得不,不一定,不得不,句型練習,1,final
+c3-k-L10-cont-000,3,chinese,kangxuan,choice,狐狸為什麼想吃葡萄？,因為牠想送人,因為葡萄是酸的,因為有人請牠吃,因為肚子餓且葡萄看起來很好吃,因為肚子餓且葡萄看起來很好吃,回想一下課文內容,1,final
+c3-k-L10-cont-001,3,chinese,kangxuan,choice,最後狐狸有沒有吃到葡萄？,有，吃了很多,不確定,沒有,有，但只吃一顆,沒有,回想一下課文內容,1,final
+c3-k-L10-cont-002,3,chinese,kangxuan,choice,狐狸因為吃不到葡萄，就說葡萄是怎麼樣的？,甜的,苦的,辣的,酸的,酸的,回想一下課文內容,1,final
+c3-k-L10-cont-003,3,chinese,kangxuan,choice,這則寓言故事告訴我們什麼道理？,要多吃水果,不要自我安慰、逃避現實,狐狸很聰明,葡萄很難種,不要自我安慰、逃避現實,回想一下課文內容,1,final
+c3-k-L10-cont-004,3,chinese,kangxuan,choice,狐狸在嘗試摘葡萄時，心情有什麼變化？,從興奮到失望,一直很開心,一直很生氣,從難過到開心,從興奮到失望,回想一下課文內容,1,final
+c3-k-L10-cont-005,3,chinese,kangxuan,choice,「酸葡萄心理」是指什麼？,做事很認真,喜歡吃酸的東西,得不到就說不好,非常有同情心,得不到就說不好,回想一下課文內容,1,final
+c3-k-L11-zy-w2z-000,3,chinese,kangxuan,choice,請問「巨人」的注音是？,ㄐㄩˋ ㄖㄥˊ,ㄏㄨㄚ ㄩㄢˊ,ㄐㄩˋ ㄖㄣˇ,ㄐㄩˋ ㄖㄣˊ,ㄐㄩˋ ㄖㄣˊ,請注意聲調,1,final
+c3-k-L11-zy-w2z-001,3,chinese,kangxuan,choice,請問「花園」的注音是？,ㄍㄨˋ ㄓㄤˋ,ㄏㄨㄚ ㄩㄢˊ,ㄏㄨㄚ ㄩㄢ,ㄏㄨㄚ ㄩㄤˊ,ㄏㄨㄚ ㄩㄢˊ,請注意聲調,1,final
+c3-k-L11-zy-w2z-002,3,chinese,kangxuan,choice,請問「自私」的注音是？,ㄗˋ ㄙ,ㄇㄟˊ ㄍㄨㄟ,ㄗˋ ㄙˋ,ㄓˋ ㄙ,ㄗˋ ㄙ,請注意聲調,1,final
+c3-k-L11-zy-w2z-003,3,chinese,kangxuan,choice,請問「分享」的注音是？,ㄎㄡˇ ㄕㄨㄟˇ,ㄈㄣ ㄒㄧㄤ˙,ㄈㄥ ㄒㄧㄤˇ,ㄈㄣ ㄒㄧㄤˇ,ㄈㄣ ㄒㄧㄤˇ,請注意聲調,1,final
+c3-k-L11-zy-w2z-004,3,chinese,kangxuan,choice,請問「圍牆」的注音是？,ㄨㄟˊ ㄑㄧㄤˇ,ㄨㄟˊ ㄑㄧㄤˊ,ㄇㄟˊ ㄍㄨㄟ,ㄨㄟˊ ㄑㄧㄢˊ,ㄨㄟˊ ㄑㄧㄤˊ,請注意聲調,1,final
+c3-k-L11-zy-w2z-005,3,chinese,kangxuan,choice,請問「寒冬」的注音是？,ㄏㄢˊ ㄉㄨㄣ,ㄔㄤˊ ㄕˋ,ㄏㄢˊ ㄉㄨㄥˊ,ㄏㄢˊ ㄉㄨㄥ,ㄏㄢˊ ㄉㄨㄥ,請注意聲調,1,final
+c3-k-L11-zy-w2z-006,3,chinese,kangxuan,choice,請問「春天」的注音是？,ㄘㄨㄣ ㄊㄧㄢ,ㄔㄨㄣ ㄊㄧㄢˊ,ㄔㄨㄣ ㄊㄧㄢ,ㄇㄟˊ ㄍㄨㄟ,ㄔㄨㄣ ㄊㄧㄢ,請注意聲調,1,final
+c3-k-L11-zy-w2z-007,3,chinese,kangxuan,choice,請問「笑聲」的注音是？,ㄒㄧㄠˋ ㄙㄥ,ㄒㄧㄠˋ ㄕㄥˋ,ㄒㄧˋ ㄧㄤˊ,ㄒㄧㄠˋ ㄕㄥ,ㄒㄧㄠˋ ㄕㄥ,請注意聲調,1,final
+c3-k-L11-zy-z2w-000,3,chinese,kangxuan,choice,請問注音「ㄐㄩˋ ㄖㄣˊ」對應的解釋或詞語是？,大人,巨人,路人,巨大,巨人,請拼讀注音,1,final
+c3-k-L11-zy-z2w-001,3,chinese,kangxuan,choice,請問注音「ㄏㄨㄚ ㄩㄢˊ」對應的解釋或詞語是？,校園,公園,菜園,花園,花園,請拼讀注音,1,final
+c3-k-L11-zy-z2w-002,3,chinese,kangxuan,choice,請問注音「ㄗˋ ㄙ」對應的解釋或詞語是？,自私,私人,無私,自信,自私,請拼讀注音,1,final
+c3-k-L11-zy-z2w-003,3,chinese,kangxuan,choice,請問注音「ㄈㄣ ㄒㄧㄤˇ」對應的解釋或詞語是？,分配,分享,享受,分析,分享,請拼讀注音,1,final
+c3-k-L11-zy-z2w-004,3,chinese,kangxuan,choice,請問注音「ㄨㄟˊ ㄑㄧㄤˊ」對應的解釋或詞語是？,圍牆,城牆,圍裙,圍棋,圍牆,請拼讀注音,1,final
+c3-k-L11-zy-z2w-005,3,chinese,kangxuan,choice,請問注音「ㄏㄢˊ ㄉㄨㄥ」對應的解釋或詞語是？,秋冬,寒冬,寒假,寒冷,寒冬,請拼讀注音,1,final
+c3-k-L11-zy-z2w-006,3,chinese,kangxuan,choice,請問注音「ㄔㄨㄣ ㄊㄧㄢ」對應的解釋或詞語是？,春天,明天,秋天,夏天,春天,請拼讀注音,1,final
+c3-k-L11-zy-z2w-007,3,chinese,kangxuan,choice,請問注音「ㄒㄧㄠˋ ㄕㄥ」對應的解釋或詞語是？,叫聲,笑聲,歌聲,鐘聲,笑聲,請拼讀注音,1,final
+c3-k-L11-mean-w2m-000,3,chinese,kangxuan,choice,「巨人」的意思是什麼？,寒冷的冬天,圍繞在四周的牆垣,共同享受,身材高大的人,身材高大的人,根據課文內容,1,final
+c3-k-L11-mean-w2m-001,3,chinese,kangxuan,choice,「花園」的意思是什麼？,四季之首,種植花草的地方,圍繞在四周的牆垣,只顧自己利益,種植花草的地方,根據課文內容,1,final
+c3-k-L11-mean-w2m-002,3,chinese,kangxuan,choice,「自私」的意思是什麼？,只顧自己利益,種植花草的地方,共同享受,四季之首,只顧自己利益,根據課文內容,1,final
+c3-k-L11-mean-w2m-003,3,chinese,kangxuan,choice,「分享」的意思是什麼？,圍繞在四周的牆垣,只顧自己利益,種植花草的地方,共同享受,共同享受,根據課文內容,1,final
+c3-k-L11-mean-w2m-004,3,chinese,kangxuan,choice,「圍牆」的意思是什麼？,共同享受,四季之首,身材高大的人,圍繞在四周的牆垣,圍繞在四周的牆垣,根據課文內容,1,final
+c3-k-L11-mean-w2m-005,3,chinese,kangxuan,choice,「寒冬」的意思是什麼？,寒冷的冬天,共同享受,四季之首,歡笑的聲音,寒冷的冬天,根據課文內容,1,final
+c3-k-L11-mean-w2m-006,3,chinese,kangxuan,choice,「春天」的意思是什麼？,四季之首,身材高大的人,圍繞在四周的牆垣,歡笑的聲音,四季之首,根據課文內容,1,final
+c3-k-L11-mean-w2m-007,3,chinese,kangxuan,choice,「笑聲」的意思是什麼？,只顧自己利益,種植花草的地方,歡笑的聲音,共同享受,歡笑的聲音,根據課文內容,1,final
+c3-k-L11-use-cloze-000,3,chinese,kangxuan,choice,選詞填空：童話裡的____一步就能跨過小河。,自私,春天,笑聲,巨人,巨人,請選出最適合填入空格的詞,1,final
+c3-k-L11-use-cloze-001,3,chinese,kangxuan,choice,選詞填空：春天到了，____裡開滿了五顏六色的花朵。,圍牆,自私,花園,笑聲,花園,請選出最適合填入空格的詞,1,final
+c3-k-L11-use-cloze-002,3,chinese,kangxuan,choice,選詞填空：做人不能太____，要懂得為別人著想。,圍牆,春天,自私,分享,自私,請選出最適合填入空格的詞,1,final
+c3-k-L11-use-cloze-003,3,chinese,kangxuan,choice,選詞填空：他樂於和朋友____自己的玩具。,巨人,笑聲,分享,春天,分享,請選出最適合填入空格的詞,1,final
+c3-k-L11-use-cloze-004,3,chinese,kangxuan,choice,選詞填空：這所學校的____上畫滿了可愛的圖案。,分享,寒冬,圍牆,巨人,圍牆,請選出最適合填入空格的詞,1,final
+c3-k-L11-use-cloze-005,3,chinese,kangxuan,choice,選詞填空：____過去，溫暖的春天就會來臨。,寒冬,笑聲,春天,圍牆,寒冬,請選出最適合填入空格的詞,1,final
+c3-k-L11-use-cloze-006,3,chinese,kangxuan,choice,選詞填空：____是萬物生長的季節。,春天,分享,巨人,花園,春天,請選出最適合填入空格的詞,1,final
+c3-k-L11-use-cloze-007,3,chinese,kangxuan,choice,選詞填空：遊樂場裡充滿了孩子們快樂的____。,巨人,圍牆,花園,笑聲,笑聲,請選出最適合填入空格的詞,1,final
+c3-k-L11-char-rad-000,3,chinese,kangxuan,choice,請問「巨」字的部首是什麼？,工,止,日,心,工,部首通常在字的旁邊或上下,1,final
+c3-k-L11-char-rad-001,3,chinese,kangxuan,choice,請問「花」字的部首是什麼？,艸,人,止,阜,艸,部首通常在字的旁邊或上下,1,final
+c3-k-L11-char-rad-002,3,chinese,kangxuan,choice,請問「自」字的部首是什麼？,心,自,夕,艸,自,部首通常在字的旁邊或上下,1,final
+c3-k-L11-char-rad-003,3,chinese,kangxuan,choice,請問「分」字的部首是什麼？,口,刀,言,水,刀,部首通常在字的旁邊或上下,1,final
+c3-k-L11-char-rad-004,3,chinese,kangxuan,choice,請問「圍」字的部首是什麼？,心,人,言,囗,囗,部首通常在字的旁邊或上下,1,final
+c3-k-L11-char-rad-005,3,chinese,kangxuan,choice,請問「寒」字的部首是什麼？,宀,人,心,止,宀,部首通常在字的旁邊或上下,1,final
+c3-k-L11-char-rad-006,3,chinese,kangxuan,choice,請問「春」字的部首是什麼？,日,口,人,土,日,部首通常在字的旁邊或上下,1,final
+c3-k-L11-char-rad-007,3,chinese,kangxuan,choice,請問「笑」字的部首是什麼？,土,竹,人,艸,竹,部首通常在字的旁邊或上下,1,final
+c3-k-L11-gram-000,3,chinese,kangxuan,choice,花園____是巨人的私人領地，____因為孩子的笑聲變成了樂園。,因為……所以……,原本……卻……,除了……還……,一……就……,原本……卻……,句型練習,1,final
+c3-k-L11-gram-001,3,chinese,kangxuan,choice,他____生氣，臉色就____紅。,又……又……,一……一……,不……不……,越……越……,越……越……,句型練習,1,final
+c3-k-L11-cont-000,3,chinese,kangxuan,choice,為什麼巨人的花園裡總是冬天？,因為種了冰塊,因為神明懲罰,因為巨人自私，不讓孩子進來,因為天氣變異,因為巨人自私，不讓孩子進來,回想一下課文內容,1,final
+c3-k-L11-cont-001,3,chinese,kangxuan,choice,當孩子們鑽進花園後，花園發生了什麼變化？,春天來了，百花盛開,變得更冷,變成夏天,花朵枯萎,春天來了，百花盛開,回想一下課文內容,1,final
+c3-k-L11-cont-002,3,chinese,kangxuan,choice,巨人最後明白了什麼道理？,蓋圍牆很重要,分享能帶來快樂,一個人比較好,花園需要施肥,分享能帶來快樂,回想一下課文內容,1,final
+c3-k-L11-cont-003,3,chinese,kangxuan,choice,巨人為了不讓孩子進來，築起了什麼？,河流,深溝,電網,高高的圍牆,高高的圍牆,回想一下課文內容,1,final
+c3-k-L11-cont-004,3,chinese,kangxuan,choice,這個故事主要在談論什麼主題？,分享,誠實,勇敢,勤勞,分享,回想一下課文內容,1,final
+c3-k-L11-cont-005,3,chinese,kangxuan,choice,孩子們進入花園後，巨人的心情有什麼轉變？,無所謂,從生氣變為後悔並開心,感到害怕,更加生氣,從生氣變為後悔並開心,回想一下課文內容,1,final
+c3-k-L12-zy-w2z-000,3,chinese,kangxuan,choice,請問「飛行員」的注音是？,ㄚ ㄇㄟˇ ㄗㄨˊ,ㄈㄟ ㄒㄧㄥˊ ㄩㄢˇ,ㄈㄟ ㄒㄧㄣˊ ㄩㄢˊ,ㄈㄟ ㄒㄧㄥˊ ㄩㄢˊ,ㄈㄟ ㄒㄧㄥˊ ㄩㄢˊ,請注意聲調,1,final
+c3-k-L12-zy-w2z-001,3,chinese,kangxuan,choice,請問「沙漠」的注音是？,ㄙㄚ ㄇㄛˋ,ㄕㄚ ㄇㄛ˙,ㄐㄧㄝ ㄉㄠˋ,ㄕㄚ ㄇㄛˋ,ㄕㄚ ㄇㄛˋ,請注意聲調,1,final
+c3-k-L12-zy-w2z-002,3,chinese,kangxuan,choice,請問「獨特」的注音是？,ㄉㄨˊ ㄊㄜˋ,ㄉㄨˊ ㄊㄜ,ㄏㄢˊ ㄉㄨㄥ,ㄔㄨㄣ ㄊㄧㄢ,ㄉㄨˊ ㄊㄜˋ,請注意聲調,1,final
+c3-k-L12-zy-w2z-003,3,chinese,kangxuan,choice,請問「玫瑰」的注音是？,ㄇㄟˊ ㄍㄨㄟˋ,ㄐㄩˋ ㄖㄣˊ,ㄇㄟˊ ㄍㄨㄟ,ㄊㄧㄝˇ ㄉㄢˋ,ㄇㄟˊ ㄍㄨㄟ,請注意聲調,1,final
+c3-k-L12-zy-w2z-004,3,chinese,kangxuan,choice,請問「馴養」的注音是？,ㄒㄩㄣˊ ㄧㄤˇ,ㄆㄨˊ ㄊㄠˊ,ㄒㄩㄥˊ ㄧㄤˇ,ㄒㄩㄣˊ ㄧㄤ,ㄒㄩㄣˊ ㄧㄤˇ,請注意聲調,1,final
+c3-k-L12-zy-w2z-005,3,chinese,kangxuan,choice,請問「朋友」的注音是？,ㄔㄨㄥ ㄇㄢˇ,ㄆㄣˊ ㄧㄡˇ,ㄆㄥˊ ㄧㄡˇ,ㄆㄥˊ ㄧㄡˊ,ㄆㄥˊ ㄧㄡˇ,請注意聲調,1,final
+c3-k-L12-zy-w2z-006,3,chinese,kangxuan,choice,請問「故障」的注音是？,ㄍㄨˋ ㄓㄤˋ,ㄍㄨˋ ㄗㄤˋ,ㄔㄣˊ ㄌㄧㄝˋ ㄍㄨㄢˇ,ㄍㄨˋ ㄓㄤˇ,ㄍㄨˋ ㄓㄤˋ,請注意聲調,1,final
+c3-k-L12-zy-w2z-007,3,chinese,kangxuan,choice,請問「星球」的注音是？,ㄒㄧㄥ ㄑㄧㄡˊ,ㄒㄧㄥ ㄑㄧㄡˇ,ㄍㄨˇ ㄌㄠˇ,ㄒㄧㄣ ㄑㄧㄡˊ,ㄒㄧㄥ ㄑㄧㄡˊ,請注意聲調,1,final
+c3-k-L12-zy-z2w-000,3,chinese,kangxuan,choice,請問注音「ㄈㄟ ㄒㄧㄥˊ ㄩㄢˊ」對應的解釋或詞語是？,飛機,飛行員,太空人,服務員,飛行員,請拼讀注音,1,final
+c3-k-L12-zy-z2w-001,3,chinese,kangxuan,choice,請問注音「ㄕㄚ ㄇㄛˋ」對應的解釋或詞語是？,冷漠,沙漠,沙灘,沙發,沙漠,請拼讀注音,1,final
+c3-k-L12-zy-z2w-002,3,chinese,kangxuan,choice,請問注音「ㄉㄨˊ ㄊㄜˋ」對應的解釋或詞語是？,獨特,特別,特大,獨立,獨特,請拼讀注音,1,final
+c3-k-L12-zy-z2w-003,3,chinese,kangxuan,choice,請問注音「ㄇㄟˊ ㄍㄨㄟ」對應的解釋或詞語是？,玫瑰,烏龜,百合,瑰麗,玫瑰,請拼讀注音,1,final
+c3-k-L12-zy-z2w-004,3,chinese,kangxuan,choice,請問注音「ㄒㄩㄣˊ ㄧㄤˇ」對應的解釋或詞語是？,馴養,教養,保養,飼養,馴養,請拼讀注音,1,final
+c3-k-L12-zy-z2w-005,3,chinese,kangxuan,choice,請問注音「ㄆㄥˊ ㄧㄡˇ」對應的解釋或詞語是？,男友,朋友,親友,小朋友,朋友,請拼讀注音,1,final
+c3-k-L12-zy-z2w-006,3,chinese,kangxuan,choice,請問注音「ㄍㄨˋ ㄓㄤˋ」對應的解釋或詞語是？,故障,故事,保障,鼓掌,故障,請拼讀注音,1,final
+c3-k-L12-zy-z2w-007,3,chinese,kangxuan,choice,請問注音「ㄒㄧㄥ ㄑㄧㄡˊ」對應的解釋或詞語是？,棒球,皮球,星球,地球,星球,請拼讀注音,1,final
+c3-k-L12-mean-w2m-000,3,chinese,kangxuan,choice,「飛行員」的意思是什麼？,獨一無二，與眾不同,志同道合的人,花名，象徵愛情,駕駛飛機的人,駕駛飛機的人,根據課文內容,1,final
+c3-k-L12-mean-w2m-001,3,chinese,kangxuan,choice,「沙漠」的意思是什麼？,花名，象徵愛情,廣大乾旱的地方,宇宙中的天體,飼養並建立關係,廣大乾旱的地方,根據課文內容,1,final
+c3-k-L12-mean-w2m-002,3,chinese,kangxuan,choice,「獨特」的意思是什麼？,廣大乾旱的地方,志同道合的人,駕駛飛機的人,獨一無二，與眾不同,獨一無二，與眾不同,根據課文內容,1,final
+c3-k-L12-mean-w2m-003,3,chinese,kangxuan,choice,「玫瑰」的意思是什麼？,志同道合的人,花名，象徵愛情,獨一無二，與眾不同,宇宙中的天體,花名，象徵愛情,根據課文內容,1,final
+c3-k-L12-mean-w2m-004,3,chinese,kangxuan,choice,「馴養」的意思是什麼？,飼養並建立關係,駕駛飛機的人,宇宙中的天體,機器發生毛病,飼養並建立關係,根據課文內容,1,final
+c3-k-L12-mean-w2m-005,3,chinese,kangxuan,choice,「朋友」的意思是什麼？,花名，象徵愛情,飼養並建立關係,宇宙中的天體,志同道合的人,志同道合的人,根據課文內容,1,final
+c3-k-L12-mean-w2m-006,3,chinese,kangxuan,choice,「故障」的意思是什麼？,宇宙中的天體,飼養並建立關係,廣大乾旱的地方,機器發生毛病,機器發生毛病,根據課文內容,1,final
+c3-k-L12-mean-w2m-007,3,chinese,kangxuan,choice,「星球」的意思是什麼？,花名，象徵愛情,宇宙中的天體,廣大乾旱的地方,駕駛飛機的人,宇宙中的天體,根據課文內容,1,final
+c3-k-L12-use-cloze-000,3,chinese,kangxuan,choice,選詞填空：他的夢想是成為一名____，翱翔在天空中。,馴養,星球,故障,飛行員,飛行員,請選出最適合填入空格的詞,1,final
+c3-k-L12-use-cloze-001,3,chinese,kangxuan,choice,選詞填空：駱駝被稱為____之舟，能適應乾旱的環境。,星球,馴養,故障,沙漠,沙漠,請選出最適合填入空格的詞,1,final
+c3-k-L12-use-cloze-002,3,chinese,kangxuan,choice,選詞填空：這位畫家的風格非常____，讓人印象深刻。,飛行員,沙漠,玫瑰,獨特,獨特,請選出最適合填入空格的詞,1,final
+c3-k-L12-use-cloze-003,3,chinese,kangxuan,choice,選詞填空：小王子深愛著B612星球上的那朵____。,朋友,星球,玫瑰,飛行員,玫瑰,請選出最適合填入空格的詞,1,final
+c3-k-L12-use-cloze-004,3,chinese,kangxuan,choice,選詞填空：狐狸告訴小王子，____就是建立關係的意思。,星球,獨特,馴養,玫瑰,馴養,請選出最適合填入空格的詞,1,final
+c3-k-L12-use-cloze-005,3,chinese,kangxuan,choice,選詞填空：我們要真誠待人，才能結交到好____。,獨特,馴養,朋友,玫瑰,朋友,請選出最適合填入空格的詞,1,final
+c3-k-L12-use-cloze-006,3,chinese,kangxuan,choice,選詞填空：車子拋錨____了，我們只好叫拖吊車。,故障,朋友,馴養,沙漠,故障,請選出最適合填入空格的詞,1,final
+c3-k-L12-use-cloze-007,3,chinese,kangxuan,choice,選詞填空：地球是我們居住的美麗____。,星球,故障,馴養,玫瑰,星球,請選出最適合填入空格的詞,1,final
+c3-k-L12-char-rad-000,3,chinese,kangxuan,choice,請問「飛」字的部首是什麼？,止,飛,艸,行,飛,部首通常在字的旁邊或上下,1,final
+c3-k-L12-char-rad-001,3,chinese,kangxuan,choice,請問「沙」字的部首是什麼？,水,阜,手,言,水,部首通常在字的旁邊或上下,1,final
+c3-k-L12-char-rad-002,3,chinese,kangxuan,choice,請問「獨」字的部首是什麼？,言,木,犬,金,犬,部首通常在字的旁邊或上下,1,final
+c3-k-L12-char-rad-003,3,chinese,kangxuan,choice,請問「玫」字的部首是什麼？,止,玉,土,木,玉,部首通常在字的旁邊或上下,1,final
+c3-k-L12-char-rad-004,3,chinese,kangxuan,choice,請問「馴」字的部首是什麼？,金,羊,夕,馬,馬,部首通常在字的旁邊或上下,1,final
+c3-k-L12-char-rad-005,3,chinese,kangxuan,choice,請問「朋」字的部首是什麼？,金,心,言,月,月,部首通常在字的旁邊或上下,1,final
+c3-k-L12-char-rad-006,3,chinese,kangxuan,choice,請問「故」字的部首是什麼？,心,人,攴,金,攴,部首通常在字的旁邊或上下,1,final
+c3-k-L12-char-rad-007,3,chinese,kangxuan,choice,請問「星」字的部首是什麼？,行,日,水,阜,日,部首通常在字的旁邊或上下,1,final
+c3-k-L12-gram-000,3,chinese,kangxuan,choice,____遇到困難，我們____要勇敢面對。,一……就……,不但……而且……,即使……也……,為了……而……,即使……也……,句型練習,1,final
+c3-k-L12-gram-001,3,chinese,kangxuan,choice,____你用心看，____能看見事物的本質。,除了……還……,雖然……但是……,因為……所以……,如果……就……,如果……就……,句型練習,1,final
+c3-k-L12-cont-000,3,chinese,kangxuan,choice,課文中的「奇特的朋友」是指誰？,飛行員,狐狸,小王子,玫瑰花,小王子,回想一下課文內容,1,final
+c3-k-L12-cont-001,3,chinese,kangxuan,choice,飛行員在哪裡遇見了小王子？,沙漠,海邊,森林,城市,沙漠,回想一下課文內容,1,final
+c3-k-L12-cont-002,3,chinese,kangxuan,choice,小王子來自哪裡？,別的星球,未來,地球的另一端,海底,別的星球,回想一下課文內容,1,final
+c3-k-L12-cont-003,3,chinese,kangxuan,choice,對小王子來說，哪一朵花是世界上獨一無二的？,花店買的玫瑰,路邊的野花,他星球上的那朵玫瑰,溫室裡的花,他星球上的那朵玫瑰,回想一下課文內容,1,final
+c3-k-L12-cont-004,3,chinese,kangxuan,choice,「馴養」在這個故事中代表什麼意義？,訓練寵物,種植植物,餵養動物,建立關係與羈絆,建立關係與羈絆,回想一下課文內容,1,final
+c3-k-L12-cont-005,3,chinese,kangxuan,choice,小王子要飛行員畫什麼給他？,綿羊,房子,老虎,大象,綿羊,回想一下課文內容,1,final
