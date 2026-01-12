@@ -250,10 +250,22 @@ const StorageService = {
             speed: '計時挑戰'
         };
         return names[gameType] || gameType;
+    },
+
+    /**
+     * 取得考試範圍中文名稱
+     * @param {string} exam - 考試範圍代碼
+     * @returns {string} 中文名稱
+     */
+    getExamName(exam) {
+        const names = {
+            midterm: '期中考',
+            final: '期末考',
+            all: '全部範圍'
+        };
+        return names[exam] || exam;
     }
 };
-
-// 匯出
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = StorageService;
 }

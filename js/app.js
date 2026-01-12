@@ -10,6 +10,7 @@ const App = {
         selectedGrade: null,
         selectedSubject: null,
         selectedPublisher: null,
+        selectedExam: null,
         selectedGameType: null
     },
 
@@ -47,6 +48,8 @@ const App = {
             subjectSelector: document.getElementById('subject-selector'),
             publisherGroup: document.getElementById('publisher-group'),
             publisherSelector: document.getElementById('publisher-selector'),
+            examGroup: document.getElementById('exam-group'),
+            examSelector: document.getElementById('exam-selector'),
             gameTypeGroup: document.getElementById('game-type-group'),
             gameTypeSelector: document.getElementById('game-type-selector'),
 
@@ -55,6 +58,7 @@ const App = {
             selectedGrade: document.getElementById('selected-grade'),
             selectedSubject: document.getElementById('selected-subject'),
             selectedPublisher: document.getElementById('selected-publisher'),
+            selectedExam: document.getElementById('selected-exam'),
             resetSelection: document.getElementById('reset-selection'),
 
             // 遊戲頁面元素
@@ -148,6 +152,12 @@ const App = {
         this.elements.publisherSelector.addEventListener('click', (e) => {
             const btn = e.target.closest('.selector-btn');
             if (btn) this.selectPublisher(btn.dataset.value);
+        });
+
+        // 考試範圍選擇
+        this.elements.examSelector.addEventListener('click', (e) => {
+            const btn = e.target.closest('.selector-btn');
+            if (btn) this.selectExam(btn.dataset.value);
         });
 
         // 遊戲類型選擇
@@ -257,6 +267,20 @@ const App = {
         this.state.selectedPublisher = publisher;
         this.updateSelectorUI('publisher', publisher);
 
+        // 顯示考試範圍選擇
+        this.elements.examGroup.style.display = 'block';
+        this.elements.examGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        this.updateCurrentSelection();
+    },
+
+    /**
+     * 選擇考試範圍
+     */
+    selectExam(exam) {
+        this.state.selectedExam = exam;
+        this.updateSelectorUI('exam', exam);
+
         // 顯示遊戲類型選擇
         this.elements.gameTypeGroup.style.display = 'block';
         this.elements.gameTypeGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -290,6 +314,9 @@ const App = {
             case 'publisher':
                 selector = this.elements.publisherSelector;
                 break;
+            case 'exam':
+                selector = this.elements.examSelector;
+                break;
             case 'gameType':
                 selector = this.elements.gameTypeSelector;
                 break;
@@ -306,7 +333,7 @@ const App = {
      * 更新當前選擇顯示
      */
     updateCurrentSelection() {
-        const { selectedGrade, selectedSubject, selectedPublisher } = this.state;
+        const { selectedGrade, selectedSubject, selectedPublisher, selectedExam } = this.state;
 
         if (selectedGrade) {
             this.elements.currentSelection.style.display = 'flex';
@@ -328,10 +355,18 @@ const App = {
             this.elements.selectedPublisher.style.display = 'none';
         }
 
+        if (selectedExam) {
+            this.elements.selectedExam.textContent = StorageService.getExamName(selectedExam);
+            this.elements.selectedExam.style.display = 'inline-block';
+        } else {
+            this.elements.selectedExam.style.display = 'none';
+        }
+
         // 更新分隔符顯示
         const dividers = this.elements.currentSelection.querySelectorAll('.selection-divider');
         dividers[0].style.display = selectedSubject ? 'inline' : 'none';
         dividers[1].style.display = selectedPublisher ? 'inline' : 'none';
+        dividers[2].style.display = selectedExam ? 'inline' : 'none';
     },
 
     /**
@@ -341,11 +376,13 @@ const App = {
         this.state.selectedGrade = null;
         this.state.selectedSubject = null;
         this.state.selectedPublisher = null;
+        this.state.selectedExam = null;
         this.state.selectedGameType = null;
 
         // 隱藏和重置選擇器
         this.elements.subjectGroup.style.display = 'none';
         this.elements.publisherGroup.style.display = 'none';
+        this.elements.examGroup.style.display = 'none';
         this.elements.gameTypeGroup.style.display = 'none';
         this.elements.currentSelection.style.display = 'none';
 
@@ -364,7 +401,7 @@ const App = {
      * 開始遊戲
      */
     startGame() {
-        const { selectedGrade, selectedSubject, selectedPublisher, selectedGameType } = this.state;
+        const { selectedGrade, selectedSubject, selectedPublisher, selectedExam, selectedGameType } = this.state;
 
         // 設置遊戲引擎回調
         GameEngine.setCallbacks({
@@ -382,7 +419,8 @@ const App = {
             gameType: selectedGameType,
             grade: selectedGrade,
             subject: selectedSubject,
-            publisher: selectedPublisher
+            publisher: selectedPublisher,
+            exam: selectedExam
         });
 
         // 顯示對應的遊戲區域

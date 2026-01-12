@@ -18,7 +18,8 @@ const GameEngine = {
         settings: {          // 遊戲設定
             grade: null,
             subject: null,
-            publisher: null
+            publisher: null,
+            exam: null
         }
     },
 
@@ -58,7 +59,8 @@ const GameEngine = {
         this.state.settings = {
             grade: config.grade,
             subject: config.subject,
-            publisher: config.publisher
+            publisher: config.publisher,
+            exam: config.exam
         };
         this.state.currentIndex = 0;
         this.state.score = 0;
@@ -100,6 +102,7 @@ const GameEngine = {
             config.grade,
             config.subject,
             config.publisher,
+            config.exam,
             10 // 預設10題
         );
 
@@ -205,6 +208,7 @@ const GameEngine = {
             config.grade,
             config.subject,
             config.publisher,
+            config.exam,
             6 // 6對 = 12張卡片
         );
 
@@ -329,6 +333,7 @@ const GameEngine = {
             config.grade,
             config.subject,
             config.publisher,
+            config.exam,
             30 // 計時挑戰需要更多題目
         );
 
@@ -499,7 +504,8 @@ const GameEngine = {
             settings: {
                 grade: null,
                 subject: null,
-                publisher: null
+                publisher: null,
+                exam: null
             }
         };
         this.matchState = {

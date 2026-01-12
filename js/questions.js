@@ -1216,10 +1216,11 @@ const QuestionBank = {
      * @param {string} grade - 年級
      * @param {string} subject - 科目
      * @param {string} publisher - 出版社
+     * @param {string} exam - 考試範圍 (midterm, final, all)
      * @param {number} count - 題目數量
      * @returns {Array} 題目陣列
      */
-    getQuestions(grade, subject, publisher, count = 10) {
+    getQuestions(grade, subject, publisher, exam = 'all', count = 10) {
         const gradeData = this.data[grade];
         if (!gradeData) {
             console.warn(`年級 ${grade} 無資料，使用預設題庫`);
@@ -1238,6 +1239,19 @@ const QuestionBank = {
             return this.getDefaultQuestions(count);
         }
 
+        // 根據考試範圍篩選題目
+        // 期中考：取前半部分題目
+        // 期末考：取後半部分題目
+        // 全部範圍：使用所有題目
+        if (exam === 'midterm') {
+            const midpoint = Math.ceil(questions.length / 2);
+            questions = questions.slice(0, midpoint);
+        } else if (exam === 'final') {
+            const midpoint = Math.floor(questions.length / 2);
+            questions = questions.slice(midpoint);
+        }
+        // exam === 'all' 使用全部題目
+
         // 隨機打亂並取出指定數量
         const shuffled = this.shuffle([...questions]);
         return shuffled.slice(0, Math.min(count, shuffled.length));
@@ -1248,10 +1262,11 @@ const QuestionBank = {
      * @param {string} grade - 年級
      * @param {string} subject - 科目
      * @param {string} publisher - 出版社
+     * @param {string} exam - 考試範圍 (midterm, final, all)
      * @param {number} pairs - 配對數量
      * @returns {Array} 配對資料
      */
-    getMatchPairs(grade, subject, publisher, pairs = 6) {
+    getMatchPairs(grade, subject, publisher, exam = 'all', pairs = 6) {
         // 根據科目生成不同的配對內容
         const matchData = {
             chinese: {
@@ -1365,7 +1380,17 @@ const QuestionBank = {
             ]).slice(0, pairs);
         }
 
-        const gradeMatch = subjectMatch[grade] || subjectMatch["1"];
+        let gradeMatch = subjectMatch[grade] || subjectMatch["1"];
+
+        // 根據考試範圍篩選配對
+        if (exam === 'midterm') {
+            const midpoint = Math.ceil(gradeMatch.length / 2);
+            gradeMatch = gradeMatch.slice(0, midpoint);
+        } else if (exam === 'final') {
+            const midpoint = Math.floor(gradeMatch.length / 2);
+            gradeMatch = gradeMatch.slice(midpoint);
+        }
+
         return this.shuffle([...gradeMatch]).slice(0, Math.min(pairs, gradeMatch.length));
     },
 

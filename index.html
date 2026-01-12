@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,11 @@
     <title>🎮 快樂學習王 - 國小互動學習遊戲</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <!-- 載入畫面 -->
     <div id="loading-screen" class="loading-screen">
@@ -129,6 +132,28 @@
                         </div>
                     </div>
 
+                    <!-- 考試範圍選擇 -->
+                    <div class="selector-group" id="exam-group" style="display: none;">
+                        <label class="selector-label">
+                            <span class="label-icon">📋</span>
+                            選擇考試範圍
+                        </label>
+                        <div class="selector-options exam-options" id="exam-selector">
+                            <button class="selector-btn" data-value="midterm">
+                                <span class="btn-icon">📝</span>
+                                <span class="btn-text">期中考</span>
+                            </button>
+                            <button class="selector-btn" data-value="final">
+                                <span class="btn-icon">📚</span>
+                                <span class="btn-text">期末考</span>
+                            </button>
+                            <button class="selector-btn" data-value="all">
+                                <span class="btn-icon">📖</span>
+                                <span class="btn-text">全部範圍</span>
+                            </button>
+                        </div>
+                    </div>
+
                     <!-- 遊戲類型選擇 -->
                     <div class="selector-group" id="game-type-group" style="display: none;">
                         <label class="selector-label">
@@ -163,6 +188,8 @@
                         <span class="selection-item" id="selected-subject"></span>
                         <span class="selection-divider">›</span>
                         <span class="selection-item" id="selected-publisher"></span>
+                        <span class="selection-divider">›</span>
+                        <span class="selection-item" id="selected-exam"></span>
                     </div>
                     <button class="reset-btn" id="reset-selection">
                         <span>🔄</span> 重新選擇
@@ -215,7 +242,8 @@
                 <div class="game-area" id="match-game" style="display: none;">
                     <div class="match-info">
                         <span class="match-moves">翻牌次數: <span id="match-moves">0</span></span>
-                        <span class="match-pairs">配對數: <span id="match-pairs">0</span>/<span id="match-total">8</span></span>
+                        <span class="match-pairs">配對數: <span id="match-pairs">0</span>/<span
+                                id="match-total">8</span></span>
                     </div>
                     <div class="match-grid" id="match-grid">
                         <!-- 卡片動態生成 -->
@@ -226,8 +254,8 @@
                 <div class="game-area" id="speed-game" style="display: none;">
                     <div class="speed-timer">
                         <svg class="timer-ring" viewBox="0 0 100 100">
-                            <circle class="timer-bg" cx="50" cy="50" r="45"/>
-                            <circle class="timer-progress" id="timer-ring-progress" cx="50" cy="50" r="45"/>
+                            <circle class="timer-bg" cx="50" cy="50" r="45" />
+                            <circle class="timer-progress" id="timer-ring-progress" cx="50" cy="50" r="45" />
                         </svg>
                         <span class="timer-text" id="speed-timer-text">60</span>
                     </div>
@@ -366,4 +394,5 @@
     <script src="js/gameEngine.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
