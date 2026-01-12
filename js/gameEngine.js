@@ -329,6 +329,7 @@ const GameEngine = {
                 // 配對失敗
                 card1.isFlipped = false;
                 card2.isFlipped = false;
+                this.state.wrong++;
             }
 
             this.matchState.flippedCards = [];

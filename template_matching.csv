@@ -16,3 +16,40 @@ grade,subject,item_a,item_b,semester,exam
 3,english,sister,姊姊/妹妹,1,final
 3,english,red,紅色,1,final
 3,english,blue,藍色,1,final
+3,english,pencil,鉛筆,2,final
+3,english,pen,原子筆,2,final
+3,english,ruler,尺,2,final
+3,english,eraser,橡皮擦,2,final
+3,english,marker,麥克筆,2,final
+3,english,book,書本,2,final
+3,english,desk,書桌,2,final
+3,english,chair,椅子,2,final
+3,english,What's this?,這是什麼？,2,final
+3,english,What's that?,那是什麼？,2,final
+3,english,Is this/that...?,這/那是...嗎？,2,final
+3,english,"Yes, it is.",是的，它是。,2,final
+3,english,"No, it isn't.",不，它不是。,2,final
+3,english,in,在...裡面,2,final
+3,english,on,在...上面,2,final
+3,english,under,在...下面,2,final
+3,english,box,箱子,2,final
+3,english,ball,球,2,final
+3,english,Where is...?,...在哪裡？,2,final
+3,english,It's in the box.,在箱子裡,2,final
+3,english,It's on the desk.,在桌子上,2,final
+3,english,It's under the chair.,在椅子下,2,final
+3,english,Where,哪裡,2,final
+3,english,my,我的,2,final
+3,english,your,你的,2,final
+3,english,this,這,2,final
+3,english,that,那,2,final
+3,english,he,他,2,final
+3,english,she,她,2,final
+3,english,it,它,2,final
+3,english,a,一個(用於子音前),2,final
+3,english,an,一個(用於母音前),2,final
+3,english,is,是,2,final
+3,english,big,大的,2,final
+3,english,small,小的,2,final
+3,english,long,長的,2,final
+3,english,short,短的,2,final
