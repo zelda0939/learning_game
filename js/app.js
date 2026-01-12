@@ -682,6 +682,9 @@ const App = {
             return;
         }
 
+        // 隱藏載入畫面
+        this.elements.loadingScreen.classList.add('hide');
+
         // 顯示對應的遊戲區域
         this.showGameArea(selectedGameType);
 
