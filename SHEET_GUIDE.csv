@@ -11,11 +11,13 @@ questions,option3,文字,是,選項 3,6
 questions,option4,文字,是,選項 4,7
 questions,answer,文字,是,正確答案（必須與選項之一完全相同）,5
 questions,hint,文字,否,提示內容（答錯時顯示）,用手指數一數！
+questions,semester,文字,是,學期：1（上學期）/2（下學期）/all（全部）,1
 questions,exam,文字,是,考試範圍：midterm（期中考）/final（期末考）/all（全部）,midterm
 matching,grade,數字,是,年級 (1-6),1
 matching,subject,文字,是,科目代碼：math/chinese/english,chinese
 matching,item_a,文字,是,配對項目 A（左邊/題目）,大
 matching,item_b,文字,是,配對項目 B（右邊/答案）,小
+matching,semester,文字,是,學期：1（上學期）/2（下學期）/all（全部）,1
 matching,exam,文字,是,考試範圍：midterm（期中考）/final（期末考）/all（全部）,midterm
 
 ===科目代碼對照===
@@ -41,6 +43,12 @@ hanlin,翰林
 5,五年級
 6,六年級
 
+===學期代碼對照===
+代碼,說明
+1,上學期
+2,下學期
+all,兩學期都適用
+
 ===考試範圍代碼對照===
 代碼,說明,用途
 midterm,期中考,只在選擇「期中考」範圍時出現
@@ -61,4 +69,5 @@ all,全部,在任何範圍選擇時都會出現
 3,第一列的標題名稱必須與欄位定義完全相同
 4,科目和出版社代碼使用小寫英文
 5,年級欄位使用數字 1-6
-6,exam 欄位必須填寫 midterm/final/all 其中之一
+6,semester 欄位必須填寫 1/2/all 其中之一
+7,exam 欄位必須填寫 midterm/final/all 其中之一

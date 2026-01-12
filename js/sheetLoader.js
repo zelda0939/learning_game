@@ -166,6 +166,7 @@ const SheetLoader = {
                 options: [row.option1, row.option2, row.option3, row.option4].filter(Boolean),
                 answer: row.answer,
                 hint: row.hint || '',
+                semester: row.semester ? String(row.semester) : 'all', // 強制轉為字串
                 exam: row.exam || 'all'  // 考試範圍：midterm/final/all
             };
 
@@ -199,6 +200,7 @@ const SheetLoader = {
             processed[subject][grade].push({
                 a: row.item_a,
                 b: row.item_b,
+                semester: row.semester ? String(row.semester) : 'all', // 強制轉為字串
                 exam: row.exam || 'all'  // 考試範圍：midterm/final/all
             });
         });

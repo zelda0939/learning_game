@@ -8,6 +8,7 @@ const App = {
     state: {
         currentPage: 'welcome',
         selectedGrade: null,
+        selectedSemester: null,
         selectedSubject: null,
         selectedPublisher: null,
         selectedExam: null,
@@ -75,6 +76,8 @@ const App = {
 
             // 選擇器
             gradeSelector: document.getElementById('grade-selector'),
+            semesterGroup: document.getElementById('semester-group'),
+            semesterSelector: document.getElementById('semester-selector'),
             subjectGroup: document.getElementById('subject-group'),
             subjectSelector: document.getElementById('subject-selector'),
             publisherGroup: document.getElementById('publisher-group'),
@@ -87,6 +90,7 @@ const App = {
             // 當前選擇顯示
             currentSelection: document.getElementById('current-selection'),
             selectedGrade: document.getElementById('selected-grade'),
+            selectedSemester: document.getElementById('selected-semester'),
             selectedSubject: document.getElementById('selected-subject'),
             selectedPublisher: document.getElementById('selected-publisher'),
             selectedExam: document.getElementById('selected-exam'),
@@ -171,6 +175,12 @@ const App = {
         this.elements.gradeSelector.addEventListener('click', (e) => {
             const btn = e.target.closest('.selector-btn');
             if (btn) this.selectGrade(btn.dataset.value);
+        });
+
+        // 學期選擇
+        this.elements.semesterSelector.addEventListener('click', (e) => {
+            const btn = e.target.closest('.selector-btn');
+            if (btn) this.selectSemester(btn.dataset.value);
         });
 
         // 科目選擇
@@ -270,6 +280,20 @@ const App = {
         this.state.selectedGrade = grade;
         this.updateSelectorUI('grade', grade);
 
+        // 顯示學期選擇
+        this.elements.semesterGroup.style.display = 'block';
+        this.elements.semesterGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        this.updateCurrentSelection();
+    },
+
+    /**
+     * 選擇學期
+     */
+    selectSemester(semester) {
+        this.state.selectedSemester = semester;
+        this.updateSelectorUI('semester', semester);
+
         // 顯示科目選擇
         this.elements.subjectGroup.style.display = 'block';
         this.elements.subjectGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -339,6 +363,9 @@ const App = {
             case 'grade':
                 selector = this.elements.gradeSelector;
                 break;
+            case 'semester':
+                selector = this.elements.semesterSelector;
+                break;
             case 'subject':
                 selector = this.elements.subjectSelector;
                 break;
@@ -364,12 +391,19 @@ const App = {
      * 更新當前選擇顯示
      */
     updateCurrentSelection() {
-        const { selectedGrade, selectedSubject, selectedPublisher, selectedExam } = this.state;
+        const { selectedGrade, selectedSemester, selectedSubject, selectedPublisher, selectedExam } = this.state;
 
         if (selectedGrade) {
             this.elements.currentSelection.style.display = 'flex';
             this.elements.selectedGrade.textContent = `${selectedGrade}年級`;
             this.elements.selectedGrade.style.display = 'inline-block';
+        }
+
+        if (selectedSemester) {
+            this.elements.selectedSemester.textContent = selectedSemester === '1' ? '上學期' : '下學期';
+            this.elements.selectedSemester.style.display = 'inline-block';
+        } else {
+            this.elements.selectedSemester.style.display = 'none';
         }
 
         if (selectedSubject) {
@@ -395,9 +429,10 @@ const App = {
 
         // 更新分隔符顯示
         const dividers = this.elements.currentSelection.querySelectorAll('.selection-divider');
-        dividers[0].style.display = selectedSubject ? 'inline' : 'none';
-        dividers[1].style.display = selectedPublisher ? 'inline' : 'none';
-        dividers[2].style.display = selectedExam ? 'inline' : 'none';
+        dividers[0].style.display = selectedSemester ? 'inline' : 'none';
+        dividers[1].style.display = selectedSubject ? 'inline' : 'none';
+        dividers[2].style.display = selectedPublisher ? 'inline' : 'none';
+        dividers[3].style.display = selectedExam ? 'inline' : 'none';
     },
 
     /**
@@ -405,12 +440,14 @@ const App = {
      */
     resetSelection() {
         this.state.selectedGrade = null;
+        this.state.selectedSemester = null;
         this.state.selectedSubject = null;
         this.state.selectedPublisher = null;
         this.state.selectedExam = null;
         this.state.selectedGameType = null;
 
         // 隱藏和重置選擇器
+        this.elements.semesterGroup.style.display = 'none';
         this.elements.subjectGroup.style.display = 'none';
         this.elements.publisherGroup.style.display = 'none';
         this.elements.examGroup.style.display = 'none';
@@ -432,7 +469,7 @@ const App = {
      * 開始遊戲
      */
     startGame() {
-        const { selectedGrade, selectedSubject, selectedPublisher, selectedExam, selectedGameType } = this.state;
+        const { selectedGrade, selectedSemester, selectedSubject, selectedPublisher, selectedExam, selectedGameType } = this.state;
 
         // 用於追蹤是否有題目
         let hasQuestions = true;
@@ -456,6 +493,7 @@ const App = {
         GameEngine.init({
             gameType: selectedGameType,
             grade: selectedGrade,
+            semester: selectedSemester,
             subject: selectedSubject,
             publisher: selectedPublisher,
             exam: selectedExam

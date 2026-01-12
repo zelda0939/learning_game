@@ -1,7 +1,17 @@
-id,grade,subject,publisher,type,question,option1,option2,option3,option4,answer,hint,exam
-m1-k-001,1,math,kangxuan,choice,3 + 2 = ?,4,5,6,7,5,用手指數一數！,midterm
-m1-k-002,1,math,kangxuan,choice,8 - 3 = ?,4,5,6,7,5,從8開始往回數3個,midterm
-m1-k-003,1,math,kangxuan,choice,10 - 5 = ?,4,5,6,7,5,從10開始往回數5個,final
-m1-k-004,1,math,kangxuan,choice,4 + 4 = ?,6,7,8,9,8,雙胞胎相加,final
-c1-k-001,1,chinese,kangxuan,choice,「大」的相反詞是什麼？,中,小,高,低,小,大和小是一對相反詞,all
-e1-k-001,1,english,kangxuan,choice,What color is an apple?,Red,Blue,Green,Yellow,Red,蘋果通常是紅色的,midterm
+id,grade,subject,publisher,type,question,option1,option2,option3,option4,answer,hint,semester,exam
+m1-k-001,1,math,kangxuan,choice,3 + 2 = ?,4,5,6,7,5,用手指數一數！,1,midterm
+m1-k-002,1,math,kangxuan,choice,8 - 3 = ?,4,5,6,7,5,從8開始往回數3個,1,midterm
+m1-k-003,1,math,kangxuan,choice,10 - 5 = ?,4,5,6,7,5,從10開始往回數5個,1,final
+m1-k-004,1,math,kangxuan,choice,4 + 4 = ?,6,7,8,9,8,雙胞胎相加,1,final
+c1-k-001,1,chinese,kangxuan,choice,「大」的相反詞是什麼？,中,小,高,低,小,大和小是一對相反詞,all,all
+e1-k-001,1,english,kangxuan,choice,What color is an apple?,Red,Blue,Green,Yellow,Red,蘋果通常是紅色的,1,midterm
+e3-k-001,3,english,kangxuan,choice,Who's he?,He is my brother.,She is my mom.,It is a cat.,He is tall.,He is my brother.,問男生他是誰,1,final
+e3-k-002,3,english,kangxuan,choice,Who's she?,She is my grandma.,He is my dad.,It is a dog.,She is short.,She is my grandma.,問女生她是誰,1,final
+e3-k-003,3,english,kangxuan,choice,"Is he your grandpa?","Yes, he is.",He is old.,"No, she isn't.",I like him.,"Yes, he is.",他是你爺爺嗎？,1,final
+e3-k-004,3,english,kangxuan,choice,What color is it? (紅色),"It's red.","It's blue.","Yes, it is.",I like red.,"It's red.",詢問顏色,1,final
+e3-k-005,3,english,kangxuan,choice,What color is the book?,"It's blue.","It's a book.","No, it isn't.",I can read.,"It's blue.",書本的顏色,1,final
+e3-k-006,3,english,kangxuan,choice,"Is it red?","No, it's green.","Yes, I am.","It's red.",I like green.,"No, it's green.",猜測顏色,1,final
+e3-k-007,3,english,kangxuan,choice,It is a ___ ball. (黃色的),yellow,red,big,small,yellow,顏色形容詞,1,final
+e3-k-008,3,english,kangxuan,choice,"Is this a ball?","Yes, it is.","No, I am not.",It is round.,I can play.,"Yes, it is.",確認物品,1,final
+e3-k-009,3,english,kangxuan,choice,What's this?,"It's a pencil.","Yes, it is.",I like it.,It is long.,"It's a pencil.",詢問物品,1,final
+e3-k-010,3,english,kangxuan,choice,___ is not my sister.,He,She,It,They,He,He 用於男生,1,final

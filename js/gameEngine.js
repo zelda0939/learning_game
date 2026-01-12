@@ -17,6 +17,7 @@ const GameEngine = {
         isPlaying: false,    // 是否正在遊戲
         settings: {          // 遊戲設定
             grade: null,
+            semester: null,
             subject: null,
             publisher: null,
             exam: null
@@ -59,6 +60,7 @@ const GameEngine = {
         this.state.gameType = config.gameType;
         this.state.settings = {
             grade: config.grade,
+            semester: config.semester,
             subject: config.subject,
             publisher: config.publisher,
             exam: config.exam
@@ -103,6 +105,7 @@ const GameEngine = {
             config.grade,
             config.subject,
             config.publisher,
+            config.semester,
             config.exam,
             10 // 預設10題
         );
@@ -218,6 +221,7 @@ const GameEngine = {
             config.grade,
             config.subject,
             config.publisher,
+            config.semester,
             config.exam,
             6 // 6對 = 12張卡片
         );
@@ -352,6 +356,7 @@ const GameEngine = {
             config.grade,
             config.subject,
             config.publisher,
+            config.semester,
             config.exam,
             30 // 計時挑戰需要更多題目
         );
@@ -457,6 +462,7 @@ const GameEngine = {
         StorageService.addHistory({
             gameType: this.state.gameType,
             grade: this.state.settings.grade,
+            semester: this.state.settings.semester,
             subject: this.state.settings.subject,
             publisher: this.state.settings.publisher,
             score: result.score,
@@ -531,6 +537,7 @@ const GameEngine = {
             isPlaying: false,
             settings: {
                 grade: null,
+                semester: null,
                 subject: null,
                 publisher: null,
                 exam: null

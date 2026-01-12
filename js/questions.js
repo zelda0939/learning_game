@@ -2586,7 +2586,7 @@ const QuestionBank = {
      * @param {number} count - 題目數量
      * @returns {Array} 題目陣列
      */
-    getQuestions(grade, subject, publisher, exam = 'all', count = 10) {
+    getQuestions(grade, subject, publisher, semester = 'all', exam = 'all', count = 10) {
         const gradeData = this.currentData[grade];
         if (!gradeData) {
             console.warn(`年級 ${grade} 無資料`);
@@ -2605,13 +2605,28 @@ const QuestionBank = {
             return [];
         }
 
-        // 根據考試範圍篩選題目
-        // 使用明確的 exam 欄位篩選
-        if (exam !== 'all') {
+        console.log(`[getQuestions] Init: grade=${grade}, subject=${subject}, pub=${publisher}, sem=${semester}, exam=${exam}`);
+        console.log(`[getQuestions] Total questions before filter: ${questions.length}`);
+
+        // 根據學期與考試範圍篩選題目
+        if (semester !== 'all' || exam !== 'all') {
             questions = questions.filter(q => {
-                // 題目的 exam 欄位為 'all' 或與選擇的範圍相符
-                return q.exam === 'all' || q.exam === exam;
+                // 寬鬆比較：如果是 'all' 則通過，否則需完全相同
+                // 使用 String() 確保型別安全
+                const qSemester = String(q.semester || 'all');
+                const qExam = String(q.exam || 'all');
+
+                const matchSemester = semester === 'all' || qSemester === 'all' || qSemester === String(semester);
+                const matchExam = exam === 'all' || qExam === 'all' || qExam === String(exam);
+
+                // Debug log for failed items (optional, can be noisy)
+                // if (!matchSemester || !matchExam) {
+                //    console.log(`Filter out: id=${q.id}, sem=${qSemester}, exam=${qExam} vs req: sem=${semester}, exam=${exam}`);
+                // }
+
+                return matchSemester && matchExam;
             });
+            console.log(`[getQuestions] After filter: ${questions.length}`);
         }
         // exam === 'all' 使用全部題目
 
@@ -2635,10 +2650,10 @@ const QuestionBank = {
      * @param {number} pairs - 配對數量
      * @returns {Array} 配對資料
      */
-    getMatchPairs(grade, subject, publisher, exam = 'all', pairs = 6) {
+    getMatchPairs(grade, subject, publisher, semester = 'all', exam = 'all', pairs = 6) {
         // 如果有遠端配對資料，優先使用
         if (this.currentMatching && this.currentMatching[subject]) {
-            return this._getMatchFromData(this.currentMatching, grade, subject, exam, pairs);
+            return this._getMatchFromData(this.currentMatching, grade, subject, semester, exam, pairs);
         }
 
         // 使用內建配對資料
@@ -2825,7 +2840,7 @@ const QuestionBank = {
     /**
      * 從配對資料中取得配對（內部輔助方法）
      */
-    _getMatchFromData(matchData, grade, subject, exam, pairs) {
+    _getMatchFromData(matchData, grade, subject, semester, exam, pairs) {
         const subjectMatch = matchData[subject];
         if (!subjectMatch) {
             console.warn(`科目 ${subject} 無配對資料`);
@@ -2838,12 +2853,18 @@ const QuestionBank = {
             return [];
         }
 
-        // 根據考試範圍篩選配對（使用明確的 exam 欄位）
-        if (exam !== 'all') {
+        // 根據學期與考試範圍篩選配對
+        if (semester !== 'all' || exam !== 'all') {
+            const originalCount = gradeMatch.length;
             gradeMatch = gradeMatch.filter(m => {
-                // 配對的 exam 欄位為 'all' 或與選擇的範圍相符
-                return m.exam === 'all' || m.exam === exam;
+                const mSemester = String(m.semester || 'all');
+                const mExam = String(m.exam || 'all');
+
+                const matchSemester = semester === 'all' || mSemester === 'all' || mSemester === String(semester);
+                const matchExam = exam === 'all' || mExam === 'all' || mExam === String(exam);
+                return matchSemester && matchExam;
             });
+            console.log(`[getMatchPairs] Filtered: ${originalCount} -> ${gradeMatch.length} (sem=${semester}, exam=${exam})`);
         }
 
         if (gradeMatch.length === 0) {

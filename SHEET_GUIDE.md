@@ -21,6 +21,8 @@
 | `option3` | 文字 | ✅ 是 | 選項 3 | `6` |
 | `option4` | 文字 | ✅ 是 | 選項 4 | `7` |
 | `answer` | 文字 | ✅ 是 | 正確答案（必須與其中一個選項完全相同） | `5` |
+| `semester` | 文字 | ✅ 是 | 學期 (1: 上學期, 2: 下學期, all: 不分學期) | `1`, `2`, `all` |
+| `exam` | 文字 | ✅ 是 | 考試範圍 (midterm: 期中考, final: 期末考, all: 全部範圍) | `midterm`, `final`, `all` |
 | `hint` | 文字 | ❌ 否 | 提示內容，答錯時顯示 | `用手指數一數！` |
 
 ---
@@ -57,6 +59,17 @@
 | `4` | 四年級 |
 | `5` | 五年級 |
 | `6` | 六年級 |
+| `all` | 不分年級（目前主要支援 1-6） |
+
+---
+
+### 學期代碼對照表
+
+| 代碼 | 說明 |
+|------|------|
+| `1` | 上學期 |
+| `2` | 下學期 |
+| `all` | 不分學期 |
 
 ---
 
@@ -93,6 +106,8 @@ ID 格式建議：`{科目}{年級}-{出版社}-{流水號}`
 | `subject` | 文字 | ✅ 是 | 科目代碼 | `math`, `chinese`, `english` |
 | `item_a` | 文字 | ✅ 是 | 配對項目 A（左邊/題目） | `大`, `apple`, `1+1` |
 | `item_b` | 文字 | ✅ 是 | 配對項目 B（右邊/答案） | `小`, `蘋果`, `2` |
+| `semester` | 文字 | ✅ 是 | 學期 (1, 2, all) | `1`, `2`, `all` |
+| `exam` | 文字 | ✅ 是 | 考試範圍 (midterm, final, all) | `midterm`, `final`, `all` |
 
 ### 配對題範例
 
@@ -108,26 +123,29 @@ ID 格式建議：`{科目}{年級}-{出版社}-{流水號}`
 |-------|---------|--------|--------|
 | 1 | english | apple | 蘋果 |
 | 1 | english | dog | 狗 |
-| 1 | english | cat | 貓 |
+| 1 | english | cat | 貓 | 1 | midterm |
 
 **數學配對（算式與答案）：**
-| grade | subject | item_a | item_b |
-|-------|---------|--------|--------|
-| 1 | math | 1+1 | 2 |
-| 1 | math | 2+2 | 4 |
-| 1 | math | 3+3 | 6 |
+| grade | subject | item_a | item_b | semester | exam |
+|-------|---------|--------|--------|----------|------|
+| 1 | math | 1+1 | 2 | 1 | midterm |
+| 1 | math | 2+2 | 4 | 1 | midterm |
+| 1 | math | 3+3 | 6 | 1 | midterm |
 
 ---
 
 ## 考試範圍說明
 
-題目會根據在工作表中的排列順序自動分配考試範圍：
+現在使用明確的 `exam` 欄位來區分考試範圍，不再依賴排列順序：
 
-| 範圍 | 說明 |
-|------|------|
-| 期中考 | 同一年級/科目/出版社的題目，取**前半部分** |
-| 期末考 | 同一年級/科目/出版社的題目，取**後半部分** |
-| 全部範圍 | 使用所有題目 |
+| 範圍代碼 | 顯示名稱 | 說明 |
+|----------|---------|------|
+| `midterm` | 期中考 | 僅挑選標記為 `midterm` 或 `all` 的題目 |
+| `final` | 期末考 | 僅挑選標記為 `final` 或 `all` 的題目 |
+| `all` | 全部範圍 | 挑選該組合下所有的題目 |
+
+> [!NOTE]
+> 如果一項題目被標記為 `all`，它在期中考和期末考中都有可能出現。
 
 **建議排列方式：**
 將期中考範圍的題目放在前面，期末考範圍的題目放在後面。
@@ -152,22 +170,22 @@ ID 格式建議：`{科目}{年級}-{出版社}-{流水號}`
 
 ### 完整選擇題範例
 
-```
-id,grade,subject,publisher,type,question,option1,option2,option3,option4,answer,hint
-m1-k-001,1,math,kangxuan,choice,3 + 2 = ?,4,5,6,7,5,用手指數一數！
-m1-k-002,1,math,kangxuan,choice,8 - 3 = ?,4,5,6,7,5,從8開始往回數3個
-c1-k-001,1,chinese,kangxuan,choice,「大」的相反詞是什麼？,中,小,高,低,小,大和小是一對相反詞
-e1-k-001,1,english,kangxuan,choice,What color is an apple?,Red,Blue,Green,Yellow,Red,蘋果通常是紅色的
+```csv
+id,grade,subject,publisher,type,question,option1,option2,option3,option4,answer,semester,exam,hint
+m1-k-001,1,math,kangxuan,choice,3 + 2 = ?,4,5,6,7,5,1,midterm,用手指數一數！
+m1-k-002,1,math,kangxuan,choice,8 - 3 = ?,4,5,6,7,5,1,midterm,從8開始往回數3個
+c1-k-001,1,chinese,kangxuan,choice,「大」的相反詞是什麼？,中,小,高,低,小,1,midterm,大和小是一對相反詞
+e1-k-001,1,english,kangxuan,choice,What color is an apple?,Red,Blue,Green,Yellow,Red,1,midterm,蘋果通常是紅色的
 ```
 
 ### 完整配對題範例
 
-```
-grade,subject,item_a,item_b
-1,chinese,大,小
-1,chinese,上,下
-1,english,apple,蘋果
-1,english,dog,狗
-1,math,1+1,2
-1,math,2+2,4
+```csv
+grade,subject,item_a,item_b,semester,exam
+1,chinese,大,小,1,midterm
+1,chinese,上,下,1,midterm
+1,english,apple,蘋果,1,midterm
+1,english,dog,狗,1,midterm
+1,math,1+1,2,1,midterm
+1,math,2+2,4,1,midterm
 ```
