@@ -9,7 +9,8 @@ const StorageService = {
         THEME: 'learningGame_theme',
         STATS: 'learningGame_stats',
         HISTORY: 'learningGame_history',
-        SETTINGS: 'learningGame_settings'
+        SETTINGS: 'learningGame_settings',
+        STUDENT: 'learningGame_student'
     },
 
     /**
@@ -190,6 +191,24 @@ const StorageService = {
     setSettings(settings) {
         const current = this.getSettings();
         return this.save(this.KEYS.SETTINGS, { ...current, ...settings });
+    },
+
+    // ===== 學生設定 =====
+
+    /**
+     * 取得學生設定檔
+     * @returns {Object|null} 學生設定或 null
+     */
+    getStudentProfile() {
+        return this.load(this.KEYS.STUDENT, null);
+    },
+
+    /**
+     * 儲存學生設定檔
+     * @param {Object} profile - 學生資料
+     */
+    saveStudentProfile(profile) {
+        return this.save(this.KEYS.STUDENT, profile);
     },
 
     // ===== 工具方法 =====

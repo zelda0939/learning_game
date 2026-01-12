@@ -15,10 +15,11 @@
 function doGet(e) {
     try {
         const ss = SpreadsheetApp.getActiveSpreadsheet();
+        const params = e.parameter || {};
 
         const response = {
-            questions: getSheetData(ss, 'questions'),
-            matching: getSheetData(ss, 'matching'),
+            questions: getSheetData(ss, 'questions', params),
+            matching: getSheetData(ss, 'matching', params),
             timestamp: new Date().toISOString()
         };
 
@@ -34,9 +35,9 @@ function doGet(e) {
 }
 
 /**
- * 從工作表取得資料並轉為 JSON 格式
+ * 從工作表取得資料並轉為 JSON 格式 (支援篩選)
  */
-function getSheetData(ss, sheetName) {
+function getSheetData(ss, sheetName, filters = {}) {
     const sheet = ss.getSheetByName(sheetName);
     if (!sheet) {
         return [];
@@ -56,7 +57,32 @@ function getSheetData(ss, sheetName) {
             obj[header] = row[index];
         });
         return obj;
-    }).filter(row => row.id || row.item_a); // 過濾空行
+    }).filter(row => {
+        if (!row.id && !row.item_a) return false; // 過濾空行
+
+        // 篩選邏輯
+        if (filters.grade && String(row.grade) !== String(filters.grade)) return false;
+        if (filters.semester && String(row.semester) !== String(filters.semester)) return false;
+
+        // 科目與出版社只對 "questions" 表進行篩選 (matching 表結構不同)
+        if (sheetName === 'questions') {
+            if (filters.subject && row.subject !== filters.subject) return false;
+            // 如果指定了 publisher 且不是 'all'，且資料列有 publisher 欄位
+            if (filters.publisher && filters.publisher !== '' && row.publisher !== filters.publisher) return false;
+        } else if (sheetName === 'matching') {
+            if (filters.subject && row.subject !== filters.subject) return false;
+        }
+
+        // 考試範圍篩選
+        if (filters.exam && filters.exam !== 'all') {
+            // 如果資料列沒有 exam 欄位或為空，預設視為包含？或嚴格篩選？
+            // 這裡假設資料庫均有 exam 欄位。 若篩選 'midterm'，則 row.exam 必須是 'midterm' 或包含 'midterm'？
+            // 簡單起見，採精確比對。但需注意 'all' 範圍。
+            if (row.exam && row.exam !== filters.exam) return false;
+        }
+
+        return true;
+    });
 }
 
 /**

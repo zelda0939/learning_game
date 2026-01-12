@@ -100,11 +100,55 @@ const SheetLoader = {
     },
 
     /**
-     * 從遠端 Google Sheet 載入
+     * 為特定遊戲載入篩選後的題庫
+     * @param {Object} config - 遊戲設定 { grade, semester, subject, publisher, exam }
      */
-    async loadFromRemote() {
+    async loadQuestionsForGame(config) {
+        if (!this.SHEET_URL) {
+            console.warn('未設定 Google Sheet URL，無法按需載入。');
+            return false;
+        }
+
+        const params = {
+            grade: config.grade,
+            semester: config.semester,
+            subject: config.subject,
+            publisher: config.publisher,
+            exam: config.exam
+        };
+
+        console.log('正在根據設定載入題庫:', params);
+        this.updateProgress('正在篩選並載入題庫...');
+
+        // 強制從遠端載入，不使用快取 (因為是針對特定範圍)
+        const success = await this.loadFromRemote(params);
+        if (success) {
+            this.initialized = true;
+        }
+        return success;
+    },
+
+    /**
+     * 從遠端 Google Sheet 載入
+     * @param {Object} params - 篩選參數 (選填)
+     */
+    async loadFromRemote(params = null) {
         try {
-            const response = await fetch(this.SHEET_URL, {
+            let url = this.SHEET_URL;
+
+            // 如果有參數，附加到 URL
+            if (params) {
+                const queryString = Object.keys(params)
+                    .filter(key => params[key] !== null && params[key] !== undefined && params[key] !== 'all' && params[key] !== '')
+                    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`)
+                    .join('&');
+
+                if (queryString) {
+                    url += (url.includes('?') ? '&' : '?') + queryString;
+                }
+            }
+
+            const response = await fetch(url, {
                 method: 'GET',
                 mode: 'cors'
             });

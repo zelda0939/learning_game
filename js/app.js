@@ -12,7 +12,9 @@ const App = {
         selectedSubject: null,
         selectedPublisher: null,
         selectedExam: null,
-        selectedGameType: null
+        selectedExam: null,
+        selectedGameType: null,
+        studentProfile: null
     },
 
     // DOM 元素快取
@@ -26,8 +28,8 @@ const App = {
         this.bindEvents();
         this.initTheme();
 
-        // 初始化題庫（如有設定遠端 URL 會嘗試載入）
-        await this.initQuestionBank();
+        // 嘗試載入學生設定
+        this.loadStudentProfile();
 
         this.hideLoading();
     },
@@ -163,7 +165,26 @@ const App = {
             confirmTitle: document.getElementById('confirm-title'),
             confirmContent: document.getElementById('confirm-content'),
             confirmCancel: document.getElementById('confirm-cancel'),
-            confirmOk: document.getElementById('confirm-ok')
+            confirmCancel: document.getElementById('confirm-cancel'),
+            confirmOk: document.getElementById('confirm-ok'),
+
+            // 學生設定 Modal
+            studentSettingsBtn: document.getElementById('student-settings-btn'),
+            studentSettingsModal: document.getElementById('student-settings-modal'),
+            closeSettingsBtn: document.getElementById('close-settings-btn'),
+            cancelSettingsBtn: document.getElementById('cancel-settings'),
+            studentSettingsForm: document.getElementById('student-settings-form'),
+
+            // 學生設定表單欄位
+            settingName: document.getElementById('setting-name'),
+            settingGrade: document.getElementById('setting-grade'),
+            settingSemester: document.getElementById('setting-semester'),
+            settingChinesePub: document.getElementById('setting-chinese-publisher'),
+            settingMathPub: document.getElementById('setting-math-publisher'),
+            settingEnglishPub: document.getElementById('setting-english-publisher'),
+            settingSciencePub: document.getElementById('setting-science-publisher'),
+            settingSocialPub: document.getElementById('setting-social-publisher'),
+            settingDefaultExam: document.getElementById('setting-default-exam')
         };
     },
 
@@ -231,7 +252,17 @@ const App = {
 
         // 對話框
         this.elements.closeHint.addEventListener('click', () => this.hideModal('hint'));
+        this.elements.closeHint.addEventListener('click', () => this.hideModal('hint'));
         this.elements.confirmCancel.addEventListener('click', () => this.hideModal('confirm'));
+
+        // 學生設定相關事件
+        this.elements.studentSettingsBtn.addEventListener('click', () => this.openStudentSettings());
+        this.elements.closeSettingsBtn.addEventListener('click', () => this.closeStudentSettings());
+        this.elements.cancelSettingsBtn.addEventListener('click', () => this.closeStudentSettings());
+        this.elements.studentSettingsForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            this.saveStudentSettings();
+        });
     },
 
     /**
@@ -271,6 +302,100 @@ const App = {
         this.setTheme(newTheme);
     },
 
+    // ===== 學生設定處理 =====
+
+    /**
+     * 載入學生設定
+     */
+    loadStudentProfile() {
+        const profile = StorageService.getStudentProfile();
+        if (profile) {
+            this.state.studentProfile = profile;
+
+            // 自動套用年級與學期
+            this.state.selectedGrade = profile.grade;
+            this.state.selectedSemester = profile.semester;
+
+            // 隱藏年級與學期選擇，直接顯示科目選擇
+            this.elements.gradeSelector.closest('.selector-group').style.display = 'none';
+            this.elements.semesterGroup.style.display = 'none';
+
+            // 更新 UI 顯示科目選擇
+            this.elements.subjectGroup.style.display = 'block';
+
+            // 更新歡迎訊息
+            const welcomeTitle = document.querySelector('.welcome-title');
+            if (welcomeTitle) {
+                const semesterText = profile.semester === '1' ? '上學期' : '下學期';
+                welcomeTitle.innerHTML = `
+                    <span class="title-line">Hi, ${profile.name} (${profile.grade}年級${semesterText})</span>
+                    <span class="title-highlight">快樂學習王</span>
+                `;
+            }
+
+            this.updateCurrentSelection();
+        }
+    },
+
+    /**
+     * 打開學生設定 Modal
+     */
+    openStudentSettings() {
+        const profile = StorageService.getStudentProfile() || {
+            name: '',
+            grade: '1',
+            semester: '1',
+            publishers: { chinese: '', math: '', english: '' }
+        };
+
+        // 填入表單
+        this.elements.settingName.value = profile.name;
+        this.elements.settingGrade.value = profile.grade;
+        this.elements.settingSemester.value = profile.semester;
+        this.elements.settingDefaultExam.value = profile.defaultExam || '';
+        this.elements.settingChinesePub.value = profile.publishers?.chinese || '';
+        this.elements.settingMathPub.value = profile.publishers?.math || '';
+        this.elements.settingEnglishPub.value = profile.publishers?.english || '';
+        this.elements.settingSciencePub.value = profile.publishers?.science || '';
+        this.elements.settingSocialPub.value = profile.publishers?.social || '';
+
+        this.elements.studentSettingsModal.classList.add('active');
+    },
+
+    /**
+     * 關閉學生設定 Modal
+     */
+    closeStudentSettings() {
+        this.elements.studentSettingsModal.classList.remove('active');
+    },
+
+    /**
+     * 儲存學生設定
+     */
+    saveStudentSettings() {
+        const profile = {
+            name: this.elements.settingName.value.trim() || '小朋友',
+            grade: this.elements.settingGrade.value,
+            semester: this.elements.settingSemester.value,
+            defaultExam: this.elements.settingDefaultExam.value,
+            publishers: {
+                chinese: this.elements.settingChinesePub.value,
+                math: this.elements.settingMathPub.value,
+                english: this.elements.settingEnglishPub.value,
+                science: this.elements.settingSciencePub.value,
+                social: this.elements.settingSocialPub.value
+            }
+        };
+
+        StorageService.saveStudentProfile(profile);
+        this.state.studentProfile = profile;
+
+        this.closeStudentSettings();
+
+        // 重新載入以套用設定（這會重置當前狀態）
+        window.location.reload();
+    },
+
     // ===== 選擇器處理 =====
 
     /**
@@ -308,9 +433,23 @@ const App = {
         this.state.selectedSubject = subject;
         this.updateSelectorUI('subject', subject);
 
-        // 顯示出版社選擇
-        this.elements.publisherGroup.style.display = 'block';
-        this.elements.publisherGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // 檢查是否有學生設定的預設出版社
+        const profile = this.state.studentProfile;
+        let defaultPublisher = null;
+
+        if (profile && profile.publishers && profile.publishers[subject]) {
+            defaultPublisher = profile.publishers[subject];
+        }
+
+        if (defaultPublisher) {
+            // 如果有預設出版社，自動選擇並跳過出版社選擇步驟
+            console.log(`[AutoSelect] Using default publisher for ${subject}: ${defaultPublisher}`);
+            this.selectPublisher(defaultPublisher);
+        } else {
+            // 否則顯示出版社選擇
+            this.elements.publisherGroup.style.display = 'block';
+            this.elements.publisherGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
 
         this.updateCurrentSelection();
     },
@@ -322,9 +461,16 @@ const App = {
         this.state.selectedPublisher = publisher;
         this.updateSelectorUI('publisher', publisher);
 
-        // 顯示考試範圍選擇
-        this.elements.examGroup.style.display = 'block';
-        this.elements.examGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // 檢查是否有預設考試範圍
+        const profile = this.state.studentProfile;
+        if (profile && profile.defaultExam) {
+            console.log(`[AutoSelect] Using default exam scope: ${profile.defaultExam}`);
+            this.selectExam(profile.defaultExam);
+        } else {
+            // 否則顯示考試範圍選擇
+            this.elements.examGroup.style.display = 'block';
+            this.elements.examGroup.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
 
         this.updateCurrentSelection();
     },
@@ -446,9 +592,23 @@ const App = {
         this.state.selectedExam = null;
         this.state.selectedGameType = null;
 
+        // 檢查是否有學生設定，決定重置後的狀態
+        const profile = this.state.studentProfile;
+
         // 隱藏和重置選擇器
-        this.elements.semesterGroup.style.display = 'none';
-        this.elements.subjectGroup.style.display = 'none';
+        // 如果有學生設定，不要隱藏科目選擇，但隱藏年級與學期
+        if (profile) {
+            this.state.selectedGrade = profile.grade;
+            this.state.selectedSemester = profile.semester;
+
+            this.elements.gradeSelector.closest('.selector-group').style.display = 'none';
+            this.elements.semesterGroup.style.display = 'none';
+            this.elements.subjectGroup.style.display = 'block';
+        } else {
+            this.elements.semesterGroup.style.display = 'none';
+            this.elements.subjectGroup.style.display = 'none';
+        }
+
         this.elements.publisherGroup.style.display = 'none';
         this.elements.examGroup.style.display = 'none';
         this.elements.gameTypeGroup.style.display = 'none';
@@ -468,8 +628,26 @@ const App = {
     /**
      * 開始遊戲
      */
-    startGame() {
+    async startGame() {
         const { selectedGrade, selectedSemester, selectedSubject, selectedPublisher, selectedExam, selectedGameType } = this.state;
+
+        // 顯示載入畫面
+        this.elements.loadingScreen.classList.remove('hide');
+        this.updateLoadingText('正在準備遊戲題目...');
+
+        // 按需載入題庫
+        if (typeof SheetLoader !== 'undefined') {
+            await SheetLoader.loadQuestionsForGame({
+                grade: selectedGrade,
+                semester: selectedSemester,
+                subject: selectedSubject,
+                publisher: selectedPublisher,
+                exam: selectedExam
+            });
+
+            // 重新初始化 QuestionBank 以使用新載入的資料
+            await QuestionBank.init();
+        }
 
         // 用於追蹤是否有題目
         let hasQuestions = true;
@@ -869,6 +1047,10 @@ const App = {
     showHint(content) {
         this.elements.hintContent.textContent = content;
         this.elements.hintModal.style.display = 'flex';
+        // 確保在 display 變更後觸發 transition
+        setTimeout(() => {
+            this.elements.hintModal.classList.add('active');
+        }, 10);
     },
 
     /**
@@ -878,6 +1060,10 @@ const App = {
         this.elements.confirmTitle.textContent = title;
         this.elements.confirmContent.textContent = content;
         this.elements.confirmModal.style.display = 'flex';
+
+        setTimeout(() => {
+            this.elements.confirmModal.classList.add('active');
+        }, 10);
 
         // 移除舊的事件監聽器
         const newOkBtn = this.elements.confirmOk.cloneNode(true);
@@ -895,10 +1081,19 @@ const App = {
      * 隱藏對話框
      */
     hideModal(type) {
+        let modal;
         if (type === 'hint') {
-            this.elements.hintModal.style.display = 'none';
+            modal = this.elements.hintModal;
         } else if (type === 'confirm') {
-            this.elements.confirmModal.style.display = 'none';
+            modal = this.elements.confirmModal;
+        }
+
+        if (modal) {
+            modal.classList.remove('active');
+            // 等待動畫結束後隱藏
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 400);
         }
     }
 };

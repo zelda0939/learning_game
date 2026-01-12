@@ -1,0 +1,351 @@
+/* 學生設定 Modal 優化樣式 */
+:root {
+    /* 對應 styles.css 的變數 */
+    --modal-bg: var(--bg-card);
+    --input-bg: var(--bg-secondary);
+    --input-border: var(--border-color);
+    --input-focus: var(--primary-color);
+    --text-color: var(--text-primary);
+    --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.settings-modal {
+    background: var(--modal-bg);
+    padding: 0;
+    border-radius: 24px;
+    width: 90%;
+    max-width: 480px;
+    box-shadow: var(--shadow-lg);
+    transform: translateY(30px) scale(0.95);
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    position: relative;
+}
+
+.modal-overlay.active .settings-modal {
+    transform: translateY(0) scale(1);
+}
+
+/* 裝飾性背景邊條 */
+.settings-modal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #FF9A9E 0%, #FECFEF 50%, #A1C4FD 100%);
+    z-index: 1;
+}
+
+.modal-header {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-primary);
+    /* 使用明確的背景色 */
+    position: relative;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+/* 標題圖示動畫 */
+.modal-header h2 .icon {
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.close-modal-btn {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.close-modal-btn:hover {
+    background: var(--error-light);
+    color: var(--error-color);
+    transform: rotate(90deg);
+}
+
+.settings-form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-height: 70vh;
+    overflow-y: auto;
+    background: var(--modal-bg);
+    /* 確保表單背景正確 */
+}
+
+/* 卷軸美化 */
+.settings-form::-webkit-scrollbar {
+    width: 6px;
+}
+
+.settings-form::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.settings-form::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    padding-left: 4px;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+}
+
+.form-control {
+    padding: 0.9rem 1.2rem;
+    border-radius: 12px;
+    border: 2px solid var(--input-border);
+    background: var(--input-bg);
+    color: var(--text-color);
+    font-size: 1rem;
+    width: 100%;
+    transition: all 0.2s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+}
+
+/* 自訂 Select 箭頭 (使用 CSS 繪製箭頭以避免 data URI 顏色問題) */
+.form-group select.form-control {
+    background-image: linear-gradient(45deg, transparent 50%, var(--text-secondary) 50%),
+        linear-gradient(135deg, var(--text-secondary) 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(50% + 2px),
+        calc(100% - 15px) calc(50% + 2px);
+    background-size: 5px 5px,
+        5px 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-right: 2.5rem;
+}
+
+.form-control:hover {
+    border-color: var(--primary-light);
+    background-color: var(--bg-card);
+    /* Hover 時變亮一點 */
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.15);
+    background-color: var(--bg-card);
+    outline: none;
+}
+
+/* 修正 placeholder 顏色 */
+.form-control::placeholder {
+    color: var(--text-muted);
+}
+
+.publisher-settings {
+    background: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border: 1px dashed var(--border-color);
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+.setting-title {
+    font-size: 0.85rem;
+    color: var(--primary-dark);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.setting-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border-color);
+}
+
+.modal-footer {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    border-top: 1px solid var(--border-color);
+    background: var(--bg-primary);
+}
+
+.btn-secondary,
+.btn-primary {
+    padding: 0.8rem 1.8rem;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text-secondary);
+    border: 2px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border-color: var(--text-secondary);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    filter: brightness(1.05);
+}
+
+/* Header Settings Button */
+.settings-btn {
+    border: 2px solid transparent;
+    background-image: linear-gradient(var(--bg-card), var(--bg-card)), linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--text-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.settings-btn:hover {
+    transform: rotate(90deg) scale(1.1);
+    box-shadow: var(--shadow-md);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .settings-modal {
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(100%);
+    }
+
+    .modal-overlay.active .settings-modal {
+        transform: translateY(0);
+    }
+
+    .settings-form {
+        flex: 1;
+        padding: 1.5rem;
+    }
+
+    .modal-footer {
+        padding: 1rem 1.5rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
