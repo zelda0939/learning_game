@@ -1038,6 +1038,8 @@ const App = {
      * 顯示無題目提示
      */
     showNoQuestionsAlert() {
+        // 先隱藏載入畫面
+        this.elements.loadingScreen.classList.add('hide');
         this.showHint('此範圍尚無題目，請選擇其他範圍。');
     },
 

@@ -15,3 +15,31 @@ e3-k-007,3,english,kangxuan,choice,It is a ___ ball. (黃色的),yellow,red,big,
 e3-k-008,3,english,kangxuan,choice,"Is this a ball?","Yes, it is.","No, I am not.",It is round.,I can play.,"Yes, it is.",確認物品,1,final
 e3-k-009,3,english,kangxuan,choice,What's this?,"It's a pencil.","Yes, it is.",I like it.,It is long.,"It's a pencil.",詢問物品,1,final
 e3-k-010,3,english,kangxuan,choice,___ is not my sister.,He,She,It,They,He,He 用於男生,1,final
+e3-k-011,3,english,kangxuan,choice,What's this? (鉛筆),"It's a pencil.","It's a pen.","It's a ruler.","It's a book.","It's a pencil.",詢問物品,2,final
+e3-k-012,3,english,kangxuan,choice,What's that? (橡皮擦),"It's an eraser.","It's a marker.","It's a book.","It's a desk.","It's an eraser.",詢問遠處物品,2,final
+e3-k-013,3,english,kangxuan,choice,Is this a ruler? (是),"Yes, it is.","No, it isn't.","It's a ruler.","It's long.","Yes, it is.",確認物品,2,final
+e3-k-014,3,english,kangxuan,choice,Is that a book? (不是，它是筆),"No, it's a pen.","Yes, it is.","It's a book.","I like books.","No, it's a pen.",確認遠處物品,2,final
+e3-k-015,3,english,kangxuan,choice,It is a ______ (馬克筆).,marker,pencil,ruler,pen,marker,文具單字,2,final
+e3-k-016,3,english,kangxuan,choice,It is ______ eraser.,an,a,the,two,an,母音開頭用an,2,final
+e3-k-017,3,english,kangxuan,choice,Is this your pen? (是),"Yes, it is.","No, it isn't.","It's my pen.","It's red.","Yes, it is.",詢問所有權,2,final
+e3-k-018,3,english,kangxuan,choice,Is this your ruler? (不是),"No, it isn't.","Yes, it is.","It's long.","I don't know.","No, it isn't.",所有權否定,2,final
+e3-k-019,3,english,kangxuan,choice,______ this your book?,Is,What,Where,How,Is,Yes/No問句用Be動詞,2,final
+e3-k-020,3,english,kangxuan,choice,______ is it? It is a pencil.,What,Where,Who,How,What,詢問是什麼,2,final
+e3-k-021,3,english,kangxuan,choice,Is ______ a marker?,this,he,she,they,this,指稱代名詞,2,final
+e3-k-022,3,english,kangxuan,choice,"Is that a pencil? (不是，是麥克筆)","No, it's a marker.","Yes, it is.","It's blue.","No, it's a pen.","No, it's a marker.",物品辨識,2,final
+e3-k-023,3,english,kangxuan,choice,What's ______? It's a ruler.,that,he,she,they,that,詢問那個是什麼,2,final
+e3-k-024,3,english,kangxuan,choice,Is this ______ eraser? (你的),your,you,me,my,your,你的,2,final
+e3-k-025,3,english,kangxuan,choice,Where is the cat? (在箱子裡),"It's in the box.","It's on the box.","It's under the box.","It's a box.","It's in the box.",方位 in,2,final
+e3-k-026,3,english,kangxuan,choice,Where is the dog? (在椅子上),"It's on the chair.","It's in the chair.","It's under the chair.","It's a chair.","It's on the chair.",方位 on,2,final
+e3-k-027,3,english,kangxuan,choice,Where is the book? (在桌子下),"It's under the desk.","It's on the desk.","It's in the desk.","It's a desk.","It's under the desk.",方位 under,2,final
+e3-k-028,3,english,kangxuan,choice,The apple is ______ the box. (在...裡面),in,on,under,at,in,介係詞 in,2,final
+e3-k-029,3,english,kangxuan,choice,The ruler is ______ the chair. (在...上面),on,in,under,at,on,介係詞 on,2,final
+e3-k-030,3,english,kangxuan,choice,The ball is ______ the desk. (在...下面),under,in,on,at,under,介係詞 under,2,final
+e3-k-031,3,english,kangxuan,choice,______ is the robot? It's on the chair.,Where,What,Who,How,Where,詢問地點,2,final
+e3-k-032,3,english,kangxuan,choice,Is the cat in the box? (是),"Yes, it is.","No, it isn't.","It's a cat.","It's in the box.","Yes, it is.",確認地點,2,final
+e3-k-033,3,english,kangxuan,choice,Is the dog under the desk? (不是),"No, it isn't.","Yes, it is.","It's a dog.","It's cute.","No, it isn't.",確認地點否定,2,final
+e3-k-034,3,english,kangxuan,choice,Where's the ______? (橡皮擦),eraser,pen,ruler,book,eraser,單字填空,2,final
+e3-k-035,3,english,kangxuan,choice,It's on the ______. (椅子),chair,desk,box,room,chair,地點單字,2,final
+e3-k-036,3,english,kangxuan,choice,Where ______ the marker?,is,are,am,be,is,單數Be動詞,2,final
+e3-k-037,3,english,kangxuan,choice,"Where is my book?","It's on the desk.","It's a book.","Yes, it is.","I don't know.","It's on the desk.",尋找物品,2,final
+e3-k-038,3,english,kangxuan,choice,The pen is in the ______. (盒子),box,bag,desk,chair,box,地點單字,2,final
