@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="台灣國小教材互動學習遊戲 - 根據年級、科目、出版社選擇適合的學習內容">
+    <title>🎮 快樂學習王 - 國小互動學習遊戲</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- 載入畫面 -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-icon">📚</div>
+            <h1>快樂學習王</h1>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p>正在準備學習內容...</p>
+        </div>
+    </div>
+
+    <!-- 主應用程式 -->
+    <div id="app" class="app hidden">
+        <!-- 頂部導覽列 -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🎮</span>
+                    <span class="logo-text">快樂學習王</span>
+                </div>
+                <div class="header-actions">
+                    <button id="theme-toggle" class="icon-btn" title="切換主題">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button id="stats-btn" class="icon-btn" title="學習記錄">
+                        <span>📊</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- 主要內容區 -->
+        <main class="main-content">
+            <!-- 歡迎頁面 -->
+            <section id="welcome-page" class="page active">
+                <div class="welcome-hero">
+                    <div class="hero-decoration">
+                        <span class="float-emoji" style="--delay: 0s; --x: 10%; --y: 20%;">📖</span>
+                        <span class="float-emoji" style="--delay: 0.5s; --x: 85%; --y: 15%;">✏️</span>
+                        <span class="float-emoji" style="--delay: 1s; --x: 15%; --y: 70%;">🔢</span>
+                        <span class="float-emoji" style="--delay: 1.5s; --x: 80%; --y: 75%;">🌟</span>
+                        <span class="float-emoji" style="--delay: 2s; --x: 50%; --y: 10%;">🎯</span>
+                    </div>
+                    <h1 class="welcome-title">
+                        <span class="title-line">歡迎來到</span>
+                        <span class="title-highlight">快樂學習王</span>
+                    </h1>
+                    <p class="welcome-subtitle">選擇你的年級和科目，開始有趣的學習冒險！</p>
+                </div>
+
+                <!-- 選擇器區域 -->
+                <div class="selector-container">
+                    <!-- 年級選擇 -->
+                    <div class="selector-group">
+                        <label class="selector-label">
+                            <span class="label-icon">🎒</span>
+                            選擇年級
+                        </label>
+                        <div class="selector-options grade-options" id="grade-selector">
+                            <button class="selector-btn" data-value="1">一年級</button>
+                            <button class="selector-btn" data-value="2">二年級</button>
+                            <button class="selector-btn" data-value="3">三年級</button>
+                            <button class="selector-btn" data-value="4">四年級</button>
+                            <button class="selector-btn" data-value="5">五年級</button>
+                            <button class="selector-btn" data-value="6">六年級</button>
+                        </div>
+                    </div>
+
+                    <!-- 科目選擇 -->
+                    <div class="selector-group" id="subject-group" style="display: none;">
+                        <label class="selector-label">
+                            <span class="label-icon">📚</span>
+                            選擇科目
+                        </label>
+                        <div class="selector-options subject-options" id="subject-selector">
+                            <button class="selector-btn" data-value="chinese">
+                                <span class="btn-icon">📝</span>
+                                <span class="btn-text">國語</span>
+                            </button>
+                            <button class="selector-btn" data-value="math">
+                                <span class="btn-icon">🔢</span>
+                                <span class="btn-text">數學</span>
+                            </button>
+                            <button class="selector-btn" data-value="english">
+                                <span class="btn-icon">🔤</span>
+                                <span class="btn-text">英語</span>
+                            </button>
+                            <button class="selector-btn" data-value="science">
+                                <span class="btn-icon">🔬</span>
+                                <span class="btn-text">自然</span>
+                            </button>
+                            <button class="selector-btn" data-value="social">
+                                <span class="btn-icon">🌍</span>
+                                <span class="btn-text">社會</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 出版社選擇 -->
+                    <div class="selector-group" id="publisher-group" style="display: none;">
+                        <label class="selector-label">
+                            <span class="label-icon">📖</span>
+                            選擇出版社
+                        </label>
+                        <div class="selector-options publisher-options" id="publisher-selector">
+                            <button class="selector-btn" data-value="kangxuan">
+                                <span class="btn-text">康軒</span>
+                            </button>
+                            <button class="selector-btn" data-value="nanyi">
+                                <span class="btn-text">南一</span>
+                            </button>
+                            <button class="selector-btn" data-value="hanlin">
+                                <span class="btn-text">翰林</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 遊戲類型選擇 -->
+                    <div class="selector-group" id="game-type-group" style="display: none;">
+                        <label class="selector-label">
+                            <span class="label-icon">🎮</span>
+                            選擇遊戲類型
+                        </label>
+                        <div class="game-type-grid" id="game-type-selector">
+                            <button class="game-type-card" data-value="quiz">
+                                <div class="card-icon">🎯</div>
+                                <div class="card-title">選擇闖關</div>
+                                <div class="card-desc">依序回答問題，累積分數</div>
+                            </button>
+                            <button class="game-type-card" data-value="match">
+                                <div class="card-icon">🧩</div>
+                                <div class="card-title">配對遊戲</div>
+                                <div class="card-desc">翻牌找出相符的配對</div>
+                            </button>
+                            <button class="game-type-card" data-value="speed">
+                                <div class="card-icon">⏱️</div>
+                                <div class="card-title">計時挑戰</div>
+                                <div class="card-desc">限時內答對最多題目</div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 當前選擇顯示 -->
+                <div class="current-selection" id="current-selection" style="display: none;">
+                    <div class="selection-summary">
+                        <span class="selection-item" id="selected-grade"></span>
+                        <span class="selection-divider">›</span>
+                        <span class="selection-item" id="selected-subject"></span>
+                        <span class="selection-divider">›</span>
+                        <span class="selection-item" id="selected-publisher"></span>
+                    </div>
+                    <button class="reset-btn" id="reset-selection">
+                        <span>🔄</span> 重新選擇
+                    </button>
+                </div>
+            </section>
+
+            <!-- 遊戲頁面 -->
+            <section id="game-page" class="page">
+                <div class="game-header">
+                    <button class="back-btn" id="back-to-menu">
+                        <span>←</span> 返回選單
+                    </button>
+                    <div class="game-info">
+                        <div class="score-display">
+                            <span class="score-label">分數</span>
+                            <span class="score-value" id="current-score">0</span>
+                        </div>
+                        <div class="progress-display">
+                            <span class="progress-label">進度</span>
+                            <span class="progress-value" id="current-progress">0/10</span>
+                        </div>
+                        <div class="timer-display" id="timer-container" style="display: none;">
+                            <span class="timer-label">時間</span>
+                            <span class="timer-value" id="timer-value">60</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 選擇闘關遊戲區 -->
+                <div class="game-area" id="quiz-game" style="display: none;">
+                    <div class="question-card">
+                        <div class="question-number" id="question-number">第 1 題</div>
+                        <div class="question-text" id="question-text">題目內容</div>
+                        <div class="question-hint" id="question-hint"></div>
+                    </div>
+                    <div class="options-grid" id="options-container">
+                        <!-- 選項動態生成 -->
+                    </div>
+                    <div class="feedback-area" id="feedback-area" style="display: none;">
+                        <div class="feedback-content">
+                            <span class="feedback-icon" id="feedback-icon">✓</span>
+                            <span class="feedback-text" id="feedback-text">答對了！</span>
+                        </div>
+                        <button class="next-btn" id="next-question">下一題 →</button>
+                    </div>
+                </div>
+
+                <!-- 配對遊戲區 -->
+                <div class="game-area" id="match-game" style="display: none;">
+                    <div class="match-info">
+                        <span class="match-moves">翻牌次數: <span id="match-moves">0</span></span>
+                        <span class="match-pairs">配對數: <span id="match-pairs">0</span>/<span id="match-total">8</span></span>
+                    </div>
+                    <div class="match-grid" id="match-grid">
+                        <!-- 卡片動態生成 -->
+                    </div>
+                </div>
+
+                <!-- 計時挑戰遊戲區 -->
+                <div class="game-area" id="speed-game" style="display: none;">
+                    <div class="speed-timer">
+                        <svg class="timer-ring" viewBox="0 0 100 100">
+                            <circle class="timer-bg" cx="50" cy="50" r="45"/>
+                            <circle class="timer-progress" id="timer-ring-progress" cx="50" cy="50" r="45"/>
+                        </svg>
+                        <span class="timer-text" id="speed-timer-text">60</span>
+                    </div>
+                    <div class="speed-question">
+                        <div class="speed-question-text" id="speed-question-text">題目</div>
+                    </div>
+                    <div class="speed-options" id="speed-options-container">
+                        <!-- 選項動態生成 -->
+                    </div>
+                    <div class="speed-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">正確</span>
+                            <span class="stat-value correct" id="speed-correct">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">錯誤</span>
+                            <span class="stat-value wrong" id="speed-wrong">0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 結果頁面 -->
+            <section id="result-page" class="page">
+                <div class="result-container">
+                    <div class="result-header">
+                        <div class="result-icon" id="result-icon">🏆</div>
+                        <h2 class="result-title" id="result-title">太棒了！</h2>
+                        <p class="result-subtitle" id="result-subtitle">你完成了這次的挑戰</p>
+                    </div>
+                    <div class="result-stats">
+                        <div class="result-stat">
+                            <span class="stat-label">總分</span>
+                            <span class="stat-value" id="final-score">0</span>
+                        </div>
+                        <div class="result-stat">
+                            <span class="stat-label">正確率</span>
+                            <span class="stat-value" id="accuracy-rate">0%</span>
+                        </div>
+                        <div class="result-stat" id="time-stat">
+                            <span class="stat-label">用時</span>
+                            <span class="stat-value" id="time-used">0秒</span>
+                        </div>
+                    </div>
+                    <div class="result-stars" id="result-stars">
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                        <span class="star">⭐</span>
+                    </div>
+                    <div class="result-actions">
+                        <button class="action-btn primary" id="play-again">再玩一次</button>
+                        <button class="action-btn secondary" id="change-settings">更換設定</button>
+                        <button class="action-btn tertiary" id="go-home">回到首頁</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 學習記錄頁面 -->
+            <section id="stats-page" class="page">
+                <div class="stats-container">
+                    <div class="stats-header">
+                        <button class="back-btn" id="stats-back">
+                            <span>←</span> 返回
+                        </button>
+                        <h2 class="stats-title">📊 學習記錄</h2>
+                    </div>
+                    <div class="stats-overview">
+                        <div class="overview-card">
+                            <span class="overview-icon">🎮</span>
+                            <span class="overview-value" id="total-games">0</span>
+                            <span class="overview-label">總遊戲次數</span>
+                        </div>
+                        <div class="overview-card">
+                            <span class="overview-icon">✅</span>
+                            <span class="overview-value" id="total-correct">0</span>
+                            <span class="overview-label">答對題數</span>
+                        </div>
+                        <div class="overview-card">
+                            <span class="overview-icon">📈</span>
+                            <span class="overview-value" id="avg-accuracy">0%</span>
+                            <span class="overview-label">平均正確率</span>
+                        </div>
+                    </div>
+                    <div class="stats-history">
+                        <h3 class="history-title">最近記錄</h3>
+                        <div class="history-list" id="history-list">
+                            <!-- 記錄動態生成 -->
+                        </div>
+                    </div>
+                    <button class="clear-stats-btn" id="clear-stats">🗑️ 清除所有記錄</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- 頁尾 -->
+        <footer class="footer">
+            <p>🎓 快樂學習王 - 讓學習變得更有趣！</p>
+        </footer>
+    </div>
+
+    <!-- 提示對話框 -->
+    <div class="modal-overlay" id="hint-modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-icon">💡</span>
+                <h3 class="modal-title">提示</h3>
+            </div>
+            <div class="modal-body" id="hint-content">
+                提示內容
+            </div>
+            <div class="modal-actions">
+                <button class="modal-btn" id="close-hint">知道了！</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 確認對話框 -->
+    <div class="modal-overlay" id="confirm-modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-icon">❓</span>
+                <h3 class="modal-title" id="confirm-title">確認</h3>
+            </div>
+            <div class="modal-body" id="confirm-content">
+                確認內容
+            </div>
+            <div class="modal-actions">
+                <button class="modal-btn secondary" id="confirm-cancel">取消</button>
+                <button class="modal-btn primary" id="confirm-ok">確定</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/gameEngine.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
