@@ -1,9 +1,52 @@
 /**
  * 題庫資料模組
- * 包含各年級、科目、出版社的範例題目
+ * 支援從 Google Sheet 載入或使用內建題庫
  */
 
 const QuestionBank = {
+    // 遠端資料（由 SheetLoader 載入）
+    remoteData: null,
+    remoteMatching: null,
+
+    // 是否使用遠端資料
+    useRemote: false,
+
+    /**
+     * 初始化題庫（從 SheetLoader 取得資料）
+     */
+    async init() {
+        if (typeof SheetLoader !== 'undefined' && SheetLoader.SHEET_URL) {
+            const success = await SheetLoader.init();
+            if (success && SheetLoader.hasRemoteData()) {
+                this.remoteData = SheetLoader.getQuestions();
+                this.remoteMatching = SheetLoader.getMatching();
+                this.useRemote = true;
+                console.log('使用遠端題庫');
+                return true;
+            }
+        }
+        console.log('使用內建題庫');
+        return false;
+    },
+
+    /**
+     * 取得目前使用的題庫資料
+     */
+    get currentData() {
+        return this.useRemote && this.remoteData ? this.remoteData : this.data;
+    },
+
+    /**
+     * 取得目前使用的配對資料
+     */
+    get currentMatching() {
+        return this.useRemote && this.remoteMatching ? this.remoteMatching : null;
+    },
+
+    // 內建題庫資料結構（作為備援）
+    // 同時作為 SheetLoader 的 fallback
+    builtinData: null, // 將在模組載入後設定
+
     // 題庫資料結構
     data: {
         // 一年級
@@ -2544,7 +2587,7 @@ const QuestionBank = {
      * @returns {Array} 題目陣列
      */
     getQuestions(grade, subject, publisher, exam = 'all', count = 10) {
-        const gradeData = this.data[grade];
+        const gradeData = this.currentData[grade];
         if (!gradeData) {
             console.warn(`年級 ${grade} 無資料`);
             return [];
@@ -2563,15 +2606,12 @@ const QuestionBank = {
         }
 
         // 根據考試範圍篩選題目
-        // 期中考：取前半部分題目
-        // 期末考：取後半部分題目
-        // 全部範圍：使用所有題目
-        if (exam === 'midterm') {
-            const midpoint = Math.ceil(questions.length / 2);
-            questions = questions.slice(0, midpoint);
-        } else if (exam === 'final') {
-            const midpoint = Math.floor(questions.length / 2);
-            questions = questions.slice(midpoint);
+        // 使用明確的 exam 欄位篩選
+        if (exam !== 'all') {
+            questions = questions.filter(q => {
+                // 題目的 exam 欄位為 'all' 或與選擇的範圍相符
+                return q.exam === 'all' || q.exam === exam;
+            });
         }
         // exam === 'all' 使用全部題目
 
@@ -2596,7 +2636,12 @@ const QuestionBank = {
      * @returns {Array} 配對資料
      */
     getMatchPairs(grade, subject, publisher, exam = 'all', pairs = 6) {
-        // 根據科目生成不同的配對內容
+        // 如果有遠端配對資料，優先使用
+        if (this.currentMatching && this.currentMatching[subject]) {
+            return this._getMatchFromData(this.currentMatching, grade, subject, exam, pairs);
+        }
+
+        // 使用內建配對資料
         const matchData = {
             chinese: {
                 "1": [
@@ -2775,6 +2820,38 @@ const QuestionBank = {
             }
         ];
         return defaults.slice(0, Math.min(count, defaults.length));
+    },
+
+    /**
+     * 從配對資料中取得配對（內部輔助方法）
+     */
+    _getMatchFromData(matchData, grade, subject, exam, pairs) {
+        const subjectMatch = matchData[subject];
+        if (!subjectMatch) {
+            console.warn(`科目 ${subject} 無配對資料`);
+            return [];
+        }
+
+        let gradeMatch = subjectMatch[grade];
+        if (!gradeMatch || gradeMatch.length === 0) {
+            console.warn(`年級 ${grade} 無配對資料`);
+            return [];
+        }
+
+        // 根據考試範圍篩選配對（使用明確的 exam 欄位）
+        if (exam !== 'all') {
+            gradeMatch = gradeMatch.filter(m => {
+                // 配對的 exam 欄位為 'all' 或與選擇的範圍相符
+                return m.exam === 'all' || m.exam === exam;
+            });
+        }
+
+        if (gradeMatch.length === 0) {
+            console.warn(`選擇的範圍無配對資料`);
+            return [];
+        }
+
+        return this.shuffle([...gradeMatch]).slice(0, Math.min(pairs, gradeMatch.length));
     },
 
     /**

@@ -20,11 +20,42 @@ const App = {
     /**
      * 初始化應用程式
      */
-    init() {
+    async init() {
         this.cacheElements();
         this.bindEvents();
         this.initTheme();
+
+        // 初始化題庫（如有設定遠端 URL 會嘗試載入）
+        await this.initQuestionBank();
+
         this.hideLoading();
+    },
+
+    /**
+     * 初始化題庫
+     */
+    async initQuestionBank() {
+        // 如果 SheetLoader 有設定 URL，顯示載入提示
+        if (typeof SheetLoader !== 'undefined' && SheetLoader.SHEET_URL) {
+            this.updateLoadingText('正在載入題庫...');
+            SheetLoader.setCallbacks({
+                onProgress: (msg) => this.updateLoadingText(msg),
+                onError: (err) => console.error('題庫載入錯誤:', err)
+            });
+        }
+
+        // 初始化題庫
+        await QuestionBank.init();
+    },
+
+    /**
+     * 更新載入畫面文字
+     */
+    updateLoadingText(text) {
+        const loadingText = document.querySelector('.loading-text');
+        if (loadingText) {
+            loadingText.textContent = text;
+        }
     },
 
     /**

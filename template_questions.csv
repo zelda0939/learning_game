@@ -1,0 +1,7 @@
+id,grade,subject,publisher,type,question,option1,option2,option3,option4,answer,hint,exam
+m1-k-001,1,math,kangxuan,choice,3 + 2 = ?,4,5,6,7,5,用手指數一數！,midterm
+m1-k-002,1,math,kangxuan,choice,8 - 3 = ?,4,5,6,7,5,從8開始往回數3個,midterm
+m1-k-003,1,math,kangxuan,choice,10 - 5 = ?,4,5,6,7,5,從10開始往回數5個,final
+m1-k-004,1,math,kangxuan,choice,4 + 4 = ?,6,7,8,9,8,雙胞胎相加,final
+c1-k-001,1,chinese,kangxuan,choice,「大」的相反詞是什麼？,中,小,高,低,小,大和小是一對相反詞,all
+e1-k-001,1,english,kangxuan,choice,What color is an apple?,Red,Blue,Green,Yellow,Red,蘋果通常是紅色的,midterm

@@ -1,0 +1,64 @@
+工作表,欄位名稱,資料類型,必填,說明,範例值
+questions,id,文字,是,題目唯一識別碼，格式：科目簡寫+年級-出版社簡寫-流水號,m1-k-001
+questions,grade,數字,是,年級 (1-6),1
+questions,subject,文字,是,科目代碼：math/chinese/english/science/social,math
+questions,publisher,文字,是,出版社代碼：kangxuan/nanyi/hanlin,kangxuan
+questions,type,文字,是,題目類型（目前僅支援 choice）,choice
+questions,question,文字,是,題目內容,3 + 2 = ?
+questions,option1,文字,是,選項 1,4
+questions,option2,文字,是,選項 2,5
+questions,option3,文字,是,選項 3,6
+questions,option4,文字,是,選項 4,7
+questions,answer,文字,是,正確答案（必須與選項之一完全相同）,5
+questions,hint,文字,否,提示內容（答錯時顯示）,用手指數一數！
+questions,exam,文字,是,考試範圍：midterm（期中考）/final（期末考）/all（全部）,midterm
+matching,grade,數字,是,年級 (1-6),1
+matching,subject,文字,是,科目代碼：math/chinese/english,chinese
+matching,item_a,文字,是,配對項目 A（左邊/題目）,大
+matching,item_b,文字,是,配對項目 B（右邊/答案）,小
+matching,exam,文字,是,考試範圍：midterm（期中考）/final（期末考）/all（全部）,midterm
+
+===科目代碼對照===
+代碼,科目名稱,圖示
+math,數學,🔢
+chinese,國語,📝
+english,英語,🔤
+science,自然,🔬
+social,社會,🌍
+
+===出版社代碼對照===
+代碼,出版社名稱
+kangxuan,康軒
+nanyi,南一
+hanlin,翰林
+
+===年級代碼對照===
+代碼,年級
+1,一年級
+2,二年級
+3,三年級
+4,四年級
+5,五年級
+6,六年級
+
+===考試範圍代碼對照===
+代碼,說明,用途
+midterm,期中考,只在選擇「期中考」範圍時出現
+final,期末考,只在選擇「期末考」範圍時出現
+all,全部,在任何範圍選擇時都會出現
+
+===ID命名規則===
+位置,說明,可用值
+科目簡寫,m=數學 c=國語 e=英語 s=自然 so=社會,m/c/e/s/so
+年級,1-6,1/2/3/4/5/6
+出版社簡寫,k=康軒 n=南一 h=翰林,k/n/h
+流水號,三位數字,001/002/003...
+
+===注意事項===
+序號,說明
+1,answer 欄位值必須與 option1~option4 其中之一完全相同
+2,工作表中間不要有空白列
+3,第一列的標題名稱必須與欄位定義完全相同
+4,科目和出版社代碼使用小寫英文
+5,年級欄位使用數字 1-6
+6,exam 欄位必須填寫 midterm/final/all 其中之一

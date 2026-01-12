@@ -1,0 +1,10 @@
+grade,subject,item_a,item_b,exam
+1,chinese,大,小,midterm
+1,chinese,上,下,midterm
+1,chinese,左,右,final
+1,chinese,前,後,final
+1,english,apple,蘋果,midterm
+1,english,dog,狗,midterm
+1,english,cat,貓,final
+1,math,1+1,2,all
+1,math,2+2,4,all
