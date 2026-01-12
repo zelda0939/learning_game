@@ -2546,20 +2546,20 @@ const QuestionBank = {
     getQuestions(grade, subject, publisher, exam = 'all', count = 10) {
         const gradeData = this.data[grade];
         if (!gradeData) {
-            console.warn(`年級 ${grade} 無資料，使用預設題庫`);
-            return this.getDefaultQuestions(count);
+            console.warn(`年級 ${grade} 無資料`);
+            return [];
         }
 
         const subjectData = gradeData[subject];
         if (!subjectData) {
-            console.warn(`科目 ${subject} 無資料，使用預設題庫`);
-            return this.getDefaultQuestions(count);
+            console.warn(`科目 ${subject} 無資料`);
+            return [];
         }
 
         let questions = subjectData[publisher];
         if (!questions || questions.length === 0) {
-            console.warn(`出版社 ${publisher} 無資料，使用預設題庫`);
-            return this.getDefaultQuestions(count);
+            console.warn(`出版社 ${publisher} 無資料`);
+            return [];
         }
 
         // 根據考試範圍篩選題目
@@ -2574,6 +2574,12 @@ const QuestionBank = {
             questions = questions.slice(midpoint);
         }
         // exam === 'all' 使用全部題目
+
+        // 如果篩選後沒有題目
+        if (questions.length === 0) {
+            console.warn(`選擇的範圍無題目`);
+            return [];
+        }
 
         // 隨機打亂並取出指定數量
         const shuffled = this.shuffle([...questions]);
@@ -2692,18 +2698,17 @@ const QuestionBank = {
 
         const subjectMatch = matchData[subject];
         if (!subjectMatch) {
-            // 預設配對
-            return this.shuffle([
-                { a: "1+1", b: "2" },
-                { a: "2+2", b: "4" },
-                { a: "3+3", b: "6" },
-                { a: "4+4", b: "8" },
-                { a: "5+5", b: "10" },
-                { a: "6+6", b: "12" }
-            ]).slice(0, pairs);
+            // 無此科目的配對資料
+            console.warn(`科目 ${subject} 無配對資料`);
+            return [];
         }
 
-        let gradeMatch = subjectMatch[grade] || subjectMatch["1"];
+        let gradeMatch = subjectMatch[grade];
+        if (!gradeMatch || gradeMatch.length === 0) {
+            // 無此年級的配對資料
+            console.warn(`年級 ${grade} 無配對資料`);
+            return [];
+        }
 
         // 根據考試範圍篩選配對
         if (exam === 'midterm') {
@@ -2712,6 +2717,12 @@ const QuestionBank = {
         } else if (exam === 'final') {
             const midpoint = Math.floor(gradeMatch.length / 2);
             gradeMatch = gradeMatch.slice(midpoint);
+        }
+
+        // 篩選後無配對資料
+        if (gradeMatch.length === 0) {
+            console.warn(`選擇的範圍無配對資料`);
+            return [];
         }
 
         return this.shuffle([...gradeMatch]).slice(0, Math.min(pairs, gradeMatch.length));

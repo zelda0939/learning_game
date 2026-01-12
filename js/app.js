@@ -403,6 +403,9 @@ const App = {
     startGame() {
         const { selectedGrade, selectedSubject, selectedPublisher, selectedExam, selectedGameType } = this.state;
 
+        // 用於追蹤是否有題目
+        let hasQuestions = true;
+
         // 設置遊戲引擎回調
         GameEngine.setCallbacks({
             onScoreUpdate: (score) => this.updateScore(score),
@@ -411,7 +414,11 @@ const App = {
             onQuestionShow: (question, number) => this.showQuestion(question, number),
             onFeedback: (isCorrect, answer, hint) => this.showFeedback(isCorrect, answer, hint),
             onMatchUpdate: (data) => this.updateMatchGame(data),
-            onGameEnd: (result) => this.showResult(result)
+            onGameEnd: (result) => this.showResult(result),
+            onNoQuestions: () => {
+                hasQuestions = false;
+                this.showNoQuestionsAlert();
+            }
         });
 
         // 初始化遊戲
@@ -422,6 +429,11 @@ const App = {
             publisher: selectedPublisher,
             exam: selectedExam
         });
+
+        // 如果沒有題目，不進入遊戲頁面
+        if (!hasQuestions) {
+            return;
+        }
 
         // 顯示對應的遊戲區域
         this.showGameArea(selectedGameType);
@@ -774,6 +786,13 @@ const App = {
     },
 
     // ===== 對話框 =====
+
+    /**
+     * 顯示無題目提示
+     */
+    showNoQuestionsAlert() {
+        this.showHint('此範圍尚無題目，請選擇其他範圍。');
+    },
 
     /**
      * 顯示提示對話框

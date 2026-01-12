@@ -47,7 +47,8 @@ const GameEngine = {
         onGameEnd: null,
         onQuestionShow: null,
         onFeedback: null,
-        onMatchUpdate: null
+        onMatchUpdate: null,
+        onNoQuestions: null  // 無題目時的回調
     },
 
     /**
@@ -105,6 +106,15 @@ const GameEngine = {
             config.exam,
             10 // 預設10題
         );
+
+        // 檢查是否有題目
+        if (this.state.questions.length === 0) {
+            this.state.isPlaying = false;
+            if (this.callbacks.onNoQuestions) {
+                this.callbacks.onNoQuestions();
+            }
+            return;
+        }
 
         if (this.callbacks.onProgressUpdate) {
             this.callbacks.onProgressUpdate(1, this.state.questions.length);
@@ -211,6 +221,15 @@ const GameEngine = {
             config.exam,
             6 // 6對 = 12張卡片
         );
+
+        // 檢查是否有配對資料
+        if (!pairs || pairs.length === 0) {
+            this.state.isPlaying = false;
+            if (this.callbacks.onNoQuestions) {
+                this.callbacks.onNoQuestions();
+            }
+            return;
+        }
 
         // 建立卡片陣列
         const cards = [];
@@ -336,6 +355,15 @@ const GameEngine = {
             config.exam,
             30 // 計時挑戰需要更多題目
         );
+
+        // 檢查是否有題目
+        if (this.state.questions.length === 0) {
+            this.state.isPlaying = false;
+            if (this.callbacks.onNoQuestions) {
+                this.callbacks.onNoQuestions();
+            }
+            return;
+        }
 
         this.timer.remaining = 60;
         this.timer.total = 60;
